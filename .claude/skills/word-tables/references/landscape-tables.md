@@ -158,7 +158,7 @@ these still apply:
 - Heading 5 for table subheadings;
 - Heading 9 for minor headings and labels;
 - the supplied Word template and its styles;
-- the greyscale palette;
+- the document's colour layer (Greyscale or Bestae role tokens);
 - high-contrast fills and text;
 - context-sensitive border colours;
 - appropriate internal and external borders, or a borderless structure where it

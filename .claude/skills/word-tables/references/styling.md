@@ -1,8 +1,13 @@
 # Table Styling, Pagination and Accessibility
 
-All styles come from the supplied Word template (Greyscale Workbooklet.dotm).
-Apply them by name. Never recreate a style with direct formatting (bold, size,
-font). The colour values are the print design system's greyscale tokens.
+All styles come from the shared workbooklet template (see the
+`workbooklet-style-system` skill). Apply them by name. Never recreate a style with
+direct formatting (bold, size, font, colour).
+
+Colours are **role tokens** (Light, Pale, Dark and so on). Each token has a
+Greyscale value and a Bestae value, and is applied as a **theme colour**. The same
+table then works in both colour layers. Values are in
+`workbooklet-style-system/references/colour-layers.md`.
 
 ## Headings and text
 
@@ -13,11 +18,11 @@ The three heading levels form the table's hierarchy:
 | Primary | **Heading 4** | The table's primary headings: the header row (column headings). Also a title directly above the table, when one is needed. |
 | Secondary | **Heading 5** | Table subheadings: group rows, sub-header cells under a spanning heading. |
 | Minor | **Heading 9** | Minor headings and labels: row labels, small labels inside cells. |
-| — | Normal (12 pt) | Body text in cells. |
+| — | Table Text (12 pt) | Body text in cells: Normal without paragraph spacing. |
 
-- **Headings on dark fills.** Heading 4, 5 and 9 are black. On an Accent 4–6
-  fill, use `White Table Heading (12pt)` in their place. It is the template's
-  only white heading style, so never colour a heading white by hand.
+- **Headings on dark fills.** Heading 4, 5 and 9 are black. On a Dark or
+  Darkest fill, use `White Table Heading (12pt)` in their place. Never colour a
+  heading white by hand.
 - **Rubrics** in the marks + criteria format use the `MARKING CRITERIA` table
   style, with `White Table Heading (12pt)` in the header row, as the print
   design system specifies.
@@ -32,32 +37,38 @@ The three heading levels form the table's hierarchy:
 
 ## Fills and contrast
 
-| Cell role | Fill | Text |
-|---|---|---|
-| Header row (default) | Pale `#CACBCA` | Heading 4 (black) |
-| Header row (strong emphasis, rubrics) | Accent 5 `#494A49` or Accent 6 `#383938` | `White Table Heading (12pt)` |
-| Vertical category column | Accent 4–6 | `White Table Heading (12pt)` |
-| Sub-header or group row | Pale `#CACBCA`, or white under a Pale header row | Heading 5 (black) |
-| Row label column (optional) | Pale `#CACBCA` | Heading 9 (black) |
-| Body and response cells | White | Normal (black) |
+| Cell role | Fill token | Greyscale | Word theme colour | Text |
+|---|---|---|---|---|
+| Header row (default) | Light | `#E3E4E3` | Background 2 | Heading 4 (black) |
+| Header row (strong emphasis, rubrics) | Dark | `#4C4D4C` | Accent 6 | `White Table Heading (12pt)` |
+| Vertical category column | Dark | `#4C4D4C` | Accent 6 | `White Table Heading (12pt)` |
+| Sub-header or group row | Pale | `#CACBCA` | Accent 1 | Heading 5 (black) |
+| Row label cells | Light | `#E3E4E3` | Background 2 | Heading 9 (black) |
+| Body and response cells | Paper | `#FFFFFF` | Background 1 | Table Text (black) |
 
+In the Bestae layer, the same theme colours become the domain's Tint (Light,
+Pale) and Shadow (Dark). Nothing in the table needs changing.
+
+- **Always pick fills from the Theme Colours rows**, never "More colours…".
+  Otherwise the table won't recolour when the layer changes.
 - Use one header-row treatment consistently within a workbooklet, except for
   rubrics.
-- White text **only** on Accent 4–6. Black text on White, Pale and Accent 1–3.
-- Accent 1–3 are mid-greys. Use them sparingly, and never behind body text
-  students must read at length.
+- **White text only on Dark or Darkest.** Black text on Paper, Light and Pale.
+  For Bestae domain 4 (Mustard), Dark takes **black** text (see
+  `colour-layers.md`).
+- **Never put body text on the Accent token.** It's for bars and rules.
 - Don't use banded (alternating) row shading in response tables: it prints
   unevenly and makes writing on shaded rows harder.
 
 ## Borders
 
-Default borders for an information table:
+Default borders for an information table (the `Table 2` table style):
 
 | Border | Weight | Colour |
 |---|---|---|
-| Outer border | 1 pt | Accent 6 `#383938` |
-| Internal borders between white cells | 0.5 pt | Accent 1 `#969896` |
-| Borders between or around filled cells | 0.5 pt | White (so fills read as solid blocks) |
+| Outer and internal borders between white cells | 0.5 pt | Dark token (Accent 6) |
+| Outer border of a table that must stand out | 1 pt | Dark token (Accent 6) |
+| Borders between or around filled cells | 0.5 pt | Paper (white), so fills read as solid blocks |
 
 Context-sensitive colour means the border matches the cells either side of it: a
 dark line between white cells, a white line between filled cells.

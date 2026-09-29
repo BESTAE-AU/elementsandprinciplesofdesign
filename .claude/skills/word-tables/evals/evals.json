@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "Add a marking rubric to my Year 10 Textiles workbooklet: 4 criteria (Research, Design development, Construction, Evaluation) across grades A to E, with a sentence or two per cell. It's a saddle-stapled booklet.",
-      "expected_output": "Chooses landscape (5 level columns plus a criterion column), keeps the preferred 27 cm by redistributing to 7 + 4x5 cm (or justifies 26 cm = 6 + 4x5 if the criterion text is short), 1.2 cm booklet landscape margins, a landscape section that returns to portrait with continuous page numbering, a repeating header row with White Table Heading on an Accent 5/6 fill, cantSplit rows, table alt text, and a check that the page count is still a multiple of 4.",
+      "expected_output": "Chooses landscape (5 level columns plus a criterion column), keeps the preferred 27 cm by redistributing to 7 + 4x5 cm (or justifies 26 cm = 6 + 4x5 if the criterion text is short), 1.2 cm booklet landscape margins, a landscape section that returns to portrait with continuous page numbering, a repeating header row with White Table Heading on a Dark token fill (theme Accent 6), cantSplit rows, table alt text, and a check that the page count is still a multiple of 4.",
       "files": []
     },
     {
@@ -22,13 +22,13 @@
     {
       "id": 4,
       "prompt": "Put a two-column table in the worksheet listing the 7 elements of design with a one-line description each. Flat printout, not a booklet.",
-      "expected_output": "Portrait at 19 cm (or 18 cm with a stated reason), a label column of about 3-4 cm and a description column taking the rest in whole cm, centred, no vertical category column (single group), header row in Heading 4 on a Pale fill, fits on one page, no landscape.",
+      "expected_output": "Portrait at 19 cm (or 18 cm with a stated reason), a label column of about 3-4 cm and a description column taking the rest in whole cm, centred, no vertical category column (single group), header row in Heading 4 on a Light token fill (theme Background 2), fits on one page, no landscape.",
       "files": []
     },
     {
       "id": 5,
       "prompt": "Make a before-and-after table: two equal columns, one headed 'Before redesign' and one 'After redesign', with a photo and three bullet points of changes in each.",
-      "expected_output": "Identifies an image comparison of 2 items, stays portrait at the preferred 19 cm with 9.5 + 9.5 cm (not dropping to 18 cm just to avoid a half centimetre), header row in Heading 4 on a Pale fill, images inline and sized to the column, common crop ratio, alt text on both images, centred table.",
+      "expected_output": "Identifies an image comparison of 2 items, stays portrait at the preferred 19 cm with 9.5 + 9.5 cm (not dropping to 18 cm just to avoid a half centimetre), header row in Heading 4 on a Light token fill (theme Background 2), images inline and sized to the column, common crop ratio, alt text on both images, centred table.",
       "files": []
     },
     {

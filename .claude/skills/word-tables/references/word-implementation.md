@@ -50,12 +50,13 @@ Example, 27 cm as 5 + 7 + 15 cm: 2835 + 3969 + 8504 = 15308. Subtract 1 from the
     <w:tblW w:w="15307" w:type="dxa"/>        <!-- 27 cm -->
     <w:jc w:val="center"/>                     <!-- centred -->
     <w:tblBorders>
-      <w:top    w:val="single" w:sz="8" w:color="383938"/>  <!-- outer 1 pt Accent 6 -->
-      <w:left   w:val="single" w:sz="8" w:color="383938"/>
-      <w:bottom w:val="single" w:sz="8" w:color="383938"/>
-      <w:right  w:val="single" w:sz="8" w:color="383938"/>
-      <w:insideH w:val="single" w:sz="4" w:color="969896"/> <!-- inner 0.5 pt Accent 1 -->
-      <w:insideV w:val="single" w:sz="4" w:color="969896"/>
+      <!-- 0.5 pt Dark token (theme Accent 6); the hex is the Greyscale fallback -->
+      <w:top    w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
+      <w:left   w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
+      <w:bottom w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
+      <w:right  w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
+      <w:insideH w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
+      <w:insideV w:val="single" w:sz="4" w:color="4C4D4C" w:themeColor="accent6"/>
     </w:tblBorders>
     <w:tblLayout w:type="fixed"/>              <!-- AutoFit off -->
     <w:tblCellMar>                             <!-- house padding -->
@@ -102,14 +103,14 @@ every row except the last. Set it on any title paragraph directly above the tabl
   <w:tcBorders>
     <w:bottom w:val="single" w:sz="24" w:color="FFFFFF"/>  <!-- 3 pt white separator -->
   </w:tcBorders>
-  <w:shd w:val="clear" w:color="auto" w:fill="383938"/>
+  <w:shd w:val="clear" w:color="auto" w:fill="4C4D4C" w:themeFill="accent6"/>  <!-- Dark token -->
 </w:tcPr>
 
 <!-- vertical category column: first cell of the group -->
 <w:tcPr>
   <w:tcW w:w="567" w:type="dxa"/>
   <w:vMerge w:val="restart"/>
-  <w:shd w:val="clear" w:color="auto" w:fill="494A49"/>
+  <w:shd w:val="clear" w:color="auto" w:fill="4C4D4C" w:themeFill="accent6"/>  <!-- Dark token -->
   <w:tcMar>
     <w:left w:w="57" w:type="dxa"/><w:right w:w="57" w:type="dxa"/>
   </w:tcMar>

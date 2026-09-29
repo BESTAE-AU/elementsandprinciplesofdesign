@@ -1,6 +1,6 @@
 ---
 name: word-tables
-description: Table design system for Word (.docx) workbooklets, worksheets and handouts. Covers table and column widths, portrait vs landscape pages, cell padding, heading styles, greyscale fills and borders, response space, pagination and accessibility. Use whenever creating, formatting or checking any table-shaped content in a Word document, including rubrics, marking criteria, matrices, comparison charts, graphic organisers, glossaries, specification tables, image comparisons and student response tables, or when deciding whether content should sit on a landscape page.
+description: Table design system for Word (.docx) workbooklets, worksheets and handouts. Covers table and column widths, portrait vs landscape pages, cell padding, heading styles, Greyscale or Bestae fills and borders, response space, pagination and accessibility. Use whenever creating, formatting or checking any table-shaped content in a Word document, including rubrics, marking criteria, matrices, comparison charts, graphic organisers, glossaries, specification tables, image comparisons and student response tables, or when deciding whether content should sit on a landscape page.
 ---
 
 # Word Tables
@@ -56,15 +56,14 @@ Where a rule's default value (a padding, a border weight, a row height) clearly
 works against these principles for a particular table, depart from it. State
 the reason in your reply to the user.
 
-## How this skill fits with the print design system
+## How this skill fits with the other design skills
 
-When the document uses the Greyscale Workbooklet template, the
-`greyscale-print-design-system` skill and this skill work together:
+Three skills work together:
 
 | Topic | Governed by |
 |---|---|
-| Page size, portrait margins, header/footer distance, booklet rules (multiple of 4 pages, creep, fold clearance) | Print design system |
-| Typeface, type scale, named styles, greyscale palette | Print design system |
+| Page size, portrait margins, header/footer distance, 12 × 12 grid, booklet rules (multiple of 4 pages, creep, fold clearance) | `greyscale-print-design-system` |
+| Typeface, style names and sizes, what each heading level is for, colour layers (Greyscale and Bestae), Adobe matching | `workbooklet-style-system` |
 | Table widths, column widths, orientation choice, landscape pages, cell padding, borders, response space, table pagination, table accessibility | **This skill** |
 
 Where the two seem to disagree:
@@ -81,8 +80,9 @@ Where the two seem to disagree:
   area, so centred and left-aligned look identical. An 18 cm table sits 5 mm in
   from each margin. Grid layout blocks stay left-aligned, as the print system
   says.
-- **Colour.** "The established palette" means the print system's greyscale
-  tokens. Anything with hue is off-system.
+- **Colour.** "The established palette" means the role tokens of the
+  document's colour layer, Greyscale or Bestae, applied as theme colours (see
+  `workbooklet-style-system`). Anything outside the chosen layer is off-system.
 
 ## Workflow
 

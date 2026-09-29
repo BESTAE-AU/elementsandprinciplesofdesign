@@ -107,8 +107,8 @@ Specification:
 - **Text direction:** rotated, reading bottom to top.
 - **Merged:** merged vertically across all the rows in its group, one merged cell
   per group.
-- **Fill and text:** a dark fill (Accent 4–6) with the `White Table Heading (12pt)`
-  style, or a Pale / Accent 1–2 fill with Heading 9. Never white text on a light
+- **Fill and text:** a Dark token fill (theme Accent 6) with the `White Table Heading (12pt)`
+  style, or a Light / Pale token fill with Heading 9. Never white text on a light
   fill.
 - **Padding:** 1 mm on all sides.
 - **Separation:** a thick white separator between groups (see `styling.md`).

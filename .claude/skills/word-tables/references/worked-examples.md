@@ -40,11 +40,11 @@ explanation). The level columns should be equal.
 | **Total** | **27 cm** | 15309 → subtract 2 from the criterion column (3967) = **15307** |
 
 **Styling.**
-- Header row: rubrics take the strong-emphasis treatment, an Accent 6 fill with
-  `White Table Heading (12pt)`. It is marked as a header row and repeats on each
+- Header row: rubrics take the strong-emphasis treatment, a Dark token fill
+  (theme Accent 6) with `White Table Heading (12pt)`. It is marked as a header row and repeats on each
   page.
-- Criterion cells: Pale fill with Heading 9.
-- Descriptor cells: white with Normal text.
+- Criterion cells: Light token fill with Heading 9.
+- Descriptor cells: white with Table Text.
 
 **Height check.** 4 criteria × about 3 cm, plus a 1.2 cm header, is about
 13.2 cm. That fits within the roughly 16 cm available for the table body, so the
@@ -113,7 +113,7 @@ needed).
 **Pagination.**
 - 40 rows at about 2 cm each won't fit on one page. It is a genuinely long
   table.
-- Header row (Term / Definition / Your example): Pale fill with Heading 4. It
+- Header row (Term / Definition / Your example): Light token fill (theme Background 2) with Heading 4. It
   repeats on each page, and every row has `cantSplit`.
 - Split alphabetically at a letter boundary, and add a Pale group row for each
   letter (Heading 5) so the page breaks fall between groups.
