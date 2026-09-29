@@ -18,13 +18,13 @@
   --hw-k100: #000000;
   --hw-text: #222222; --hw-text-2: #333333; --hw-text-3: #555555; /* #555 = secondary only */
   --hw-critical-thinking-h: #FF585D; --hw-critical-thinking-s: #551C25; --hw-critical-thinking-t: #F5DADF;
-  --hw-creative-thinking-h: #F19C49; --hw-creative-thinking-s: #4F2C1D; --hw-creative-thinking-t: #FFDFB4;
+  --hw-creative-thinking-problem-solving-and-innovation-h: #F19C49; --hw-creative-thinking-problem-solving-and-innovation-s: #4F2C1D; --hw-creative-thinking-problem-solving-and-innovation-t: #FFDFB4;
   --hw-communication-h: #F3EA5D; --hw-communication-s: #CFB500; --hw-communication-t: #F7F4A2;
-  --hw-self-management-h: #C5E86C; --hw-self-management-s: #1C4220; --hw-self-management-t: #EFF4A4;
-  --hw-responsibility-h: #00B2A2; --hw-responsibility-s: #024638; --hw-responsibility-t: #D7EFE7;
-  --hw-practical-skills-h: #326295; --hw-practical-skills-s: #041E42; --hw-practical-skills-t: #D5EBEE;
-  --hw-knowledge-h: #514689; --hw-knowledge-s: #201547; --hw-knowledge-t: #DCD3E7;
-  --hw-independent-learning-h: #E56DB1; --hw-independent-learning-s: #621244; --hw-independent-learning-t: #F2DEE9;
+  --hw-self-management-and-organisation-h: #C5E86C; --hw-self-management-and-organisation-s: #1C4220; --hw-self-management-and-organisation-t: #EFF4A4;
+  --hw-responsibility-and-stewardship-h: #00B2A2; --hw-responsibility-and-stewardship-s: #024638; --hw-responsibility-and-stewardship-t: #D7EFE7;
+  --hw-practical-skills-and-technical-application-h: #326295; --hw-practical-skills-and-technical-application-s: #041E42; --hw-practical-skills-and-technical-application-t: #D5EBEE;
+  --hw-knowledge-and-conceptual-understanding-h: #514689; --hw-knowledge-and-conceptual-understanding-s: #201547; --hw-knowledge-and-conceptual-understanding-t: #DCD3E7;
+  --hw-independent-learning-and-collaboration-h: #E56DB1; --hw-independent-learning-and-collaboration-s: #621244; --hw-independent-learning-and-collaboration-t: #F2DEE9;
   --hw-body-size: 1.125rem; --hw-body-lead: 1.5625rem;
   --hw-small-size: 1rem; --hw-small-lead: 1.5625rem;
   --hw-condensed-size: 1.125rem; --hw-condensed-lead: 1.25rem;
@@ -148,30 +148,38 @@
 /* K 30 to K 60: graphics only, never behind text. White text never Light (300). */
 .hw-k70 .hw-lead, .hw-k80 .hw-lead, .hw-k90 .hw-lead, .hw-k100 .hw-lead { font-weight: 400; }
 
+.hw-critical-thinking-accent { background: var(--hw-critical-thinking-h); color: #000000; }  /* large text and graphics only */
 .hw-critical-thinking-tint { background: var(--hw-critical-thinking-t); color: #000; }
 .hw-critical-thinking-shade { background: var(--hw-critical-thinking-s); color: #fff; }
 .hw-critical-thinking-bar { border-left: var(--hw-gutter) solid var(--hw-critical-thinking-h); }
-.hw-creative-thinking-tint { background: var(--hw-creative-thinking-t); color: #000; }
-.hw-creative-thinking-shade { background: var(--hw-creative-thinking-s); color: #fff; }
-.hw-creative-thinking-bar { border-left: var(--hw-gutter) solid var(--hw-creative-thinking-h); }
+.hw-creative-thinking-problem-solving-and-innovation-accent { background: var(--hw-creative-thinking-problem-solving-and-innovation-h); color: #000000; }
+.hw-creative-thinking-problem-solving-and-innovation-tint { background: var(--hw-creative-thinking-problem-solving-and-innovation-t); color: #000; }
+.hw-creative-thinking-problem-solving-and-innovation-shade { background: var(--hw-creative-thinking-problem-solving-and-innovation-s); color: #fff; }
+.hw-creative-thinking-problem-solving-and-innovation-bar { border-left: var(--hw-gutter) solid var(--hw-creative-thinking-problem-solving-and-innovation-h); }
+.hw-communication-accent { background: var(--hw-communication-h); color: #000000; }
 .hw-communication-tint { background: var(--hw-communication-t); color: #000; }
 .hw-communication-shade { background: var(--hw-communication-s); color: #000; }
 .hw-communication-bar { border-left: var(--hw-gutter) solid var(--hw-communication-h); }
-.hw-self-management-tint { background: var(--hw-self-management-t); color: #000; }
-.hw-self-management-shade { background: var(--hw-self-management-s); color: #fff; }
-.hw-self-management-bar { border-left: var(--hw-gutter) solid var(--hw-self-management-h); }
-.hw-responsibility-tint { background: var(--hw-responsibility-t); color: #000; }
-.hw-responsibility-shade { background: var(--hw-responsibility-s); color: #fff; }
-.hw-responsibility-bar { border-left: var(--hw-gutter) solid var(--hw-responsibility-h); }
-.hw-practical-skills-tint { background: var(--hw-practical-skills-t); color: #000; }
-.hw-practical-skills-shade { background: var(--hw-practical-skills-s); color: #fff; }
-.hw-practical-skills-bar { border-left: var(--hw-gutter) solid var(--hw-practical-skills-h); }
-.hw-knowledge-tint { background: var(--hw-knowledge-t); color: #000; }
-.hw-knowledge-shade { background: var(--hw-knowledge-s); color: #fff; }
-.hw-knowledge-bar { border-left: var(--hw-gutter) solid var(--hw-knowledge-h); }
-.hw-independent-learning-tint { background: var(--hw-independent-learning-t); color: #000; }
-.hw-independent-learning-shade { background: var(--hw-independent-learning-s); color: #fff; }
-.hw-independent-learning-bar { border-left: var(--hw-gutter) solid var(--hw-independent-learning-h); }
+.hw-self-management-and-organisation-accent { background: var(--hw-self-management-and-organisation-h); color: #000000; }
+.hw-self-management-and-organisation-tint { background: var(--hw-self-management-and-organisation-t); color: #000; }
+.hw-self-management-and-organisation-shade { background: var(--hw-self-management-and-organisation-s); color: #fff; }
+.hw-self-management-and-organisation-bar { border-left: var(--hw-gutter) solid var(--hw-self-management-and-organisation-h); }
+.hw-responsibility-and-stewardship-accent { background: var(--hw-responsibility-and-stewardship-h); color: #000000; }
+.hw-responsibility-and-stewardship-tint { background: var(--hw-responsibility-and-stewardship-t); color: #000; }
+.hw-responsibility-and-stewardship-shade { background: var(--hw-responsibility-and-stewardship-s); color: #fff; }
+.hw-responsibility-and-stewardship-bar { border-left: var(--hw-gutter) solid var(--hw-responsibility-and-stewardship-h); }
+.hw-practical-skills-and-technical-application-accent { background: var(--hw-practical-skills-and-technical-application-h); color: #FFFFFF; }  /* large text and graphics only */
+.hw-practical-skills-and-technical-application-tint { background: var(--hw-practical-skills-and-technical-application-t); color: #000; }
+.hw-practical-skills-and-technical-application-shade { background: var(--hw-practical-skills-and-technical-application-s); color: #fff; }
+.hw-practical-skills-and-technical-application-bar { border-left: var(--hw-gutter) solid var(--hw-practical-skills-and-technical-application-h); }
+.hw-knowledge-and-conceptual-understanding-accent { background: var(--hw-knowledge-and-conceptual-understanding-h); color: #FFFFFF; }
+.hw-knowledge-and-conceptual-understanding-tint { background: var(--hw-knowledge-and-conceptual-understanding-t); color: #000; }
+.hw-knowledge-and-conceptual-understanding-shade { background: var(--hw-knowledge-and-conceptual-understanding-s); color: #fff; }
+.hw-knowledge-and-conceptual-understanding-bar { border-left: var(--hw-gutter) solid var(--hw-knowledge-and-conceptual-understanding-h); }
+.hw-independent-learning-and-collaboration-accent { background: var(--hw-independent-learning-and-collaboration-h); color: #000000; }
+.hw-independent-learning-and-collaboration-tint { background: var(--hw-independent-learning-and-collaboration-t); color: #000; }
+.hw-independent-learning-and-collaboration-shade { background: var(--hw-independent-learning-and-collaboration-s); color: #fff; }
+.hw-independent-learning-and-collaboration-bar { border-left: var(--hw-gutter) solid var(--hw-independent-learning-and-collaboration-h); }
 
 /* Tables: header K 90 white bold caps, body condensed, 1 px K 50 rules, optional K 10 banding. */
 .hw-table-wrap { overflow-x: auto; } /* tables scroll inside their span on small screens */

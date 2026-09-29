@@ -41,8 +41,13 @@ Contrast ratios below are calculated with the WCAG 2 formula.
 | Independent Learning | 16.40 | white 12.43 | 2.94 |
 
 - **T tints:** black text. **S shades:** white text, except Mustard #CFB500, which takes black.
-- **H accents are decoration only on white** (bars and rules beside text that names the domain).
-  - Five of the eight fall below 3:1 on white, so they can't carry meaning alone.
-  - Tomato's often-quoted 6.8:1 is against black, not white (3.09).
-  - For a meaningful bar or icon, use the S shade.
-- **Only Knowledge (8.12) clears 7:1 as text on white.** Practical Skills (6.33) is large text only.
+- **H accents drawn on white** (bars, borders, icons) need 3:1 to carry meaning.
+  - Only Tomato (3.09), Denim (6.33) and Twilight (8.12) pass.
+  - Corn, Lime, Royal Orange, Seagreen and Valentine Pink fall below 3:1, so on white they are
+    decoration beside text that names the domain.
+  - For a meaningful bar or icon in those domains, use the S shade.
+- **H accents as fills** take the text colour from `house-tokens.md` §6: black on Corn, Lime, Royal
+  Orange, Seagreen and Valentine Pink (7.2–16.7:1); white on Twilight (8.1:1). Tomato (black, 6.8:1)
+  and Denim (white, 6.3:1) are large text and graphics only. CSS: `.hw-{slug}-accent`.
+- **H accents as text on white:** only Twilight (8.12) clears 7:1. Denim (6.33) is large text only.
+- CSS classes use the full slugs from `house-tokens.md`, e.g. `.hw-self-management-and-organisation-tint`.

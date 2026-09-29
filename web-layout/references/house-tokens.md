@@ -1,87 +1,146 @@
-# House tokens (shared)
+# House design tokens (shared)
 
-Shared across indesign-parameters, greyscale-print-design-system, canvas-pages and web-layout.
-This file must be identical in every skill.
+**This file is identical in every house design skill.** Change it in one, then copy it to the others:
+- `indesign-parameters`: InDesign print and slides
+- `greyscale-print-design-system`: Word workbooklets and handouts
+- `canvas-pages`: Canvas LMS HTML pages
+- `web-layout`: websites, Canvas page layouts, Shopify, WordPress and site builders
 
-> Rebuilt from the handoff summary, because the canonical file wasn't available when web-layout was
-> written. Replace sections 1–4 with the canonical text, and copy section 5 (Web) into the
-> canonical file in every skill.
+It holds what all four media share. Anything medium-specific (exact type sizes, spacing, alignment,
+file mechanics) stays in each skill.
 
-## 1. Principles
+## 1. Which skill for which medium
 
-1. Whole numbers only: whole mm in print, multiples of 5 px on screen. If a value would be
-   fractional, change the margins or gutter, never the module.
-2. The grid is built from the margins inwards: `count × module + (count − 1) × gutter = live area`.
-3. 12 columns. Everything aligns to whole columns; no half columns.
-4. Vertical rhythm = row + gutter (the pitch). Half rows only where `(row − gutter) ÷ 2` is whole.
-5. Type locks to the rhythm (rows in print and slides; the 5 px baseline and row snapping on the web).
-6. Type values are whole or 1 decimal.
-7. Accessibility: 7:1 for all text (house standard), 4.5:1 floor for large or secondary text,
-   3:1 for meaningful graphics. Never colour alone.
-8. Decisions are asked as pop-up multiple-choice questions, recommended option first.
+| Making… | Use | It covers |
+|---|---|---|
+| An InDesign document, template, poster or slide deck | **indesign-parameters** | Grid presets for A4/A3/slides, grid-locked type, object and paragraph styles, K swatches, the document builder |
+| A Word document from the Greyscale Workbooklet template | **greyscale-print-design-system** | Word page setup, grid tables, named workbooklet styles, booklet printing |
+| A Canvas page | **canvas-pages** | Table-based RCE HTML, domain colours, validation |
+| A web page or site section, or a Canvas page on the web grid | **web-layout** | Stepped 12-column grid in 5 px steps, web type scale, CSS tokens, Canvas inline-style grid snippets, platform widths |
 
-## 2. Type
+When a request spans media (e.g. "make the worksheet in InDesign and a matching Canvas page"),
+use each skill for its own part and keep these tokens the same across both.
 
-- Lato. Cap-height ratios (verified from the font files): Thin 0.700, Light 0.7075,
-  Regular 0.7165, Bold 0.723, Black 0.7285.
-- Headings are ALL CAPS in the heaviest weight (Lato Black). Subheadings are Lato Light caps.
+## 2. Grid (print)
 
-## 3. Greyscale
+A4 portrait, 12 columns × 12 rows, all whole millimetres:
 
-K 0–100 in 10% steps: #FFFFFF, #E6E6E6, #CCCCCC, #B3B3B3, #999999, #808080, #666666, #4D4D4D,
-#333333, #1A1A1A, #000000.
+| | Flat printout | Saddle-stitched booklet |
+|---|---|---|
+| Margins | top 12, bottom 12, left 10, right 10 | top 12, bottom 12, inside 12, outside 8 |
+| Live area | 190 × 273 | 190 × 273 |
+| Columns | 14 mm, 2 mm gutter | same |
+| Rows | 20 mm, 3 mm gutter (rhythm unit 23 mm) | same |
 
-- **Text colour:** black on K 0–20, white on K 70–100, no text on K 30–60.
-- **Secondary text:** K 80.
-- **Fills:** shading runs from K 90 to K 10. K 100 is for small accents only.
-- **White text:** at least 12 pt Regular or 10 pt Bold in print (16 px on the web), never Light.
+Span = `n × module + (n − 1) × gutter`. Common widths: 2 across 94, 3 across 62, 4 across 46, 6 across 30, full 190.
+This is **preset A of A4 portrait** in indesign-parameters. Other sizes and presets live there.
 
-## 4. Learning domains (H accent / S shade / T tint)
+## 2a. Grid (screen)
 
-| Domain | H | S | T |
+Every value is a **5 px step**, with gutters of 10 / 20 / 30 / 40 (presets A–D) and 12 columns at every size.
+Slides (1920 × 1080) live in indesign-parameters; the web lives in web-layout.
+
+Web, preset A: a stepped container, centred, that snaps to the largest step that fits.
+
+| Container | Module / gutter / margin (px) | Proof | Pitch |
 |---|---|---|---|
-| Critical Thinking | #FF585D | #551C25 | #F5DADF |
-| Creative Thinking | #F19C49 | #4F2C1D | #FFDFB4 |
-| Communication | #F3EA5D | #CFB500 | #F7F4A2 |
-| Self-Management | #C5E86C | #1C4220 | #EFF4A4 |
-| Responsibility | #00B2A2 | #024638 | #D7EFE7 |
-| Practical Skills | #326295 | #041E42 | #D5EBEE |
-| Knowledge | #514689 | #201547 | #DCD3E7 |
-| Independent Learning | #E56DB1 | #621244 | #F2DEE9 |
+| 1200 | 80 / 10 / 65 | 65 + 12 × 80 + 11 × 10 + 65 = 1200 | 90 |
+| 1020 | 70 / 10 / 35 | 35 + 12 × 70 + 11 × 10 + 35 = 1020 | 80 |
+| 760 | 50 / 10 / 25 | 25 + 12 × 50 + 11 × 10 + 25 = 760 | 60 |
+| 360 | 15 / 10 / 35 | 35 + 12 × 15 + 11 × 10 + 35 = 360 | 25 |
 
-- **T tints:** black text. **S shades:** white text, except Mustard #CFB500, which takes black.
-- **H accents on white** are decoration only (see web-layout `references/colour.md` for ratios).
-- **Web neutrals:** #222222 and #333333 for text; #555555 for secondary text, on white only.
+Web rows are 1:1 ratio modules (row = module). Text sits on a 5 px baseline, and blocks snap to row lines.
+Presets B–D and platform widths (Shopify, WordPress, Canvas) live in web-layout.
 
-## 5. Web
+## 3. Typeface
 
-- **Units:** 5 px steps, written in rem (1rem = 16 px). Media queries are in em.
-- **Grid:** 12 columns at every size, with a stepped container that is centred and snaps to the largest step that fits.
-- **Gutters:** 10 / 20 / 30 / 40 only (presets A–D, as on the slides).
-- **Rows:** 1:1 ratio modules (row = module). Gutters are equal both ways.
+- **Lato only** (default house font). Never substitute Aptos, Calibri, Arial or Times.
+- Headings: **ALL CAPS**, typed as capitals or set with a caps style, and a **heavy weight (Lato Black)**.
+- Subheadings and lead text: **Lato Light**.
+- Body: **Lato Regular, 12 pt** in print (slides and web: 18 px body, never under 16 px; web leading 25 px).
+- Cap-height ratios (from the font files; the same in Adobe Fonts and Google Fonts): Light 0.7075, Regular 0.7165, Bold 0.723, Black 0.7285.
+- Exact heading sizes, leading and alignment are **medium-specific**. InDesign locks them to the grid rows and left-aligns. The Word template keeps its own scale and centred headings. Canvas pages use HTML defaults and inline sizes. The web sizes headings from cap heights in 5 px steps and left-aligns.
 
-| Container | Pitch | A | B | C | D |
-|---|---|---|---|---|---|
-| 1200 | 90 | 80 / 10 / M 65 | 70 / 20 / M 70 | 60 / 30 / M 75 | 50 / 40 / M 80 |
-| 1020 | 80 | 70 / 10 / M 35 | 60 / 20 / M 40 | 50 / 30 / M 45 | 40 / 40 / M 50 |
-| 760 | 60 | 50 / 10 / M 25 | 40 / 20 / M 30 | 30 / 30 / M 35 | = C |
-| 360 | 25 | 15 / 10 / M 35 | = A | = A | = A |
+## 4. Contrast (all media)
 
-Each cell is module / gutter / margin in px.
+| Use | Minimum |
+|---|---|
+| All text (house standard) | **7:1** |
+| Large text (≥ 18 pt, or ≥ 14 pt bold) and secondary text, absolute floor | 4.5:1 |
+| Meaningful graphics, icons, borders | 3:1 |
 
-- **Body:** 18 / 25 px. Small 16 / 25, Condensed 18 / 20. Never under 16 px.
-- **Headings:** cap height in 5 px steps, size = cap ÷ cap ratio, leading = 1.5 × cap rounded up to 5.
+- **Text is always the highest-contrast colour available** on whatever it sits on. Text colour never varies to show hierarchy.
+- **Never use colour or shade alone to carry meaning.** Always add a label, icon or position.
+- **Print:** check greys with ink dot gain (the worse result counts). `indesign-parameters/scripts/grid.py --contrast TEXT_K BG_K` does this.
+- **Web:** Canvas strips `font-weight` and `text-transform` from inline styles, so type caps as capitals and set weight with the `font` shorthand.
 
-| Level | 1200 / 1020 | 760 | 360 |
+## 5. Greyscale (K steps are the source of truth)
+
+Print uses black ink in 10% steps. Screen and Word use the hex equivalents.
+
+| Token | Hex (screen/Word) | Text on it | Role |
 |---|---|---|---|
-| Title | 82.4 / 90 | 68.6 / 75 | 41.2 / 45 |
-| H1 | 54.9 / 60 | 41.2 / 45 | 34.3 / 40 |
-| H2 | 41.2 / 45 | 34.3 / 40 | 27.5 / 30 |
-| H3 | 27.5 / 30 | 27.5 / 30 | 20.6 / 25 |
-| H4 | 20.6 / 25 | 20.6 / 25 | 20.6 / 25 |
-| H5 | 18 / 25 caps label | same | same |
+| K 0 (Paper) | #FFFFFF | K 100 | Page |
+| K 10 | #E6E6E6 | K 100 (secondary K 80) | Lowest shade; default light panel; table banding |
+| K 20 | #CCCCCC | K 100 (secondary K 80) | Callouts, Key Term highlight |
+| K 30 – K 60 | #B3B3B3 · #999999 · #808080 · #666666 | **No text** | Graphics only: bars, icons, chart fills, placeholders, borders (K 50+ for meaningful lines) |
+| K 70 | #4D4D4D | White | Panel |
+| K 80 | #333333 | White | Panel; **secondary text colour** (captions, footnotes) on light backgrounds |
+| K 90 | #1A1A1A | White | Highest shade; table header rows |
+| K 100 | #000000 | White | Body and heading text; **small, very important accents only** as a fill |
 
-- **Platform widths:**
-  - Shopify: page width 1200 with house margins.
-  - WordPress: `contentSize` 760, `wideSize` 1200.
-  - Canvas: fluid, max 1200, 10 px gutters, 760 heading scale.
+- Most things have **no background**. Shading is optional emphasis, running from K 90 (highest) to K 10 (lowest).
+- **Reversed (white) text:** only on K 70–100. At least 12 pt Regular or 10 pt Bold, never in Light or Thin weights.
+- **Photocopied resources:** K 10 may disappear, so use K 20 for light panels.
+
+Old Word-template greys and their replacements:
+
+| Old | Was | Now |
+|---|---|---|
+| Pale #CACBCA | Block text, module fills | K 20 #CCCCCC |
+| Accent 1 #969896 / Accent 2 #878785 | Light table shading | K 40 / K 50 (graphics only; no text) |
+| Accent 3 #767776 | Shading | K 60 (graphics only) |
+| Accent 4 #585958 / Accent 5 #494A49 | Dark fills with white text | K 70 #4D4D4D |
+| Accent 6 #383938 | Darkest table shading | K 80 #333333 (or K 90 for table headers) |
+| Muted #5E5E5E | Captions, references | **K 80 #333333** (the old value is only 6.5:1) |
+| Link #898A89 | Hyperlinks | **K 100, underlined** (the old value is only 3.5:1) |
+
+## 6. Domain colours (colour print, slides and Canvas)
+
+Colour is chosen by the **learning domain** of the content. Each domain has three colours:
+- **H**, the accent: banners, divider bars, left borders, pill labels, highlights
+- **S**, the shade: strong borders, dark blocks, heading treatments
+- **T**, the tint: soft panels and table backgrounds
+
+| Domain | Slug | H | S | T |
+|---|---|---|---|---|
+| Critical Thinking | `critical-thinking` | TOMATO #FF585D | ESPRESSO #551C25 | SOFT BLUSH #F5DADF |
+| Creative Thinking, Problem Solving and Innovation | `creative-thinking-problem-solving-and-innovation` | ROYAL ORANGE #F19C49 | DARK LEATHER #4F2C1D | APRICOT #FFDFB4 |
+| Communication | `communication` | CORN #F3EA5D | MUSTARD #CFB500 | BUTTERMILK #F7F4A2 |
+| Self-Management and Organisation | `self-management-and-organisation` | LIME #C5E86C | ZUCCHINI #1C4220 | LIME CREAM #EFF4A4 |
+| Responsibility and Stewardship | `responsibility-and-stewardship` | SEAGREEN #00B2A2 | SHERWOOD #024638 | SWANS DOWN #D7EFE7 |
+| Practical Skills and Technical Application | `practical-skills-and-technical-application` | DENIM #326295 | NIGHT #041E42 | CRUSHED ICE #D5EBEE |
+| Knowledge and Conceptual Understanding | `knowledge-and-conceptual-understanding` | TWILIGHT #514689 | DARK INDIGO #201547 | PERIWINKLE #DCD3E7 |
+| Independent Learning and Collaboration | `independent-learning-and-collaboration` | VALENTINE PINK #E56DB1 | PLUM #621244 | POWDER PINK #F2DEE9 |
+
+Unmapped groups (use only if the user gives a domain for them): 1H JAZZBERRY #AC145A, 1S MULBERRY #651C32,
+1T PIGGY PINK #EEDAEA; 7H BONDI BLUE #008EAA, 7S CYPRUS #003540, 7T MYSTIC #DCEBEC.
+
+### Text colour on each domain colour (WCAG, sRGB)
+
+The highest-contrast text colour for every swatch:
+
+| Swatch | Text | Ratio | Allowed |
+|---|---|---|---|
+| **All T tints** | black | 14.5–18.4 | All text ✓ |
+| ESPRESSO, DARK LEATHER, ZUCCHINI, SHERWOOD, NIGHT, DARK INDIGO, PLUM (S) | white | 10.8–16.7 | All text ✓ |
+| **MUSTARD (Communication S)** | **black** | 10.3 | All text ✓. **Not white** (2.0:1): Mustard isn't a dark shade, so treat it like an H colour |
+| CORN, LIME, ROYAL ORANGE, SEAGREEN, VALENTINE PINK (H) | black | 7.2–16.7 | All text ✓ |
+| TWILIGHT (Knowledge H) | white | 8.1 | All text ✓ |
+| **TOMATO (Critical Thinking H)** | black | **6.8** | Large text and graphics only |
+| **DENIM (Practical Skills H)** | white | **6.3** | Large text and graphics only |
+
+- Neutral text for web and slides: #222222 (15.9:1) or #333333 (12.6:1) on white or T tints. #555555 (7.5:1) only for secondary text, and **only on white** (5.97:1 on K 10).
+- **H accents drawn on white** (bars, borders, icons) need 3:1 to carry meaning. Only TOMATO 3.09, DENIM 6.33 and TWILIGHT 8.12 pass. CORN 1.25, LIME 1.39, ROYAL ORANGE 2.19, SEAGREEN 2.66 and VALENTINE PINK 2.94 don't, so on white they are decoration beside text that names the domain; use the S shade for a meaningful bar.
+- **Print:** these are screen (sRGB) colours. For colour printing, convert through the document's CMYK profile and check the proof. If the school has official CMYK or Pantone values for these colours, those override the conversion.
+- **Photocopying:** domain colours collapse to greys. Anything that must survive a mono photocopy needs its meaning carried by a label, icon or position.

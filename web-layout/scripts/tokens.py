@@ -34,16 +34,17 @@ BODY = {"body": (18, 25), "small": (16, 25), "condensed": (18, 20), "h5": (18, 2
 GREYS = {k: h for k, h in zip(range(0, 101, 10), [
     "#FFFFFF", "#E6E6E6", "#CCCCCC", "#B3B3B3", "#999999", "#808080",
     "#666666", "#4D4D4D", "#333333", "#1A1A1A", "#000000"])}
-DOMAINS = {  # name: (H accent, S shade, T tint)
-    "critical-thinking":    ("#FF585D", "#551C25", "#F5DADF"),
-    "creative-thinking":    ("#F19C49", "#4F2C1D", "#FFDFB4"),
-    "communication":        ("#F3EA5D", "#CFB500", "#F7F4A2"),
-    "self-management":      ("#C5E86C", "#1C4220", "#EFF4A4"),
-    "responsibility":       ("#00B2A2", "#024638", "#D7EFE7"),
-    "practical-skills":     ("#326295", "#041E42", "#D5EBEE"),
-    "knowledge":            ("#514689", "#201547", "#DCD3E7"),
-    "independent-learning": ("#E56DB1", "#621244", "#F2DEE9"),
+DOMAINS = {  # slug (as in house-tokens.md): (H accent, S shade, T tint, text on H)
+    "critical-thinking":                                ("#FF585D", "#551C25", "#F5DADF", "#000000"),
+    "creative-thinking-problem-solving-and-innovation": ("#F19C49", "#4F2C1D", "#FFDFB4", "#000000"),
+    "communication":                                    ("#F3EA5D", "#CFB500", "#F7F4A2", "#000000"),
+    "self-management-and-organisation":                 ("#C5E86C", "#1C4220", "#EFF4A4", "#000000"),
+    "responsibility-and-stewardship":                   ("#00B2A2", "#024638", "#D7EFE7", "#000000"),
+    "practical-skills-and-technical-application":       ("#326295", "#041E42", "#D5EBEE", "#FFFFFF"),
+    "knowledge-and-conceptual-understanding":           ("#514689", "#201547", "#DCD3E7", "#FFFFFF"),
+    "independent-learning-and-collaboration":           ("#E56DB1", "#621244", "#F2DEE9", "#000000"),
 }
+LARGE_ONLY = {"critical-thinking", "practical-skills-and-technical-application"}  # H fill 6.8 / 6.3:1
 
 
 def rem(px):
@@ -100,7 +101,7 @@ def css():
     for k, h in GREYS.items():
         w.append(f"  --hw-k{k}: {h};")
     w.append("  --hw-text: #222222; --hw-text-2: #333333; --hw-text-3: #555555; /* #555 = secondary only */")
-    for name, (hh, s, t) in DOMAINS.items():
+    for name, (hh, s, t, _) in DOMAINS.items():
         w.append(f"  --hw-{name}-h: {hh}; --hw-{name}-s: {s}; --hw-{name}-t: {t};")
     for k, (size, lead) in BODY.items():
         w.append(f"  --hw-{k}-size: {rem(size)}; --hw-{k}-lead: {rem(lead)};")
@@ -180,7 +181,9 @@ def css():
 /* K 30 to K 60: graphics only, never behind text. White text never Light (300). */
 .hw-k70 .hw-lead, .hw-k80 .hw-lead, .hw-k90 .hw-lead, .hw-k100 .hw-lead { font-weight: 400; }
 """)
-    for name in DOMAINS:
+    for name, (_, _, _, on_h) in DOMAINS.items():
+        note = "  /* large text and graphics only */" if name in LARGE_ONLY else ""
+        w.append(f".hw-{name}-accent {{ background: var(--hw-{name}-h); color: {on_h}; }}{note}")
         w.append(f".hw-{name}-tint {{ background: var(--hw-{name}-t); color: #000; }}")
         fg = "#000" if name == "communication" else "#fff"  # Mustard #CFB500 takes black
         w.append(f".hw-{name}-shade {{ background: var(--hw-{name}-s); color: {fg}; }}")

@@ -63,3 +63,4 @@ The container snaps to the largest step that fits the screen and is centred.
 - `assets/snap.js`: pads each grid item so it ends on a row line (general sites only; Canvas can't run it).
 - `assets/canvas-snippets.html`: Canvas-safe wrapper, headings, wrapping cards, 12-column grid, panels, table.
 - `assets/sample.html`: demo page with preset switcher and grid overlay.
+- `examples/canvas-typography-lesson.html`: a full Canvas lesson page (Typography 1: type anatomy) built from the snippets.
