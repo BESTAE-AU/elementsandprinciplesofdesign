@@ -1,5 +1,5 @@
 ---
-name: element-of-design-line
+name: line-element-of-design
 description: >
   Teaches, analyses and applies LINE as an element of design for NSW TAS and
   design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T)

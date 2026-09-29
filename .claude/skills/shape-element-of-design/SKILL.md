@@ -1,17 +1,17 @@
 ---
-name: element-of-design-form
+name: shape-element-of-design
 description: >
   Comprehensive Claude Code skill for teaching, analysing, generating, justifying,
-  evaluating and refining the Element of Design: Form. Integrates NSW TAS design
+  evaluating and refining the Element of Design: Shape. Integrates NSW TAS design
   decision-making, multimedia analysis, branding, accessibility, production and
   cross-disciplinary design practice.
 ---
 
-# Element of Design: Form
+# Element of Design: Shape
 
 ## Purpose of this skill
 
-This skill is a **knowledge base and operational specification for Claude**, not a student worksheet. Claude should use it whenever it teaches, generates, analyses, evaluates, scaffolds, critiques or gives feedback about **Form** as an element of design.
+This skill is a **knowledge base and operational specification for Claude**, not a student worksheet. Claude should use it whenever it teaches, generates, analyses, evaluates, scaffolds, critiques or gives feedback about **Shape** as an element of design.
 
 The core reasoning sequence is:
 
@@ -33,54 +33,60 @@ Claude should operate with these combined specialist frameworks:
 Claude must not copy a single source mechanically. It should synthesise these lenses according to the design problem.
 ## 1. Definition
 
-Form is the three-dimensional quality, volume or physical configuration of an object or space, including mass, void, surface, edge, plane, profile and depth. In two-dimensional media, form can be implied through value, perspective, overlap, texture, contour, lighting and other depth cues.
+Shape is a two-dimensional area defined by an edge, boundary, contrast, colour, value, texture or negative space. Shape can be geometric, organic, abstract, representational or symbolic and can function as image, container, symbol, interface component, motif or structural plan.
 
 ### Distinctions from related concepts
 
-Shape is a two-dimensional area; form occupies or implies three-dimensional volume. Physical form exists materially, while visual form is a representation. Silhouette shows the outer profile of form but does not reveal all volume, surfaces or internal structure.
+Shape is two-dimensional, while form concerns three-dimensional volume or implied volume. A contour is the boundary of a shape or form. A silhouette is the recognisable outer shape of a subject. Shape may be created without an outline through contrast or negative space.
 
 ### Aesthetic and functional roles
 
-Claude should analyse form through both aesthetic and functional lenses. It may create visual character, recognition, hierarchy, atmosphere or expression; it may also organise information, support usability, signal function, improve navigation, control manufacture, assist construction or communicate technical meaning. Never assume that an aesthetic use is merely decorative or that a functional use has no visual consequences.
+Claude should analyse shape through both aesthetic and functional lenses. It may create visual character, recognition, hierarchy, atmosphere or expression; it may also organise information, support usability, signal function, improve navigation, control manufacture, assist construction or communicate technical meaning. Never assume that an aesthetic use is merely decorative or that a functional use has no visual consequences.
 ## 2. Core characteristics and variables
 
 | Characteristic | Variables | Possible effect | Design considerations |
 |---|---|---|---|
-| **Mass and volume** | solid, hollow, open, enclosed | Affects weight perception, capacity and structural behaviour. | Relate visual mass to actual mass and material. |
-| **Geometry** | geometric, organic, biomorphic | Influences construction, perception and manufacture. | Avoid universal emotional readings. |
-| **Complexity** | simple, compound, articulated | Affects usability, tooling, assembly and visual hierarchy. | More complex form may increase cost and failure points. |
-| **Curvature and planes** | flat, faceted, single/compound curvature | Affects grip, reflection, strength and tooling. | Compound curves can require complex forming. |
-| **Edge transitions** | sharp, chamfered, filleted, blended | Influences safety, wear, tactility and appearance. | Radius choices may be manufacturing-critical. |
-| **Proportion** | relationship of dimensions and volumes | Affects balance, fit and human interaction. | Use anthropometric and contextual evidence. |
-| **Surface** | continuous, segmented, perforated, textured | Changes tactile and visual behaviour. | Surface is part of form but texture is a separate element. |
-| **Void** | openings, cavities, negative volume | Can reduce weight, permit access, ventilation or visual permeability. | Check structure, cleaning and safety. |
-| **Light and shadow** | modelled, flat, dramatic, diffuse | Reveals or suppresses perceived form in images. | Lighting changes perception without changing physical form. |
+| **Geometry** | geometric, organic, biomorphic, irregular | Affects recognisability, precision and visual character. | Avoid fixed personality claims; assess against audience, content and brand. |
+| **Complexity** | simple to complex | Influences recognition, detail and reproduction. | Complex shapes may fail at small size or in cutting/embroidery. |
+| **Closure** | open, closed, implied | Changes containment and figure-ground reading. | Open forms may reduce immediate recognition. |
+| **Regularity** | regular, symmetrical, irregular, asymmetric | Changes predictability and visual rhythm. | Irregularity can increase distinctiveness but complicate systems. |
+| **Positive/negative relationship** | figure and surrounding/contained space | Creates optical relationships and hidden forms. | Check at small sizes, reverse-out use and accessibility. |
+| **Edge character** | sharp, rounded, scalloped, rough, smooth | Influences silhouette, tactility and production. | Corner radius and minimum internal gaps may constrain manufacture. |
+| **Scale and proportion** | relative dimensions and aspect | Affects hierarchy, recognition and fit. | Test responsive and physical applications. |
+| **Overlap/intersection** | layered, merged, subtracted | Creates depth, grouping and compound symbols. | Boolean complexity can create weak or tiny residual features. |
+| **Repetition** | motif, tessellation, pattern | Builds identity and rhythm. | Test tiling, seams, crops and pattern continuity. |
 
 Claude should treat these characteristics as **manipulable variables**. When guiding experimentation, change one variable at a time where possible, then compare the result against the brief and relevant criteria.
 
 ## 3. Types and classifications
 
-### Actual form
-Physical three-dimensional configuration. Typical applications include Products, garments, interiors, architecture.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Geometric shape
+Shape based on measurable geometry. Typical applications include Icons, logos, UI, technical graphics.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Implied form
-Perceived 3D volume in 2D representation. Typical applications include Illustration, photography, rendering.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Organic/biomorphic shape
+Irregular shape referencing natural or fluid forms. Typical applications include Surface design, branding, illustration.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Geometric form
-Form based on measurable geometry. Typical applications include Products, architecture, packaging.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Abstract shape
+Non-literal shape used for visual communication. Typical applications include Identity systems, data graphics.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Organic/biomorphic form
-Irregular or naturally derived volume. Typical applications include Furniture, fashion, product styling.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Representational shape
+Recognisable depiction of a real subject. Typical applications include Pictograms, symbols, illustrations.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Solid form
-Mass perceived as materially occupied. Typical applications include Objects, structures.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Symbolic shape
+Shape whose meaning depends on convention or culture. Typical applications include Icons, signage, branding.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Void
-Defined empty three-dimensional space. Typical applications include Handles, apertures, rooms, negative volumes.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Positive/negative shape
+Figure-ground shapes defined by occupied and surrounding areas. Typical applications include Logos, layouts, interfaces.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+
+### Open/closed shape
+Boundary is incomplete or complete. Typical applications include Marks, icons, composition.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+
+### Silhouette
+Outer profile that carries recognition. Typical applications include Brand marks, fashion, product profile.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
 ## 4. Actual, implied, physical, perceptual and structural forms
 
-When relevant, Claude should distinguish whether form is:
+When relevant, Claude should distinguish whether shape is:
 
 - **actual/physical** — materially or visibly present;
 - **implied/perceptual** — inferred by the viewer without a literal rendered object or mark;
@@ -97,51 +103,51 @@ Claude should use only the categories that meaningfully apply to the case being 
 
 Claude should explain interaction, not merely list co-occurrence.
 
-- **Line:** Form interacts with line and can define edges, create contours, divide space and establish direction.
-- **Direction:** Form interacts with direction and can be created through orientation, alignment, line, gaze, perspective, repetition and motion.
-- **Shape:** Form interacts with shape and can be enclosed by line or defined by colour, value, texture and negative space.
-- **Space:** Form interacts with space and is shaped by placement, scale, line, shape, form, proximity and negative areas.
-- **Size and scale:** Form interacts with size and scale and modify hierarchy, perceived importance, depth, usability and relationships among other elements.
-- **Colour:** Form interacts with colour and interacts with value, texture, form, space and hierarchy and changes with surrounding colours and medium.
-- **Value:** Form interacts with value and creates tonal separation, form modelling, depth and contrast independent of hue.
-- **Texture:** Form interacts with texture and interacts with material, light, value, colour, scale and pattern.
-- **Typography:** Form interacts with typography and combines line, shape, value, colour, space, scale and composition while carrying verbal meaning.
-- **Imagery:** Form combines multiple elements and introduces representational, contextual and cultural meaning.
-- **Layout and composition:** Form organise all other elements into relationships, hierarchy and reading/interaction sequences.
+- **Line:** Shape interacts with line and can define edges, create contours, divide space and establish direction.
+- **Direction:** Shape interacts with direction and can be created through orientation, alignment, line, gaze, perspective, repetition and motion.
+- **Form:** Shape interacts with form and can be described by contour, value, light, perspective, surface and spatial relationships.
+- **Space:** Shape interacts with space and is shaped by placement, scale, line, shape, form, proximity and negative areas.
+- **Size and scale:** Shape interacts with size and scale and modify hierarchy, perceived importance, depth, usability and relationships among other elements.
+- **Colour:** Shape interacts with colour and interacts with value, texture, form, space and hierarchy and changes with surrounding colours and medium.
+- **Value:** Shape interacts with value and creates tonal separation, form modelling, depth and contrast independent of hue.
+- **Texture:** Shape interacts with texture and interacts with material, light, value, colour, scale and pattern.
+- **Typography:** Shape interacts with typography and combines line, shape, value, colour, space, scale and composition while carrying verbal meaning.
+- **Imagery:** Shape combines multiple elements and introduces representational, contextual and cultural meaning.
+- **Layout and composition:** Shape organise all other elements into relationships, hierarchy and reading/interaction sequences.
 
 ## 6. Relationship with principles of design
 
-Form is an **element/design variable**, while principles describe relationships and organisational effects. Claude should not confuse the two. Form can contribute to:
+Shape is an **element/design variable**, while principles describe relationships and organisational effects. Claude should not confuse the two. Shape can contribute to:
 
-- **Balance:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Contrast:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Emphasis:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Hierarchy:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Movement:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Rhythm:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Repetition:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Pattern:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Proportion:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Scale:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Unity:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Harmony:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Variety:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Alignment:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
-- **Proximity:** analyse how deliberate manipulation of form changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because form is present.
+- **Balance:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Contrast:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Emphasis:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Hierarchy:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Movement:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Rhythm:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Repetition:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Pattern:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Proportion:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Scale:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Unity:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Harmony:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Variety:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Alignment:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
+- **Proximity:** analyse how deliberate manipulation of shape changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because shape is present.
 
 ## 7. Branding and visual identity
 
-### Form as a repeatable brand language
+### Shape as a repeatable brand language
 
-Physical form can be a distinctive brand asset: bottle profiles, device silhouettes, packaging structures, retail fixtures and spatial forms can create recognition. Brand form systems need proportional rules, materials, detail language and consistency across product families, not merely a 3D version of a logo.
+Shape can be a distinctive brand asset beyond the logo: ownable containers, crops, corner systems, frames, masks, icons, product silhouettes, packaging windows and repeated motifs. Define allowable transformations, clear space, corner logic, responsive simplifications and negative-space behaviour.
 
 ### Brand personality
 
-When discussing perceived brand characteristics, Claude may explain that variations of form **may contribute to** impressions such as precision, softness, restraint, energy, formality, playfulness, technicality or craft **only when supported by the wider context**. Do not present these as fixed meanings.
+When discussing perceived brand characteristics, Claude may explain that variations of shape **may contribute to** impressions such as precision, softness, restraint, energy, formality, playfulness, technicality or craft **only when supported by the wider context**. Do not present these as fixed meanings.
 
 ### Brand consistency
 
-Claude should test whether the form logic is repeatable across:
+Claude should test whether the shape logic is repeatable across:
 - logo and wordmark;
 - symbol and icon system;
 - graphic devices and patterns;
@@ -173,27 +179,27 @@ Where relevant, guidelines should specify:
 
 ## 8. Graphic and communication design
 
-Claude should analyse how form affects layouts, posters, advertising, publications, packaging, infographics, information design and visual navigation. It should consider **visual hierarchy, grouping, legibility, reading order, emphasis, consistency, scanability and communication efficiency**, not only appearance.
+Claude should analyse how shape affects layouts, posters, advertising, publications, packaging, infographics, information design and visual navigation. It should consider **visual hierarchy, grouping, legibility, reading order, emphasis, consistency, scanability and communication efficiency**, not only appearance.
 
 Aesthetic questions should be connected to purpose: *What visual character is being established?* Functional questions should be connected to use: *What information becomes easier or harder to locate, interpret or act upon?*
 
 ## 9. Multimedia
 
-Photography and cinematography reveal form through light direction, lens, perspective, blocking and movement. 3D animation uses modelling, topology, materials, lighting and camera. Motion graphics may simulate depth, but Claude should distinguish genuine 3D form from flat shape animation with depth effects.
+Shape organises title cards, lower-thirds, masks, transitions, characters, props and environments. In photography and film, cropping and lighting can create dominant shapes. In motion, shapes can morph, reveal and become transition devices; preserve recognition during animation.
 
 ### Static versus time-based use
 
-Claude must distinguish the appearance of form in a single frame from its behaviour across time. In time-based work, analyse **entry, change, continuity, sequencing, persistence and interaction** as appropriate.
+Claude must distinguish the appearance of shape in a single frame from its behaviour across time. In time-based work, analyse **entry, change, continuity, sequencing, persistence and interaction** as appropriate.
 
 ## 10. Digital / UI / UX
 
-Most UI form is simulated rather than physical. Depth cues, shadows and elevation can imply layering or affordance, but excessive pseudo-3D treatment can reduce clarity. Physical interfaces require actual form and ergonomics.
+Buttons, cards, chips, input fields, badges and icons depend on shape. Shape must support affordance and state differentiation without becoming the sole signal. Touch targets are about interactive area, not merely visible shape.
 
 Claude should consider usability, readability, discoverability, information hierarchy, responsive behaviour, cognitive load, touch/pointing interaction, localisation and assistive technologies.
 
 ## 11. Textiles and fashion
 
-Form arises through drape, volume, gathering, pleating, padding, boning, tailoring, seams and structural textiles. Analyse garment volume without making body-value judgements. Material behaviour determines whether intended form holds or collapses.
+Shape appears in motifs, appliqué, patchwork, pattern pieces and silhouette. Garment silhouette is a two-dimensional reading of three-dimensional form and should not be confused with physical form. Pattern-piece shapes have construction and grain implications.
 
 Claude should distinguish:
 - **structural application** — contributes to construction, fit or material structure;
@@ -202,7 +208,7 @@ Claude should distinguish:
 
 ## 12. Product and industrial design
 
-Form affects ergonomics, stability, grip, storage, assembly, structural strength, cleaning, material use and manufacture. Evaluate both visual character and task performance.
+Shape describes profiles, openings, panels and interface graphics. It influences nesting, cutting, tool paths, grip zones and assembly. The outer shape can also become a strong brand cue.
 
 Separate:
 1. decorative/brand decisions;
@@ -211,13 +217,13 @@ Separate:
 
 ## 13. Interior, spatial and architectural design
 
-Architecture and interiors are fundamentally formal and spatial: walls, ceilings, openings, masses, voids and furniture define volume. Evaluate human scale, circulation, structure, daylight and acoustic/thermal consequences.
+Plans, elevations, room footprints, openings and furniture arrangements create shapes. These must be analysed alongside actual volume and circulation.
 
-Where relevant, connect form to circulation, wayfinding, human scale, atmosphere, materiality, maintenance and accessibility.
+Where relevant, connect shape to circulation, wayfinding, human scale, atmosphere, materiality, maintenance and accessibility.
 
 ## 14. Technical communication
 
-Orthographic drawings, sections, axonometrics, CAD models and renders represent form differently. Claude should select representation based on what must be communicated: size, assembly, internal structure, surface or spatial relationship.
+Technical drawings use shapes to represent components, symbols and plan/elevation profiles. Some shapes are standardised symbols and should not be stylised without reason.
 
 Claude must distinguish **formal conventions** from expressive visual choices. Where a standard or discipline-specific convention is involved, preserve technical meaning first.
 
@@ -226,16 +232,16 @@ Claude must distinguish **formal conventions** from expressive visual choices. W
 Apply the Multimedia Teaching Assistant framework specifically:
 
 ### Characteristics
-Observable/perceivable qualities of form: the variables, type, appearance, arrangement, direction, scale, density, surface, timing or other visible/measurable qualities relevant to this element.
+Observable/perceivable qualities of shape: the variables, type, appearance, arrangement, direction, scale, density, surface, timing or other visible/measurable qualities relevant to this element.
 
 ### Features
-What the use of form enables the design to do: organise, indicate, separate, connect, direct, identify, contain, reveal, support interaction, improve recognition or contribute to function.
+What the use of shape enables the design to do: organise, indicate, separate, connect, direct, identify, contain, reveal, support interaction, improve recognition or contribute to function.
 
 ### Properties
 Technical or measurable qualities that affect behaviour: dimensions, resolution, tolerance, material response, contrast, file format, colour specification, timing, physical structure, process limits or other quantifiable constraints.
 
 ### Attributes
-How the form decision relates to **audience, purpose, communication, meaning, context and experience**. Attributes are not simply visual descriptors; they explain relevance and suitability.
+How the shape decision relates to **audience, purpose, communication, meaning, context and experience**. Attributes are not simply visual descriptors; they explain relevance and suitability.
 
 Claude should help students distinguish these four lenses instead of using the terms interchangeably.
 
@@ -256,17 +262,17 @@ Claude should ask:
 
 Claude must not invent universal production minima. It should explain the risk, identify the relevant process variables and recommend testing against the actual equipment, supplier specifications, substrate and final size.
 
-| Process | Form considerations |
+| Process | Shape considerations |
 |---|---|
-| **3D printing** | Overhangs, wall thickness, support, orientation and layer resolution constrain form. |
-| **CNC machining** | Tool access, radii and undercuts constrain geometry. |
-| **Moulding/forming** | Draft, wall thickness, parting lines, shrinkage and tooling constrain form. |
-| **Fabrication** | Bending, joining, tolerances and stock sizes influence achievable form. |
-| **Textiles** | Drape, bias, stretch, interfacing and seam construction determine realised form. |
+| **Die cutting** | Minimum bridge widths, internal corners and registration affect viable shapes. |
+| **Laser/vinyl/CNC cutting** | Tool/kerf width limits small internal details and acute corners. |
+| **Embroidery** | Tiny counters and enclosed negative spaces can close up. |
+| **Printing** | Knockouts and small reversals may fill; test positive and negative versions. |
+| **Responsive digital use** | Create simplified variants when complex shapes lose recognition at small sizes. |
 
 ## 18. Sustainability
 
-Claude should avoid superficial claims such as “minimal = sustainable”. For form, consider:
+Claude should avoid superficial claims such as “minimal = sustainable”. For shape, consider:
 - whether the treatment changes material, ink, dye, energy or processing requirements;
 - whether complexity increases waste, setup, rejected output or maintenance;
 - whether the system is durable and adaptable across future applications;
@@ -284,29 +290,29 @@ When cultural references are material to a design, Claude should encourage resea
 
 ## 20. Factors Affecting Design
 
-| Factor Affecting Design | Questions and considerations for Form |
+| Factor Affecting Design | Questions and considerations for Shape |
 |---|---|
-| **Appropriateness of the Design Solution** | Does the use of form suit the identified need, user, audience, context, environment and communication purpose? Would another treatment be more appropriate? |
-| **Needs** | What genuine user, communication, functional or contextual need is the form decision responding to? Is the need evidenced or assumed? |
-| **Function / Functionality** | What must the design do, and how does form support or obstruct that task? Distinguish primary from secondary functions. |
-| **Aesthetics** | How does form contribute to the intended visual/sensory character? Describe observable qualities before interpreting them. |
-| **Finance / Cost** | Does the form choice alter development time, material use, tooling, reproduction, licensing, maintenance or production cost? |
-| **Ergonomics** | Does form affect human interaction, comfort, reach, visibility, grip, cognition or ease of use? Only apply where meaningful. |
-| **WHS / Safety** | Could the form decision introduce production, use, maintenance or disposal hazards? Safety requirements override stylistic preference. |
-| **Quality** | Will the form choice reproduce, manufacture, wear and perform consistently at the required standard? |
-| **Resources** | What software, tools, materials, skills, energy, time or specialist processes are required to realise the form decision? |
-| **Short- and Long-Term Environmental Consequences** | What immediate waste/energy/material impacts and longer-term impacts arise from producing and maintaining the form choice? |
+| **Appropriateness of the Design Solution** | Does the use of shape suit the identified need, user, audience, context, environment and communication purpose? Would another treatment be more appropriate? |
+| **Needs** | What genuine user, communication, functional or contextual need is the shape decision responding to? Is the need evidenced or assumed? |
+| **Function / Functionality** | What must the design do, and how does shape support or obstruct that task? Distinguish primary from secondary functions. |
+| **Aesthetics** | How does shape contribute to the intended visual/sensory character? Describe observable qualities before interpreting them. |
+| **Finance / Cost** | Does the shape choice alter development time, material use, tooling, reproduction, licensing, maintenance or production cost? |
+| **Ergonomics** | Does shape affect human interaction, comfort, reach, visibility, grip, cognition or ease of use? Only apply where meaningful. |
+| **WHS / Safety** | Could the shape decision introduce production, use, maintenance or disposal hazards? Safety requirements override stylistic preference. |
+| **Quality** | Will the shape choice reproduce, manufacture, wear and perform consistently at the required standard? |
+| **Resources** | What software, tools, materials, skills, energy, time or specialist processes are required to realise the shape decision? |
+| **Short- and Long-Term Environmental Consequences** | What immediate waste/energy/material impacts and longer-term impacts arise from producing and maintaining the shape choice? |
 | **Sustainability** | Does the decision support durability, adaptability, repair, reuse, lower impact or responsible resource use without making superficial claims? |
-| **Obsolescence** | Could the form treatment become technically incompatible, hard to update, trend-dependent or prematurely dated? |
+| **Obsolescence** | Could the shape treatment become technically incompatible, hard to update, trend-dependent or prematurely dated? |
 | **Life Cycle Analysis** | Where relevant, how does the decision affect extraction, manufacture, distribution, use, maintenance and end-of-life? |
 | **Accessibility** | Can people with different sensory, physical, cognitive and technological needs perceive, understand or use the design? |
-| **Ethics** | Could the form treatment mislead, stereotype, manipulate, exclude, appropriate or misrepresent? Are cultural meanings handled responsibly? |
+| **Ethics** | Could the shape treatment mislead, stereotype, manipulate, exclude, appropriate or misrepresent? Are cultural meanings handled responsibly? |
 
 ## 21. Design trade-offs
 
 Claude must surface trade-offs explicitly. A strong design justification acknowledges what is gained and what may be compromised.
 
-Examples for form include:
+Examples for shape include:
 - **simplicity ↔ expression** — simplification can improve recognition and reproduction but remove nuance;
 - **visibility ↔ subtlety** — stronger treatment improves noticeability but may dominate the hierarchy;
 - **consistency ↔ variety** — system consistency builds recognition but excessive uniformity can reduce flexibility;
@@ -322,7 +328,7 @@ Claude should add element-specific trade-offs from the actual brief rather than 
 
 Use this progression:
 
-1. **Identify** — What use of form is present?
+1. **Identify** — What use of shape is present?
 2. **Describe** — What observable characteristics can be named precisely?
 3. **Explain** — What visual, perceptual or functional effect does the choice create?
 4. **Analyse** — How does it interact with other elements, principles and design decisions?
@@ -333,13 +339,13 @@ Use this progression:
 
 ### Worked progression
 
-**Weak identification:** “The designer used form.”
+**Weak identification:** “The designer used shape.”
 
-**Description:** “The design uses a consistent, high-contrast form treatment with clear variation between primary and secondary content.”
+**Description:** “The design uses a consistent, high-contrast shape treatment with clear variation between primary and secondary content.”
 
 **Explanation:** “This variation establishes a more visible hierarchy, so the primary message is encountered before supporting information.”
 
-**Analysis:** “The form treatment works with scale, spacing and value contrast to separate the primary message from secondary content and guide scanning.”
+**Analysis:** “The shape treatment works with scale, spacing and value contrast to separate the primary message from secondary content and guide scanning.”
 
 **Evaluation:** “The decision is effective for the intended context because it supports rapid recognition while remaining reproducible at the required scale. However, the smallest application should still be tested because the lower-priority treatment may lose clarity when reduced.”
 
@@ -357,9 +363,9 @@ For sophisticated justification:
 
 ### Quality levels
 
-- **Weak:** “I chose this form because it looks good.”
-- **Developing:** “I chose a stronger form treatment so the design stands out.”
-- **Strong:** “I increased the contrast and consistency of the form treatment so the primary information is recognised more quickly, which suits an audience viewing the design briefly on mobile.”
+- **Weak:** “I chose this shape because it looks good.”
+- **Developing:** “I chose a stronger shape treatment so the design stands out.”
+- **Strong:** “I increased the contrast and consistency of the shape treatment so the primary information is recognised more quickly, which suits an audience viewing the design briefly on mobile.”
 - **Sophisticated:** “Testing showed that the lighter treatment lost clarity at small size, while the strongest version dominated the supporting content. I selected the middle option because it preserved hierarchy and reproduction quality across both mobile and print, accepting slightly less visual impact in exchange for better consistency and accessibility.”
 
 Do not make student responses artificially long. Precision is more valuable than verbosity.
@@ -370,7 +376,7 @@ Claude should make experimentation controlled and evidence-based.
 
 | Variable changed | Design variation | Visual/functional effect | Suitability | Improvement |
 |---|---|---|---|---|
-| One form variable | Version A / B / C | Record only what visibly or functionally changed | Compare against brief/audience/criteria | State next evidence-based adjustment |
+| One shape variable | Version A / B / C | Record only what visibly or functionally changed | Compare against brief/audience/criteria | State next evidence-based adjustment |
 
 Recommended process:
 1. Establish a baseline version.
@@ -388,10 +394,10 @@ Use thumbnails for rapid exploration, mock-ups for context, prototypes for funct
 
 ## 25. Branding experimentation
 
-When experimenting with form in a brand project:
+When experimenting with shape in a brand project:
 
 1. Keep the core brand concept and content constant.
-2. Create controlled form variations.
+2. Create controlled shape variations.
 3. Test the variations first in the mark or primary graphic device.
 4. Extend each viable option to at least **three touchpoints**, for example packaging, social post and website/mobile header.
 5. Test small and large scale, positive/negative backgrounds and monochrome where relevant.
@@ -404,11 +410,11 @@ When experimenting with form in a brand project:
 Questions are thinking tools, not merely assessment prompts.
 
 ### Recognition — identify / name
-- Where is form present, actual or implied?
+- Where is shape present, actual or implied?
 - Which type or treatment can be identified?
 
 ### Description — observable characteristics
-- What specific characteristics of form can be described without interpretation?
+- What specific characteristics of shape can be described without interpretation?
 - Which variables are most dominant and where do they change?
 
 ### Explanation — effect
@@ -416,11 +422,11 @@ Questions are thinking tools, not merely assessment prompts.
 - Which observable characteristic produces that effect?
 
 ### Analysis — relationships
-- How does form interact with colour, value, space, scale, typography, imagery or form?
+- How does shape interact with colour, value, space, scale, typography, imagery or form?
 - What would change if this variable were removed or altered?
 
 ### Application — informed choice
-- Which form treatment best responds to the brief and why?
+- Which shape treatment best responds to the brief and why?
 - What production, accessibility or user constraints should shape the decision?
 
 ### Justification
@@ -428,7 +434,7 @@ Questions are thinking tools, not merely assessment prompts.
 - Which factor affecting design most influenced the final decision?
 
 ### Evaluation
-- How effectively does the form treatment meet the intended purpose and criteria?
+- How effectively does the shape treatment meet the intended purpose and criteria?
 - Where does it perform differently across applications or users?
 
 ### Refinement
@@ -442,10 +448,10 @@ Where useful, map questions to the Factors Affecting Design rather than asking d
 Claude should define terms concisely and use them consistently.
 
 ### Core vocabulary
-mass and volume, geometry, complexity, curvature and planes, edge transitions, proportion, surface, void, light and shadow.
+geometry, complexity, closure, regularity, positive/negative relationship, edge character, scale and proportion, overlap/intersection, repetition.
 
 ### Classification vocabulary
-actual form, implied form, geometric form, organic/biomorphic form, solid form, void.
+geometric shape, organic/biomorphic shape, abstract shape, representational shape, symbolic shape, positive/negative shape, open/closed shape, silhouette.
 
 ### Analysis vocabulary
 contributes to; reinforces; establishes; creates; influences; directs; emphasises; supports; visually connects; differentiates; may communicate; may be perceived as; is appropriate because; interacts with; improves; compromises; reproduces; adapts; scales; clarifies; obscures.
@@ -460,11 +466,11 @@ tolerance; resolution; substrate; reproduction; proof; registration; kerf; tooli
 
 | Misconception | Correction | Better way to think about it |
 |---|---|---|
-| Form is just shape with shading. | Form concerns volume and three-dimensional configuration; shading is only one depth cue. | Identify whether form is actual or implied. |
-| Aesthetic form can be considered separately from function. | Physical form often directly affects use, structure and manufacture. | Evaluate form through purpose, ergonomics and production. |
-| More sculptural form means better design. | Complexity can improve expression but may increase cost, waste or usability problems. | Surface trade-offs explicitly. |
+| Shapes require outlines. | Contrast, colour, value, texture or negative space can define shape. | Identify the boundary mechanism. |
+| Organic shapes are always natural. | Organic describes irregular/non-geometric qualities; digital or manufactured shapes can be organic. | Describe formal characteristics before association. |
+| Negative space is empty and unimportant. | Negative shapes actively affect recognition, balance and meaning. | Analyse figure and ground together. |
 | Personal preference is a design justification. | Preference does not demonstrate suitability. | Connect the decision to audience, purpose, criteria, evidence and constraints. |
-| The element alone creates a principle. | Principles arise from relationships among elements. | Explain how form contributes to contrast, balance, hierarchy, rhythm or another principle. |
+| The element alone creates a principle. | Principles arise from relationships among elements. | Explain how shape contributes to contrast, balance, hierarchy, rhythm or another principle. |
 | Digital success guarantees physical reproduction. | Screens and production processes have different constraints. | Test realistic output conditions. |
 
 ## 29. Language rules for Claude
@@ -533,12 +539,12 @@ Where appropriate:
 
 When this skill is active, Claude must:
 
-1. Treat **Form as an intentional design variable**, not a label to identify.
+1. Treat **Shape as an intentional design variable**, not a label to identify.
 2. Start from observable characteristics before making interpretive claims.
 3. Connect **characteristic → effect → communication/function → suitability → evaluation**.
 4. Use the **Characteristics / Features / Properties / Attributes** framework when analysing in depth.
 5. Apply relevant **Factors Affecting Design** rather than forcing every factor into every task.
-6. Distinguish form from closely related elements and principles.
+6. Distinguish shape from closely related elements and principles.
 7. Avoid universal claims about emotion, symbolism, culture or brand personality.
 8. Ask what the design must do for its audience, user, purpose and context.
 9. Surface trade-offs and rejected alternatives in strong justification.
@@ -547,7 +553,7 @@ When this skill is active, Claude must:
 12. Distinguish static, time-based, digital, physical and technical applications where relevant.
 13. Encourage controlled experimentation with one variable at a time where practical.
 14. Require evidence for evaluative claims.
-15. Preserve formal technical conventions when form carries standardised meaning.
+15. Preserve formal technical conventions when shape carries standardised meaning.
 16. Use Australian English and NSW TAS command verbs accurately.
 17. Scale scaffolding from support to extension without changing the conceptual accuracy.
 18. Prefer concise, precise student language over inflated responses.
@@ -557,7 +563,7 @@ When this skill is active, Claude must:
 ## 33. Quality-control checklist
 
 Before finalising any resource or analysis using this skill, verify that:
-- form is explained beyond a textbook definition;
+- shape is explained beyond a textbook definition;
 - core variables are named precisely;
 - branding is treated as a system;
 - multimedia and time-based use are addressed where relevant;

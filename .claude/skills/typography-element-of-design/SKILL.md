@@ -1,17 +1,17 @@
 ---
-name: element-of-design-value
+name: typography-element-of-design
 description: >
   Comprehensive Claude Code skill for teaching, analysing, generating, justifying,
-  evaluating and refining the Element of Design: Value. Integrates NSW TAS design
+  evaluating and refining the Element of Design: Typography. Integrates NSW TAS design
   decision-making, multimedia analysis, branding, accessibility, production and
   cross-disciplinary design practice.
 ---
 
-# Element of Design: Value
+# Element of Design: Typography
 
 ## Purpose of this skill
 
-This skill is a **knowledge base and operational specification for Claude**, not a student worksheet. Claude should use it whenever it teaches, generates, analyses, evaluates, scaffolds, critiques or gives feedback about **Value** as an element of design.
+This skill is a **knowledge base and operational specification for Claude**, not a student worksheet. Claude should use it whenever it teaches, generates, analyses, evaluates, scaffolds, critiques or gives feedback about **Typography** as an element of design.
 
 The core reasoning sequence is:
 
@@ -33,53 +33,60 @@ Claude should operate with these combined specialist frameworks:
 Claude must not copy a single source mechanically. It should synthesise these lenses according to the design problem.
 ## 1. Definition
 
-Value is the relative lightness or darkness of a colour, surface, image or visual element. Value relationships create separation, hierarchy, depth, modelling and tonal structure independently of hue.
+Typography is the design and organisation of written language through typeface selection, font styles, size, spacing, alignment, hierarchy, composition and behaviour across media. It is both a visual element and a verbal communication system.
 
 ### Distinctions from related concepts
 
-Hue identifies colour family; saturation/chroma concerns colourfulness; value concerns lightness/darkness. Contrast is a relationship and can occur through value, hue, size and other differences. Lighting can change perceived value but is not the same concept.
+A typeface is the overall design family; a font is a specific implementation/style within that family. Kerning adjusts spacing between particular letter pairs; tracking changes spacing across a range; leading is vertical space between lines. Legibility concerns recognising characters; readability concerns comfortably processing extended text.
 
 ### Aesthetic and functional roles
 
-Claude should analyse value through both aesthetic and functional lenses. It may create visual character, recognition, hierarchy, atmosphere or expression; it may also organise information, support usability, signal function, improve navigation, control manufacture, assist construction or communicate technical meaning. Never assume that an aesthetic use is merely decorative or that a functional use has no visual consequences.
+Claude should analyse typography through both aesthetic and functional lenses. It may create visual character, recognition, hierarchy, atmosphere or expression; it may also organise information, support usability, signal function, improve navigation, control manufacture, assist construction or communicate technical meaning. Never assume that an aesthetic use is merely decorative or that a functional use has no visual consequences.
 ## 2. Core characteristics and variables
 
 | Characteristic | Variables | Possible effect | Design considerations |
 |---|---|---|---|
-| **Value level** | light, middle, dark | Affects prominence, separation and mood perception. | Interpret contextually. |
-| **Value range** | narrow to broad | Changes tonal differentiation and detail. | Narrow range can reduce readability. |
-| **Value contrast** | low to high | Controls figure-ground separation and hierarchy. | Check accessibility for text and controls. |
-| **Tonal grouping** | clusters of similar values | Simplifies composition and hierarchy. | Useful for greyscale testing. |
-| **Value pattern** | distribution of light/dark masses | Creates compositional structure. | Evaluate thumbnails/blurred views. |
-| **Highlights/midtones/shadows** | tonal zones | Model form and depth. | Preserve detail according to medium. |
-| **Key** | high-key / low-key | Overall predominance of light or dark values | Avoid fixed emotional claims; analyse intended use. |
-| **Opacity/background interaction** | blended values | Changes perceived contrast. | Test on actual backgrounds. |
+| **Typeface/family** | serif, sans serif, slab serif, script, display, monospaced, variable | Shapes voice, recognition and functionality. | Avoid personality stereotypes; verify language/script support. |
+| **Weight** | thin to black | Creates hierarchy and emphasis. | Very light weights can fail at small sizes. |
+| **Width** | condensed to extended | Changes fit and texture. | Condensed text may reduce readability. |
+| **Style** | roman, italic, oblique, alternate | Differentiates emphasis and voice. | Use semantic emphasis appropriately. |
+| **Size** | display, body, caption, label | Controls hierarchy and readability. | Consider viewing distance/device. |
+| **Case** | upper, lower, sentence, title | Affects word shape and tone. | All caps can reduce readability in long passages. |
+| **Kerning/tracking** | pair and range spacing | Affects rhythm and word recognition. | Optically review, especially logos. |
+| **Leading** | line spacing | Affects readability and density. | Relate to type size, line length and script. |
+| **Line length** | measure | Affects reading comfort. | Responsive layouts require adaptation. |
+| **Alignment** | left, right, centred, justified | Shapes reading flow and composition. | Reading direction and language matter. |
+| **Colour/value** | text colour and contrast | Controls hierarchy and accessibility. | Meet relevant contrast requirements. |
+| **Hierarchy** | title, heading, body, caption, navigation | Organises information. | Use more than size alone where possible. |
 
 Claude should treat these characteristics as **manipulable variables**. When guiding experimentation, change one variable at a time where possible, then compare the result against the brief and relevant criteria.
 
 ## 3. Types and classifications
 
-### Light/middle/dark value
-Broad tonal categories. Typical applications include All visual media.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Serif
+Typefaces with serif structures. Typical applications include Editorial, branding, interface contexts.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### High-key
-Composition dominated by lighter values. Typical applications include Photography, film, branding.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Sans serif
+Typefaces without serifs. Typical applications include Digital, signage, branding.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Low-key
-Composition dominated by darker values. Typical applications include Photography, film, UI.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Slab serif
+Serif faces with robust block-like serifs. Typical applications include Display or text depending design.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Monochrome/greyscale
-Value structure without hue dependence. Typical applications include Testing and stylistic use.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Script
+Faces referencing handwriting/calligraphy. Typical applications include Display and identity; often unsuitable for long text.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Tonal modelling
-Value transitions that describe form. Typical applications include Illustration, photography.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Display
+Faces intended primarily for larger expressive use. Typical applications include Headlines, campaigns.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
-### Atmospheric value
-Value shifts used as depth cues. Typical applications include Landscape, film, spatial visualisation.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+### Monospaced
+Each character occupies equal advance width. Typical applications include Code, technical/system contexts.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
+
+### Variable font
+Single font resource with one or more variation axes. Typical applications include Responsive typography and digital systems.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
 
 ## 4. Actual, implied, physical, perceptual and structural forms
 
-When relevant, Claude should distinguish whether value is:
+When relevant, Claude should distinguish whether typography is:
 
 - **actual/physical** — materially or visibly present;
 - **implied/perceptual** — inferred by the viewer without a literal rendered object or mark;
@@ -96,51 +103,51 @@ Claude should use only the categories that meaningfully apply to the case being 
 
 Claude should explain interaction, not merely list co-occurrence.
 
-- **Line:** Value interacts with line and can define edges, create contours, divide space and establish direction.
-- **Direction:** Value interacts with direction and can be created through orientation, alignment, line, gaze, perspective, repetition and motion.
-- **Shape:** Value interacts with shape and can be enclosed by line or defined by colour, value, texture and negative space.
-- **Form:** Value interacts with form and can be described by contour, value, light, perspective, surface and spatial relationships.
-- **Space:** Value interacts with space and is shaped by placement, scale, line, shape, form, proximity and negative areas.
-- **Size and scale:** Value interacts with size and scale and modify hierarchy, perceived importance, depth, usability and relationships among other elements.
-- **Colour:** Value interacts with colour and interacts with value, texture, form, space and hierarchy and changes with surrounding colours and medium.
-- **Texture:** Value interacts with texture and interacts with material, light, value, colour, scale and pattern.
-- **Typography:** Value interacts with typography and combines line, shape, value, colour, space, scale and composition while carrying verbal meaning.
-- **Imagery:** Value combines multiple elements and introduces representational, contextual and cultural meaning.
-- **Layout and composition:** Value organise all other elements into relationships, hierarchy and reading/interaction sequences.
+- **Line:** Typography interacts with line and can define edges, create contours, divide space and establish direction.
+- **Direction:** Typography interacts with direction and can be created through orientation, alignment, line, gaze, perspective, repetition and motion.
+- **Shape:** Typography interacts with shape and can be enclosed by line or defined by colour, value, texture and negative space.
+- **Form:** Typography interacts with form and can be described by contour, value, light, perspective, surface and spatial relationships.
+- **Space:** Typography interacts with space and is shaped by placement, scale, line, shape, form, proximity and negative areas.
+- **Size and scale:** Typography interacts with size and scale and modify hierarchy, perceived importance, depth, usability and relationships among other elements.
+- **Colour:** Typography interacts with colour and interacts with value, texture, form, space and hierarchy and changes with surrounding colours and medium.
+- **Value:** Typography interacts with value and creates tonal separation, form modelling, depth and contrast independent of hue.
+- **Texture:** Typography interacts with texture and interacts with material, light, value, colour, scale and pattern.
+- **Imagery:** Typography combines multiple elements and introduces representational, contextual and cultural meaning.
+- **Layout and composition:** Typography organise all other elements into relationships, hierarchy and reading/interaction sequences.
 
 ## 6. Relationship with principles of design
 
-Value is an **element/design variable**, while principles describe relationships and organisational effects. Claude should not confuse the two. Value can contribute to:
+Typography is an **element/design variable**, while principles describe relationships and organisational effects. Claude should not confuse the two. Typography can contribute to:
 
-- **Balance:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Contrast:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Emphasis:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Hierarchy:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Movement:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Rhythm:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Repetition:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Pattern:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Proportion:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Scale:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Unity:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Harmony:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Variety:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Alignment:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
-- **Proximity:** analyse how deliberate manipulation of value changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because value is present.
+- **Balance:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Contrast:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Emphasis:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Hierarchy:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Movement:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Rhythm:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Repetition:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Pattern:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Proportion:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Scale:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Unity:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Harmony:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Variety:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Alignment:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
+- **Proximity:** analyse how deliberate manipulation of typography changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because typography is present.
 
 ## 7. Branding and visual identity
 
-### Value as a repeatable brand language
+### Typography as a repeatable brand language
 
-Brand palettes should be tested for value structure, not only hue. Monochrome logo testing reveals whether shape and hierarchy survive without colour. Define dark/light background versions, reversal rules and accessible text combinations.
+Typography should be specified as a system: wordmark construction, primary/secondary typefaces, hierarchy, scale, weights, spacing, case, numeral treatment, language support, fallback fonts, digital/web licensing, motion behaviour and application examples. Brand consistency is typographic behaviour, not merely repeated font choice.
 
 ### Brand personality
 
-When discussing perceived brand characteristics, Claude may explain that variations of value **may contribute to** impressions such as precision, softness, restraint, energy, formality, playfulness, technicality or craft **only when supported by the wider context**. Do not present these as fixed meanings.
+When discussing perceived brand characteristics, Claude may explain that variations of typography **may contribute to** impressions such as precision, softness, restraint, energy, formality, playfulness, technicality or craft **only when supported by the wider context**. Do not present these as fixed meanings.
 
 ### Brand consistency
 
-Claude should test whether the value logic is repeatable across:
+Claude should test whether the typography logic is repeatable across:
 - logo and wordmark;
 - symbol and icon system;
 - graphic devices and patterns;
@@ -172,27 +179,27 @@ Where relevant, guidelines should specify:
 
 ## 8. Graphic and communication design
 
-Claude should analyse how value affects layouts, posters, advertising, publications, packaging, infographics, information design and visual navigation. It should consider **visual hierarchy, grouping, legibility, reading order, emphasis, consistency, scanability and communication efficiency**, not only appearance.
+Claude should analyse how typography affects layouts, posters, advertising, publications, packaging, infographics, information design and visual navigation. It should consider **visual hierarchy, grouping, legibility, reading order, emphasis, consistency, scanability and communication efficiency**, not only appearance.
 
 Aesthetic questions should be connected to purpose: *What visual character is being established?* Functional questions should be connected to use: *What information becomes easier or harder to locate, interpret or act upon?*
 
 ## 9. Multimedia
 
-Exposure, lighting, colour grade and set design create value structure in photography and film. Motion graphics need stable tonal hierarchy across transitions. High dynamic range or changing scenes can alter legibility of overlays.
+Titles, lower thirds, captions, subtitles and kinetic type must account for safe areas, reading duration, motion, contrast and platform cropping. Kinetic typography should preserve verbal comprehension while adding temporal hierarchy.
 
 ### Static versus time-based use
 
-Claude must distinguish the appearance of value in a single frame from its behaviour across time. In time-based work, analyse **entry, change, continuity, sequencing, persistence and interaction** as appropriate.
+Claude must distinguish the appearance of typography in a single frame from its behaviour across time. In time-based work, analyse **entry, change, continuity, sequencing, persistence and interaction** as appropriate.
 
 ## 10. Digital / UI / UX
 
-Value contrast is central to text, icons, focus states and component separation. Avoid relying on faint dividers. Test light/dark themes and disabled states without making essential content illegible.
+Responsive type scales, labels, forms, navigation and error states need readable sizes, line lengths and hierarchy. Font loading, fallback, localisation and user zoom must be anticipated.
 
 Claude should consider usability, readability, discoverability, information hierarchy, responsive behaviour, cognitive load, touch/pointing interaction, localisation and assistive technologies.
 
 ## 11. Textiles and fashion
 
-Value appears through fibre colour, print, weave, pile direction, sheen and layering. Tonal contrast can change with drape and lighting.
+Typography may be printed, embroidered, woven, appliquéd or cut as surface communication. Letterform counters, stroke widths and spacing need adaptation to the process.
 
 Claude should distinguish:
 - **structural application** — contributes to construction, fit or material structure;
@@ -201,7 +208,7 @@ Claude should distinguish:
 
 ## 12. Product and industrial design
 
-Material colour, gloss and lighting affect perceived value. Interface markings must remain distinguishable under expected illumination.
+Labels, control legends, warnings and packaging typography must remain legible under real viewing conditions and production limits.
 
 Separate:
 1. decorative/brand decisions;
@@ -210,13 +217,13 @@ Separate:
 
 ## 13. Interior, spatial and architectural design
 
-Surface reflectance, lighting and shadow create value patterns that affect atmosphere, wayfinding and visual comfort.
+Environmental typography and signage depend on viewing distance, contrast, mounting, lighting and navigation context.
 
-Where relevant, connect value to circulation, wayfinding, human scale, atmosphere, materiality, maintenance and accessibility.
+Where relevant, connect typography to circulation, wayfinding, human scale, atmosphere, materiality, maintenance and accessibility.
 
 ## 14. Technical communication
 
-Technical diagrams need sufficient tonal differentiation when greyscale printing is possible. Do not use subtle grey differences as the sole categorical encoding.
+Technical documentation uses typographic conventions for dimensions, labels and annotation. Clarity and consistency outweigh decorative expression.
 
 Claude must distinguish **formal conventions** from expressive visual choices. Where a standard or discipline-specific convention is involved, preserve technical meaning first.
 
@@ -225,16 +232,16 @@ Claude must distinguish **formal conventions** from expressive visual choices. W
 Apply the Multimedia Teaching Assistant framework specifically:
 
 ### Characteristics
-Observable/perceivable qualities of value: the variables, type, appearance, arrangement, direction, scale, density, surface, timing or other visible/measurable qualities relevant to this element.
+Observable/perceivable qualities of typography: the variables, type, appearance, arrangement, direction, scale, density, surface, timing or other visible/measurable qualities relevant to this element.
 
 ### Features
-What the use of value enables the design to do: organise, indicate, separate, connect, direct, identify, contain, reveal, support interaction, improve recognition or contribute to function.
+What the use of typography enables the design to do: organise, indicate, separate, connect, direct, identify, contain, reveal, support interaction, improve recognition or contribute to function.
 
 ### Properties
 Technical or measurable qualities that affect behaviour: dimensions, resolution, tolerance, material response, contrast, file format, colour specification, timing, physical structure, process limits or other quantifiable constraints.
 
 ### Attributes
-How the value decision relates to **audience, purpose, communication, meaning, context and experience**. Attributes are not simply visual descriptors; they explain relevance and suitability.
+How the typography decision relates to **audience, purpose, communication, meaning, context and experience**. Attributes are not simply visual descriptors; they explain relevance and suitability.
 
 Claude should help students distinguish these four lenses instead of using the terms interchangeably.
 
@@ -255,16 +262,17 @@ Claude should ask:
 
 Claude must not invent universal production minima. It should explain the risk, identify the relevant process variables and recommend testing against the actual equipment, supplier specifications, substrate and final size.
 
-| Process | Value considerations |
+| Process | Typography considerations |
 |---|---|
-| **Print** | Dot gain, stock colour and ink limits can compress tonal range. |
-| **Screen** | Brightness, ambient light and display calibration affect perceived value. |
-| **Photography/video** | Exposure and compression can clip highlights/shadows. |
-| **Textiles** | Dye, fibre lustre and print penetration affect apparent value. |
+| **Print** | Fine serifs, knockouts and small text require proofing; stock and ink spread affect clarity. |
+| **Screen** | Hinting/rasterisation, device pixel density and font rendering affect small text. |
+| **Web** | Licensing, loading, variable-font support and fallbacks affect implementation. |
+| **Embroidery/vinyl** | Simplify fine counters/strokes and test minimum letter size. |
+| **Motion** | Reading time and compression affect title/caption legibility. |
 
 ## 18. Sustainability
 
-Claude should avoid superficial claims such as “minimal = sustainable”. For value, consider:
+Claude should avoid superficial claims such as “minimal = sustainable”. For typography, consider:
 - whether the treatment changes material, ink, dye, energy or processing requirements;
 - whether complexity increases waste, setup, rejected output or maintenance;
 - whether the system is durable and adaptable across future applications;
@@ -282,29 +290,29 @@ When cultural references are material to a design, Claude should encourage resea
 
 ## 20. Factors Affecting Design
 
-| Factor Affecting Design | Questions and considerations for Value |
+| Factor Affecting Design | Questions and considerations for Typography |
 |---|---|
-| **Appropriateness of the Design Solution** | Does the use of value suit the identified need, user, audience, context, environment and communication purpose? Would another treatment be more appropriate? |
-| **Needs** | What genuine user, communication, functional or contextual need is the value decision responding to? Is the need evidenced or assumed? |
-| **Function / Functionality** | What must the design do, and how does value support or obstruct that task? Distinguish primary from secondary functions. |
-| **Aesthetics** | How does value contribute to the intended visual/sensory character? Describe observable qualities before interpreting them. |
-| **Finance / Cost** | Does the value choice alter development time, material use, tooling, reproduction, licensing, maintenance or production cost? |
-| **Ergonomics** | Does value affect human interaction, comfort, reach, visibility, grip, cognition or ease of use? Only apply where meaningful. |
-| **WHS / Safety** | Could the value decision introduce production, use, maintenance or disposal hazards? Safety requirements override stylistic preference. |
-| **Quality** | Will the value choice reproduce, manufacture, wear and perform consistently at the required standard? |
-| **Resources** | What software, tools, materials, skills, energy, time or specialist processes are required to realise the value decision? |
-| **Short- and Long-Term Environmental Consequences** | What immediate waste/energy/material impacts and longer-term impacts arise from producing and maintaining the value choice? |
+| **Appropriateness of the Design Solution** | Does the use of typography suit the identified need, user, audience, context, environment and communication purpose? Would another treatment be more appropriate? |
+| **Needs** | What genuine user, communication, functional or contextual need is the typography decision responding to? Is the need evidenced or assumed? |
+| **Function / Functionality** | What must the design do, and how does typography support or obstruct that task? Distinguish primary from secondary functions. |
+| **Aesthetics** | How does typography contribute to the intended visual/sensory character? Describe observable qualities before interpreting them. |
+| **Finance / Cost** | Does the typography choice alter development time, material use, tooling, reproduction, licensing, maintenance or production cost? |
+| **Ergonomics** | Does typography affect human interaction, comfort, reach, visibility, grip, cognition or ease of use? Only apply where meaningful. |
+| **WHS / Safety** | Could the typography decision introduce production, use, maintenance or disposal hazards? Safety requirements override stylistic preference. |
+| **Quality** | Will the typography choice reproduce, manufacture, wear and perform consistently at the required standard? |
+| **Resources** | What software, tools, materials, skills, energy, time or specialist processes are required to realise the typography decision? |
+| **Short- and Long-Term Environmental Consequences** | What immediate waste/energy/material impacts and longer-term impacts arise from producing and maintaining the typography choice? |
 | **Sustainability** | Does the decision support durability, adaptability, repair, reuse, lower impact or responsible resource use without making superficial claims? |
-| **Obsolescence** | Could the value treatment become technically incompatible, hard to update, trend-dependent or prematurely dated? |
+| **Obsolescence** | Could the typography treatment become technically incompatible, hard to update, trend-dependent or prematurely dated? |
 | **Life Cycle Analysis** | Where relevant, how does the decision affect extraction, manufacture, distribution, use, maintenance and end-of-life? |
 | **Accessibility** | Can people with different sensory, physical, cognitive and technological needs perceive, understand or use the design? |
-| **Ethics** | Could the value treatment mislead, stereotype, manipulate, exclude, appropriate or misrepresent? Are cultural meanings handled responsibly? |
+| **Ethics** | Could the typography treatment mislead, stereotype, manipulate, exclude, appropriate or misrepresent? Are cultural meanings handled responsibly? |
 
 ## 21. Design trade-offs
 
 Claude must surface trade-offs explicitly. A strong design justification acknowledges what is gained and what may be compromised.
 
-Examples for value include:
+Examples for typography include:
 - **simplicity ↔ expression** — simplification can improve recognition and reproduction but remove nuance;
 - **visibility ↔ subtlety** — stronger treatment improves noticeability but may dominate the hierarchy;
 - **consistency ↔ variety** — system consistency builds recognition but excessive uniformity can reduce flexibility;
@@ -320,7 +328,7 @@ Claude should add element-specific trade-offs from the actual brief rather than 
 
 Use this progression:
 
-1. **Identify** — What use of value is present?
+1. **Identify** — What use of typography is present?
 2. **Describe** — What observable characteristics can be named precisely?
 3. **Explain** — What visual, perceptual or functional effect does the choice create?
 4. **Analyse** — How does it interact with other elements, principles and design decisions?
@@ -331,13 +339,13 @@ Use this progression:
 
 ### Worked progression
 
-**Weak identification:** “The designer used value.”
+**Weak identification:** “The designer used typography.”
 
-**Description:** “The design uses a consistent, high-contrast value treatment with clear variation between primary and secondary content.”
+**Description:** “The design uses a consistent, high-contrast typography treatment with clear variation between primary and secondary content.”
 
 **Explanation:** “This variation establishes a more visible hierarchy, so the primary message is encountered before supporting information.”
 
-**Analysis:** “The value treatment works with scale, spacing and value contrast to separate the primary message from secondary content and guide scanning.”
+**Analysis:** “The typography treatment works with scale, spacing and value contrast to separate the primary message from secondary content and guide scanning.”
 
 **Evaluation:** “The decision is effective for the intended context because it supports rapid recognition while remaining reproducible at the required scale. However, the smallest application should still be tested because the lower-priority treatment may lose clarity when reduced.”
 
@@ -355,9 +363,9 @@ For sophisticated justification:
 
 ### Quality levels
 
-- **Weak:** “I chose this value because it looks good.”
-- **Developing:** “I chose a stronger value treatment so the design stands out.”
-- **Strong:** “I increased the contrast and consistency of the value treatment so the primary information is recognised more quickly, which suits an audience viewing the design briefly on mobile.”
+- **Weak:** “I chose this typography because it looks good.”
+- **Developing:** “I chose a stronger typography treatment so the design stands out.”
+- **Strong:** “I increased the contrast and consistency of the typography treatment so the primary information is recognised more quickly, which suits an audience viewing the design briefly on mobile.”
 - **Sophisticated:** “Testing showed that the lighter treatment lost clarity at small size, while the strongest version dominated the supporting content. I selected the middle option because it preserved hierarchy and reproduction quality across both mobile and print, accepting slightly less visual impact in exchange for better consistency and accessibility.”
 
 Do not make student responses artificially long. Precision is more valuable than verbosity.
@@ -368,7 +376,7 @@ Claude should make experimentation controlled and evidence-based.
 
 | Variable changed | Design variation | Visual/functional effect | Suitability | Improvement |
 |---|---|---|---|---|
-| One value variable | Version A / B / C | Record only what visibly or functionally changed | Compare against brief/audience/criteria | State next evidence-based adjustment |
+| One typography variable | Version A / B / C | Record only what visibly or functionally changed | Compare against brief/audience/criteria | State next evidence-based adjustment |
 
 Recommended process:
 1. Establish a baseline version.
@@ -386,10 +394,10 @@ Use thumbnails for rapid exploration, mock-ups for context, prototypes for funct
 
 ## 25. Branding experimentation
 
-When experimenting with value in a brand project:
+When experimenting with typography in a brand project:
 
 1. Keep the core brand concept and content constant.
-2. Create controlled value variations.
+2. Create controlled typography variations.
 3. Test the variations first in the mark or primary graphic device.
 4. Extend each viable option to at least **three touchpoints**, for example packaging, social post and website/mobile header.
 5. Test small and large scale, positive/negative backgrounds and monochrome where relevant.
@@ -402,11 +410,11 @@ When experimenting with value in a brand project:
 Questions are thinking tools, not merely assessment prompts.
 
 ### Recognition — identify / name
-- Where is value present, actual or implied?
+- Where is typography present, actual or implied?
 - Which type or treatment can be identified?
 
 ### Description — observable characteristics
-- What specific characteristics of value can be described without interpretation?
+- What specific characteristics of typography can be described without interpretation?
 - Which variables are most dominant and where do they change?
 
 ### Explanation — effect
@@ -414,11 +422,11 @@ Questions are thinking tools, not merely assessment prompts.
 - Which observable characteristic produces that effect?
 
 ### Analysis — relationships
-- How does value interact with colour, value, space, scale, typography, imagery or form?
+- How does typography interact with colour, value, space, scale, typography, imagery or form?
 - What would change if this variable were removed or altered?
 
 ### Application — informed choice
-- Which value treatment best responds to the brief and why?
+- Which typography treatment best responds to the brief and why?
 - What production, accessibility or user constraints should shape the decision?
 
 ### Justification
@@ -426,7 +434,7 @@ Questions are thinking tools, not merely assessment prompts.
 - Which factor affecting design most influenced the final decision?
 
 ### Evaluation
-- How effectively does the value treatment meet the intended purpose and criteria?
+- How effectively does the typography treatment meet the intended purpose and criteria?
 - Where does it perform differently across applications or users?
 
 ### Refinement
@@ -440,10 +448,10 @@ Where useful, map questions to the Factors Affecting Design rather than asking d
 Claude should define terms concisely and use them consistently.
 
 ### Core vocabulary
-value level, value range, value contrast, tonal grouping, value pattern, highlights/midtones/shadows, key, opacity/background interaction.
+typeface/family, weight, width, style, size, case, kerning/tracking, leading, line length, alignment, colour/value, hierarchy.
 
 ### Classification vocabulary
-light/middle/dark value, high-key, low-key, monochrome/greyscale, tonal modelling, atmospheric value.
+serif, sans serif, slab serif, script, display, monospaced, variable font.
 
 ### Analysis vocabulary
 contributes to; reinforces; establishes; creates; influences; directs; emphasises; supports; visually connects; differentiates; may communicate; may be perceived as; is appropriate because; interacts with; improves; compromises; reproduces; adapts; scales; clarifies; obscures.
@@ -458,11 +466,12 @@ tolerance; resolution; substrate; reproduction; proof; registration; kerf; tooli
 
 | Misconception | Correction | Better way to think about it |
 |---|---|---|
-| Value means monetary value. | In visual design, value means relative lightness/darkness. | Use 'tonal value' if ambiguity exists. |
-| Different hues always have different values. | Distinct hues can share similar lightness. | Use greyscale testing. |
-| Dark automatically means serious. | Associations are context dependent. | Describe value structure before interpretation. |
+| Typeface and font are identical terms. | Typeface is the design family; font is a specific style/instance or digital resource. | Use terms accurately when precision matters. |
+| Serif is always more readable in print and sans serif on screen. | Readability depends on the specific typeface, size, spacing, medium and reader. | Evaluate actual use conditions. |
+| Typography is just choosing a font. | Typography includes hierarchy, spacing, alignment, scale and system behaviour. | Analyse the whole system. |
+| A brand font automatically creates brand consistency. | Consistency requires repeatable rules for hierarchy, spacing, weights and applications. | Specify usage, not only selection. |
 | Personal preference is a design justification. | Preference does not demonstrate suitability. | Connect the decision to audience, purpose, criteria, evidence and constraints. |
-| The element alone creates a principle. | Principles arise from relationships among elements. | Explain how value contributes to contrast, balance, hierarchy, rhythm or another principle. |
+| The element alone creates a principle. | Principles arise from relationships among elements. | Explain how typography contributes to contrast, balance, hierarchy, rhythm or another principle. |
 | Digital success guarantees physical reproduction. | Screens and production processes have different constraints. | Test realistic output conditions. |
 
 ## 29. Language rules for Claude
@@ -531,12 +540,12 @@ Where appropriate:
 
 When this skill is active, Claude must:
 
-1. Treat **Value as an intentional design variable**, not a label to identify.
+1. Treat **Typography as an intentional design variable**, not a label to identify.
 2. Start from observable characteristics before making interpretive claims.
 3. Connect **characteristic → effect → communication/function → suitability → evaluation**.
 4. Use the **Characteristics / Features / Properties / Attributes** framework when analysing in depth.
 5. Apply relevant **Factors Affecting Design** rather than forcing every factor into every task.
-6. Distinguish value from closely related elements and principles.
+6. Distinguish typography from closely related elements and principles.
 7. Avoid universal claims about emotion, symbolism, culture or brand personality.
 8. Ask what the design must do for its audience, user, purpose and context.
 9. Surface trade-offs and rejected alternatives in strong justification.
@@ -545,7 +554,7 @@ When this skill is active, Claude must:
 12. Distinguish static, time-based, digital, physical and technical applications where relevant.
 13. Encourage controlled experimentation with one variable at a time where practical.
 14. Require evidence for evaluative claims.
-15. Preserve formal technical conventions when value carries standardised meaning.
+15. Preserve formal technical conventions when typography carries standardised meaning.
 16. Use Australian English and NSW TAS command verbs accurately.
 17. Scale scaffolding from support to extension without changing the conceptual accuracy.
 18. Prefer concise, precise student language over inflated responses.
@@ -555,7 +564,7 @@ When this skill is active, Claude must:
 ## 33. Quality-control checklist
 
 Before finalising any resource or analysis using this skill, verify that:
-- value is explained beyond a textbook definition;
+- typography is explained beyond a textbook definition;
 - core variables are named precisely;
 - branding is treated as a system;
 - multimedia and time-based use are addressed where relevant;

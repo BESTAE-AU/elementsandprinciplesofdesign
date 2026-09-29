@@ -8,20 +8,20 @@ Each skill is a self-contained `SKILL.md` in `.claude/skills/`, so Claude Code l
 
 | # | Element | Skill name | File |
 |---|---------|------------|------|
-| 1 | Line | `element-of-design-line` | [`.claude/skills/element-of-design-line/SKILL.md`](.claude/skills/element-of-design-line/SKILL.md) |
-| 2 | Direction | `element-of-design-direction` | [`.claude/skills/element-of-design-direction/SKILL.md`](.claude/skills/element-of-design-direction/SKILL.md) |
-| 3 | Shape | `element-of-design-shape` | [`.claude/skills/element-of-design-shape/SKILL.md`](.claude/skills/element-of-design-shape/SKILL.md) |
-| 4 | Form | `element-of-design-form` | [`.claude/skills/element-of-design-form/SKILL.md`](.claude/skills/element-of-design-form/SKILL.md) |
-| 5 | Space | `element-of-design-space` | [`.claude/skills/element-of-design-space/SKILL.md`](.claude/skills/element-of-design-space/SKILL.md) |
-| 6 | Size and Scale | `element-of-design-size-and-scale` | [`.claude/skills/element-of-design-size-and-scale/SKILL.md`](.claude/skills/element-of-design-size-and-scale/SKILL.md) |
-| 7 | Time and Duration | `element-of-design-time-and-duration` | [`.claude/skills/element-of-design-time-and-duration/SKILL.md`](.claude/skills/element-of-design-time-and-duration/SKILL.md) |
-| 8 | Value | `element-of-design-value` | [`.claude/skills/element-of-design-value/SKILL.md`](.claude/skills/element-of-design-value/SKILL.md) |
-| 9 | Colour | `element-of-design-colour` | [`.claude/skills/element-of-design-colour/SKILL.md`](.claude/skills/element-of-design-colour/SKILL.md) |
-| 10 | Texture | `element-of-design-texture` | [`.claude/skills/element-of-design-texture/SKILL.md`](.claude/skills/element-of-design-texture/SKILL.md) |
-| 11 | Typography | `element-of-design-typography` | [`.claude/skills/element-of-design-typography/SKILL.md`](.claude/skills/element-of-design-typography/SKILL.md) |
-| 12 | Layout and Composition | `element-of-design-layout-and-composition` | [`.claude/skills/element-of-design-layout-and-composition/SKILL.md`](.claude/skills/element-of-design-layout-and-composition/SKILL.md) |
+| 1 | Line | `line-element-of-design` | [`.claude/skills/line-element-of-design/SKILL.md`](.claude/skills/line-element-of-design/SKILL.md) |
+| 2 | Direction | `direction-element-of-design` | [`.claude/skills/direction-element-of-design/SKILL.md`](.claude/skills/direction-element-of-design/SKILL.md) |
+| 3 | Shape | `shape-element-of-design` | [`.claude/skills/shape-element-of-design/SKILL.md`](.claude/skills/shape-element-of-design/SKILL.md) |
+| 4 | Form | `form-element-of-design` | [`.claude/skills/form-element-of-design/SKILL.md`](.claude/skills/form-element-of-design/SKILL.md) |
+| 5 | Space | `space-element-of-design` | [`.claude/skills/space-element-of-design/SKILL.md`](.claude/skills/space-element-of-design/SKILL.md) |
+| 6 | Size and Scale | `size-and-scale-element-of-design` | [`.claude/skills/size-and-scale-element-of-design/SKILL.md`](.claude/skills/size-and-scale-element-of-design/SKILL.md) |
+| 7 | Time and Duration | `time-and-duration-element-of-design` | [`.claude/skills/time-and-duration-element-of-design/SKILL.md`](.claude/skills/time-and-duration-element-of-design/SKILL.md) |
+| 8 | Value | `value-element-of-design` | [`.claude/skills/value-element-of-design/SKILL.md`](.claude/skills/value-element-of-design/SKILL.md) |
+| 9 | Colour | `colour-element-of-design` | [`.claude/skills/colour-element-of-design/SKILL.md`](.claude/skills/colour-element-of-design/SKILL.md) |
+| 10 | Texture | `texture-element-of-design` | [`.claude/skills/texture-element-of-design/SKILL.md`](.claude/skills/texture-element-of-design/SKILL.md) |
+| 11 | Typography | `typography-element-of-design` | [`.claude/skills/typography-element-of-design/SKILL.md`](.claude/skills/typography-element-of-design/SKILL.md) |
+| 12 | Layout and Composition | `layout-and-composition-element-of-design` | [`.claude/skills/layout-and-composition-element-of-design/SKILL.md`](.claude/skills/layout-and-composition-element-of-design/SKILL.md) |
 
 ## Using the skills elsewhere
 
 - **Claude Code (another project or globally):** copy a skill folder into that project's `.claude/skills/` or into `~/.claude/skills/`.
-- **Claude.ai:** zip a single skill folder (e.g. `element-of-design-colour/`) and upload it under *Settings → Capabilities → Skills*.
+- **Claude.ai:** zip a single skill folder (e.g. `colour-element-of-design/`) and upload it under *Settings → Capabilities → Skills*.
