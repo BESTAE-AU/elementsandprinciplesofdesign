@@ -6,7 +6,13 @@
 - *Readability: WCAG contrast. Body text needs 4.5:1; large text and UI marks need 3:1.*
 - *Distinguishability: CIE ΔE colour difference. Under 5 is barely visible and under 10 is easy to confuse.*
 
-*These are recommendations only. Nothing has been changed.*
+> **Status: all recommendations applied (29 Sept 2026).**
+> - **BESTAE (v8):** `t5` is now `#E8F6C4`, `t8` is now `#D2DCE8`, and `t10` is now **`#F7D0E6`**. That is pink at 32%, not the 35% `#F6CCE4` proposed below, because denim links on `#F6CCE4` were only 4.42:1. On `#F7D0E6` they are 4.56:1, and it is ΔE 10.0 from `t2`.
+> - **Greyscale (v3):** `link` is now `#5E5E5E`, and the coding set is named.
+> - **MBE (v8):** `accent-bloom-deep` `#e3008c` and `border-strong` `#a48061` added.
+> - **MCCNS:** no change.
+>
+> The same values are carried into the swatches, the Word template, the PowerPoint copy, the site map, the greyscale skill copy and a Dropbox note.
 
 ## Summary
 

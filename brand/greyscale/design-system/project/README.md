@@ -14,8 +14,8 @@ The palette is `ink`, six shading steps `accent-1` (lightest) to `accent-6` (dar
 
 | Fill | Text | Never |
 |---|---|---|
-| `reverse` (paper) | `ink` 21 · `muted` 6.5 · `link-followed` 12.5 | `link` 3.5 (underline it; see below) |
-| `pale` | `ink` 12.9 | `muted` 4.0 · `link` 2.1 · `reverse` 1.6 |
+| `reverse` (paper) | `ink` 21 · `muted` 6.5 · `link` 6.5 · `link-followed` 12.5 | — |
+| `pale` | `ink` 12.9 | `muted` 4.0 · `link` 4.0 · `reverse` 1.6 |
 | `accent-1` | `ink` 7.2 | `reverse` 2.9 |
 | `accent-2` | `ink` 5.8 | `reverse` 3.6 |
 | `accent-3` | *either, at the edge* (`ink` 4.67, `reverse` 4.50). Fills, bars and rules only, or bold 14 pt+ | body text |
@@ -24,8 +24,8 @@ The palette is `ink`, six shading steps `accent-1` (lightest) to `accent-6` (dar
 | `accent-6` | `reverse` 11.6 | `ink` 1.8 |
 
 - **One rule to remember:** `ink` on `pale`, `accent-1` and `accent-2`; `reverse` on `accent-4`, `accent-5` and `accent-6`; nothing on `accent-3`.
-- **Shading that must be told apart:** neighbouring accents are only 1.24–1.3:1 apart, and toner spread closes that gap further. When shades code categories (e.g. mark bands, question types), **skip a step**: use `pale`, `accent-2`, `accent-4` and `accent-6`. Label every coded row or panel in words as well.
-- **Links:** `link` grey is 3.5:1 on paper. Print ignores link colour, so always underline links. In on-screen PDFs set link text in `ink` or `muted` with an underline.
+- **The coding set:** when shading marks a category (mark bands, question types, domains), use only `pale`, `accent-2`, `accent-4` and `accent-6`. They are 2.2, 1.95 and 1.65:1 apart; neighbouring accents are only 1.24–1.3:1 and blur together in print. `accent-1`, `accent-3` and `accent-5` are for decoration and fills. Label every coded row or panel in words as well.
+- **Links:** `link` is now `#5E5E5E` (6.5:1 on paper; it was `#898A89` at 3.5:1). Always underline links. On `pale`, set links in `ink` underlined. The Hyperlink style in `Greyscale Workbooklet.dotm` needs the same change.
 - **Captions on `pale`** use `ink`, not `muted` (4.0:1).
 - **Check the print:** after a test print, look at white-on-grey and grey panels on the actual printer. Tone gain makes darks heavier and can fill in `accent-3`.
 

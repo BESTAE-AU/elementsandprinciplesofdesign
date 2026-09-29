@@ -13,7 +13,7 @@ const C = {
   ink: "041E42", white: "FFFFFF", muted: "5B6470", line: "C9CDD6",
   h: { 1: "AC145A", 2: "FF585D", 3: "F19C49", 4: "F3EA5D", 5: "C5E86C", 6: "00B2A2", 7: "007F98", 8: "326295", 9: "514689", 10: "E56DB1" },
   s: { 1: "651C32", 2: "551C25", 3: "4F2C1D", 4: "8A6400", 5: "1C4220", 6: "024638", 7: "003540", 8: "041E42", 9: "201547", 10: "621244" },
-  t: { 1: "EEDAEA", 2: "F5DADF", 3: "FFDFB4", 4: "F7F4A2", 5: "EFF4A4", 6: "D7EFE7", 7: "DCEBEC", 8: "D5EBEE", 9: "DCD3E7", 10: "F2DEE9" },
+  t: { 1: "EEDAEA", 2: "F5DADF", 3: "FFDFB4", 4: "F7F4A2", 5: "E8F6C4", 6: "D7EFE7", 7: "DCEBEC", 8: "D2DCE8", 9: "DCD3E7", 10: "F7D0E6" },
 };
 // White text only on these H fills; every other H fill takes ink.
 const WHITE_ON_H = new Set([1, 7, 8, 9]);

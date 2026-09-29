@@ -38,9 +38,11 @@ Six source colours, expanded into usable tokens. Full values and usage notes are
 | `surface-900` deep green | `ink-inverse` 11.3 · white 13.5 | `ink-muted` 1.6 |
 | `accent-warm` peach | `accent-warm-ink` 6.7 | `ink-muted` 4.3 · white 2.0 · cream 1.7 |
 | `accent-bloom` pink | `accent-bloom-ink` 4.25 **or** white 3.18 — **large/bold only** (24px+, or bold 19px+) | any small text |
+| `accent-bloom-deep` deep pink | white 4.5 | — |
 
-- **Bloom buttons:** label in `accent-bloom-ink`, bold, 19px or larger. If a CTA needs smaller text, use a `brand-primary` button instead and let the pink carry a badge or hover state.
-- **Borders:** `border` is decorative only (1.25:1 on cream). Inputs, focus rings and anything interactive use `ink-muted` (7.3:1).
+- **Bloom buttons:** large CTAs use `accent-bloom` with an `accent-bloom-ink` label, bold, 19px or larger. Small pink CTAs and labels use `accent-bloom-deep` (`#e3008c`) with white text (4.5:1). The logo always stays `accent-bloom`.
+- **Borders:** `border` is decorative only (1.25:1 on cream). Inputs, focus rings and anything interactive use `border-strong` (`#a48061`, 3.0:1 on cream, 3.6:1 on white).
+- **Cards on cream:** `surface-000` and `surface-100` are only 1.2:1 apart, so a white card on cream needs a `border` or a soft shadow to read as a card.
 - **Pink and peach** are 1.6:1 apart. Never use them side by side as the only difference between two things.
 - **Logo:** WCAG exempts logos from contrast rules, but the pink mark is only 2.7:1 on cream. At small sizes (favicon, social avatar, footer) place it on `surface-000` or `surface-900` (4.25:1).
 - **Print:** `utility-black` and `utility-white` are for production files. The bright pink and peach are outside the CMYK gamut, so soft-proof them and specify spot colours if exact matching matters.

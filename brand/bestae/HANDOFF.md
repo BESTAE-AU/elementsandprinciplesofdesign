@@ -45,5 +45,12 @@ Text-on-fill rules:
 - [x] Greyscale Workbooklet design system created: https://claude.ai/artifact/AHsqwt586J6rMJDpkqSdL8
 - [x] MCCNS type sizes converted from pt to px. The design system format drops pt sizes.
 - [ ] Re-upload the updated skill `brand/greyscale/greyscale-print-design-system.zip` at claude.ai › Settings › Capabilities › Skills, replacing the current one. It adds the colour usage rules.
-- [ ] Decide whether the Greyscale Link grey (#898A89, 3.5:1) should change in `Greyscale Workbooklet.dotm`, or whether links should simply be underlined in Ink.
-- [ ] MBE: decide whether bloom CTAs stay bold 19px+ with a green label, or whether small CTAs switch to deep-green buttons.
+- [ ] Greyscale: in `Greyscale Workbooklet.dotm`, change the Hyperlink style colour from #898A89 to **#5E5E5E** (decided and applied in the design system and skill).
+- [x] MBE: small pink CTAs use the new `accent-bloom-deep` #e3008c with white text; inputs use `border-strong` #a48061.
+
+## Cross-system audit fixes (applied the same day)
+- [x] BESTAE tints: `t5` #E8F6C4, `t8` #D2DCE8, `t10` #F7D0E6. Design system v8, swatches, Word template, PowerPoint copy and site map are all updated, and a Dropbox note is added.
+- [ ] Canva brand kits: also change `EFF4A4` to `E8F6C4`, `D5EBEE` to `D2DCE8` and `F2DEE9` to `F7D0E6` (as well as the earlier two changes).
+- [ ] Adobe: reload `brand/bestae/swatches/bestae.ase` (re-exported with the new tints).
+- [ ] Re-upload the greyscale skill zip again. It now has the new link colour and the coding set.
+- [ ] MBE: add `#e3008c` and `#a48061` to any MBE Canva brand kit or website stylesheet.

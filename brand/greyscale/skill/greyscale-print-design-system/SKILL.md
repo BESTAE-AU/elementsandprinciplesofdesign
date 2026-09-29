@@ -180,7 +180,7 @@ Never substitute Aptos, Calibri or Times New Roman.
 | Accent 5 | #494A49 | |
 | Accent 6 | #383938 | Darkest table shading |
 | Muted | #5E5E5E | Caption, Subtle/Intense Reference |
-| Link | #898A89 | Hyperlink (followed #343433) |
+| Link | #5E5E5E | Hyperlink, underlined (followed #343433). Changed from #898A89 (3.5:1) on 29 Sept 2026 |
 | Pale | #CACBCA | Block Text, grid module fills |
 | Reverse | #FFFFFF | Text on Accent 4–6 fills only |
 
@@ -190,15 +190,15 @@ Anything with hue is off-system — flag it rather than inserting it.
 
 | Fill | Text on it | Never |
 |---|---|---|
-| Paper (white) | Ink 21 · Muted 6.5 · Link-followed 12.5 | Link #898A89 (3.5:1), unless underlined |
-| Pale | Ink 12.9 | Muted 4.0 · Link 2.1 · White 1.6 |
+| Paper (white) | Ink 21 · Muted 6.5 · Link 6.5 · Link-followed 12.5 | — |
+| Pale | Ink 12.9 | Muted / Link 4.0 · White 1.6 |
 | Accent 1 / 2 | Ink 7.2 / 5.8 | White 2.9 / 3.6 |
 | Accent 3 | Either is at the edge (Ink 4.67, White 4.50). Use for fills, bars and rules, or bold 14 pt+ only | Body text |
 | Accent 4 / 5 / 6 | White 7.0 / 8.9 / 11.6 | Ink 3.0 / 2.4 / 1.8 |
 
 - **Short version:** Ink on Pale and Accents 1–2; White on Accents 4–6; no text on Accent 3.
-- **Shading that codes categories must skip a step** (Pale, Accent 2, Accent 4, Accent 6). Neighbouring accents are only 1.24–1.3:1 apart, and toner spread closes the gap further. Label coded rows and panels in words too.
-- **Links:** always underline them. In on-screen PDFs set link text in Ink or Muted, not the Link grey.
+- **The coding set:** only Pale, Accent 2, Accent 4 and Accent 6 mark categories. Neighbouring accents are only 1.24–1.3:1 apart, and toner spread closes the gap further. Label coded rows and panels in words too.
+- **Links:** always underline them. On Pale, set links in Ink. Update the Hyperlink style in Greyscale Workbooklet.dotm to #5E5E5E.
 - **Captions on Pale panels** use Ink, not Muted.
 - **Proportion:** about 60% paper, 30% light structure (Pale, Accents 1–2, Ink text), 10% dark emphasis (Accents 4–6).
 - When converting a colour resource (BESTAE or MCCNS) to this system, put the domain or category name on every coded panel, because colour meaning is lost in greyscale.

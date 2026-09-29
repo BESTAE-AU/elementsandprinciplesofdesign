@@ -22,11 +22,11 @@
 #F5DADF  t2-soft-blush
 #FFDFB4  t3-apricot
 #F7F4A2  t4-buttermilk
-#EFF4A4  t5-lime-cream
+#E8F6C4  t5-lime-cream
 #D7EFE7  t6-swans-down
 #DCEBEC  t7-mystic
-#D5EBEE  t8-crushed-ice
+#D2DCE8  t8-crushed-ice
 #DCD3E7  t9-periwinkle
-#F2DEE9  t10-powder-pink
+#F7D0E6  t10-powder-pink
 #FFFFFF  surface
 #041E42  ink

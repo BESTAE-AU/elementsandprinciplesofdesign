@@ -44,7 +44,7 @@
   "lastChange": {
     "by": "Britt",
     "via": "Claude Code",
-    "at": "2026-09-29T00:40:16Z",
-    "note": "Colour usage rules added (60-30-10, WCAG text-on-ground table, bloom button rule, border and logo notes). Corrected accent-bloom-ink note (4.25:1 is large/bold only). No colour values changed."
+    "at": "2026-09-29T01:06:22Z",
+    "note": "Added accent-bloom-deep #e3008c (small pink CTAs, white text 4.5:1) and border-strong #a48061 (inputs/focus 3:1). Logo pink unchanged."
   }
 }
