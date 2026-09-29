@@ -1,0 +1,105 @@
+{
+  "name": "MCCNS",
+  "colours": [
+    {
+      "name": "MCC Navy",
+      "hex": "#001D3E",
+      "rgb": [
+        0,
+        29,
+        62
+      ],
+      "hsb": [
+        212,
+        100,
+        24
+      ],
+      "cmyk_approx": [
+        100,
+        53,
+        0,
+        76
+      ]
+    },
+    {
+      "name": "MCC Light Blue",
+      "hex": "#909DB2",
+      "rgb": [
+        144,
+        157,
+        178
+      ],
+      "hsb": [
+        217,
+        19,
+        70
+      ],
+      "cmyk_approx": [
+        19,
+        12,
+        0,
+        30
+      ]
+    },
+    {
+      "name": "MCC Light Blue (printed HEX)",
+      "hex": "#D9DDE2",
+      "rgb": [
+        217,
+        221,
+        226
+      ],
+      "hsb": [
+        213,
+        4,
+        89
+      ],
+      "cmyk_approx": [
+        4,
+        2,
+        0,
+        11
+      ]
+    },
+    {
+      "name": "MCC Yellow",
+      "hex": "#FFCB05",
+      "rgb": [
+        255,
+        203,
+        5
+      ],
+      "hsb": [
+        48,
+        98,
+        100
+      ],
+      "cmyk_approx": [
+        0,
+        20,
+        98,
+        0
+      ]
+    },
+    {
+      "name": "MCC Cerise",
+      "hex": "#A6214D",
+      "rgb": [
+        166,
+        33,
+        77
+      ],
+      "hsb": [
+        340,
+        80,
+        65
+      ],
+      "cmyk_approx": [
+        0,
+        80,
+        54,
+        35
+      ]
+    }
+  ]
+}
