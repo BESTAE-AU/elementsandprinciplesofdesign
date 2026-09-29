@@ -31,6 +31,23 @@ Package with the skill-creator `package_skill.py` script (or zip the `principles
 folder) and upload it via Claude settings → Capabilities → Skills, or copy the folder into
 `~/.claude/skills/` for Claude Code.
 
+## `skills/` — one skill per Principle
+
+Fifteen standalone skills, each named with the Principle first so it's easy to find:
+`unity-principle-of-design`, `harmony-principle-of-design`, `balance-principle-of-design`,
+`alignment-principle-of-design`, `proximity-principle-of-design`, `proportion-principle-of-design`,
+`hierarchy-principle-of-design`, `emphasis-principle-of-design`, `contrast-principle-of-design`,
+`repetition-principle-of-design`, `pattern-principle-of-design`, `rhythm-principle-of-design`,
+`movement-principle-of-design`, `tension-principle-of-design`, `variety-principle-of-design`.
+
+Each contains the full knowledge for that Principle plus the shared reasoning model, related
+distinctions, causal chains, exemplars and working protocols, so it works on its own. They are
+generated from `principles-of-design/references/` — edit the content there, then rebuild:
+
+```
+python3 tools/build_principle_skills.py
+```
+
 ## `source/`
 
 Reference material the skill was built from. These files are not part of the installed skill.
