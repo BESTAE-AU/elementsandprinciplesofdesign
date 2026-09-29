@@ -1,0 +1,29 @@
+<!-- @dsCard height=288 -->
+<style>
+  html, body { margin: 0; padding: 0; background: var(--surface); }
+  .cover { width: 960px; height: 288px; display: block; }
+  .navy { fill: var(--mcc-navy); }
+  .light-blue { fill: var(--mcc-light-blue); }
+  .cerise { fill: var(--mcc-cerise); }
+  .spear { stroke: var(--mcc-yellow); stroke-width: 4; }
+  .name { font-family: var(--font-gotham); font-size: 96px; font-weight: 500; fill: var(--ink); }
+  .tagline { font-family: var(--font-gotham); font-size: 14px; font-weight: 400; fill: var(--ink); }
+</style>
+<div class="root">
+  <svg class="cover" viewBox="0 0 960 288" xmlns="http://www.w3.org/2000/svg">
+    <!--
+      Blocks: mcc-navy 240×288 slab (primary, the colour the college is known by), mcc-light-blue 240×168 and mcc-cerise 240×108 stacked beside it; together half the cover. mcc-yellow appears only as the pattern.
+      Arrangement: one tall navy slab with two satellites, square corners (the guideline defines no radius), flush with a 12px white gap — navy and cerise never touch, per the brand's own rule.
+      Pattern: editorial hairline rules — three mcc-yellow "spear" dividers across the navy slab; chosen because the guideline's only graphic divider is the spear and its type pairs Garamond headings with Gotham.
+      Scales: the guideline has no spacing or radius scale; gaps are 12px and rules 4px, square corners throughout.
+    -->
+    <rect class="navy" x="480" y="0" width="240" height="288" />
+    <rect class="light-blue" x="732" y="0" width="228" height="168" />
+    <rect class="cerise" x="732" y="180" width="228" height="108" />
+    <line class="spear" x1="480" y1="96" x2="720" y2="96" />
+    <line class="spear" x1="480" y1="144" x2="720" y2="144" />
+    <line class="spear" x1="480" y1="192" x2="720" y2="192" />
+    <text class="name" x="48" y="206">MCCNS</text>
+    <text class="tagline" x="52" y="236">Marist Catholic College North Shore</text>
+  </svg>
+</div>

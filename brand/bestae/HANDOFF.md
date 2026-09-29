@@ -32,3 +32,10 @@ Text-on-fill rules:
 6. **Adobe:** load `swatches/bestae.ase` into the Illustrator, InDesign and Photoshop Swatches panels.
 7. **Claude Projects:** check the Multimedia project (and any other) for knowledge files that hold BESTAE colours, and update them.
 8. **Claude skills:** upload the seven colour skill zips (`dist/*.zip`) at claude.ai › Settings › Capabilities › Skills.
+
+## MCCNS (added later the same day)
+- [x] MCCNS colour usage guide: `brand/mccns/colour-usage-guide.md`. Swatches are in `brand/mccns/swatches/`. No brand components were changed.
+- [x] MCCNS design system in Claude: https://claude.ai/artifact/G6i4tRCPKbEKhM5PwcBNF5. A copy of its files is in `brand/mccns/design-system/`.
+- [ ] Ask the MCCNS marketing office to confirm that Light Blue is `#909DB2`. The guideline's RGB, CMYK and swatch all say so, but its printed HEX `#D9DDE2` looks like a misprint.
+- [ ] Get the official `.eps` logo suite, Mary's Monogram and the spear files from the school, and add them to the design system's Logos group.
+- [ ] Canva: add a MCCNS brand kit from `brand/mccns/swatches/mccns-canva-paste-list.txt`, if there isn't one yet.

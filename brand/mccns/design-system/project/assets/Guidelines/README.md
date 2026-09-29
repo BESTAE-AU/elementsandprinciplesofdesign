@@ -1,0 +1,1 @@
+`MCCNS-Visual-Identity-Guidelines-2020.pdf` is the college's original 9-page guideline (November 2020) and the source of every value in this system. Where this system and the PDF disagree, the PDF wins. The one exception is Light Blue's printed HEX (`#D9DDE2`), which contradicts the PDF's own RGB, CMYK and swatch (`#909DB2`).
