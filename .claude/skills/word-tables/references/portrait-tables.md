@@ -26,8 +26,8 @@ area, so a 19 cm table lines up with the text and other blocks above and below
 it.
 
 **18 cm — alternative portrait table width.** It sits 5 mm in from each margin
-when centred. Use it where it gives cleaner column divisions (see the tie-break
-in `sizing.md`), or where a slightly inset table reads better, for example a
+when centred. Use it where it gives cleaner column divisions (see "Preferred or alternative
+width?" in `sizing.md`), or where a slightly inset table reads better, for example a
 short reference table between paragraphs of text.
 
 Don't use widths between or below these (17 cm, 18.5 cm, a table dragged to fit).
@@ -93,7 +93,7 @@ longer list should run down the page.
 
 ## Portrait height
 
-Usable height is 27.3 cm. After a Heading 4 table heading and a header row, allow
+Usable height is 27.3 cm. After a table title and a header row, allow
 roughly **24 cm for the table body**. That is 50% more than on a landscape page.
 This is why long, narrow tables belong in portrait.
 

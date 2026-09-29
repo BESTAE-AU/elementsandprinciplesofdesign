@@ -29,6 +29,33 @@ the landscape content area on both flat printouts and booklets (see
 Orientation changes the available width. It does **not** change the design
 system.
 
+## Principles
+
+These principles drive every rule in this skill. When a situation isn't covered,
+reason from them.
+
+1. **Structure follows information.** Decide what the table is for and how
+   students will read it before choosing any dimension. Orientation, width and
+   column sizes serve that structure, never the other way round.
+2. **One system, two widths.** Portrait and landscape share every rule except the
+   width grid. Landscape is an extension, not a separate style.
+3. **Intentional, not equal.** Every column width is a decision about how much
+   space its content needs. Equal columns are right only when the content is
+   genuinely parallel (comparison items, grade levels).
+4. **Examples, not presets.** The example structures and default values show good
+   decisions. They aren't a menu to pick from. Size for the actual content.
+5. **Clarity over convenience.** Don't switch orientation, shrink text or drop to
+   the alternative width to avoid making a proper decision. Change the structure
+   instead.
+6. **Consistency across the booklet.** Tables in one workbooklet should look like
+   they belong together: the same widths, header treatment, borders and spacing.
+7. **Readable in print and accessible.** Everything must work in greyscale on
+   paper and make sense to a screen reader.
+
+Where a rule's default value (a padding, a border weight, a row height) clearly
+works against these principles for a particular table, depart from it. State
+the reason in your reply to the user.
+
 ## How this skill fits with the print design system
 
 When the document uses the Greyscale Workbooklet template, the
@@ -66,8 +93,8 @@ Where the two seem to disagree:
    portrait. Use the tests in `references/landscape-tables.md` ("Choosing
    portrait or landscape").
 3. **Choose the table width.** Try the preferred width (19 / 27 cm) first. Apply
-   the tie-break in `references/sizing.md` to decide whether the alternative
-   (18 / 26 cm) is better.
+   "Preferred or alternative width?" in `references/sizing.md`. Move to the
+   alternative (18 / 26 cm) only when it gives a clearly cleaner structure.
 4. **Size the columns** for their content, above the minimum widths in
    `references/sizing.md`. Check that they add up exactly to the table width.
 5. **Style the table**: headings, fills, borders, separators, response space.

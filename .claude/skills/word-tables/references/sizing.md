@@ -9,20 +9,32 @@
 
 Start with the preferred width.
 
-### Tie-break: preferred or alternative width?
+### Preferred or alternative width?
 
-Work through these in order and stop at the first one that decides it:
+**Keep the preferred width (19 / 27 cm)** whenever the columns can be sized
+properly for their content in whole or half centimetres.
 
-1. **Whole centimetres.** Pick the width where every column can be a whole
-   centimetre. For example, five equal criterion columns plus a 6 cm label column
-   fit 26 cm exactly (6 + 4 × 5), but 27 cm would need 4.25 cm columns.
-2. **Fewest half-centimetres.** If neither width gives all whole centimetres,
-   pick the one needing fewer 0.5 cm columns.
-3. **Room for the widest column.** If both work equally, choose the preferred
-   width. The extra centimetre goes to the column with the most text.
+Two equal columns at 9.5 + 9.5 cm are a valid 19 cm table. Don't drop to 18 cm
+just to avoid a half centimetre.
 
-Why: whole-centimetre columns keep tables across a booklet visually related and
-make the widths easy to check and reproduce.
+**Move to the alternative width (18 / 26 cm)** only when it gives a clearly
+cleaner or more logical structure. For example:
+
+- **The preferred width can't be divided in 0.5 cm steps.** Three equal columns:
+  19 cm would need 6.33 cm each, so use 18 cm = 6 + 6 + 6.
+- **The preferred width forces a column to be wider than its content needs**,
+  just to use up the space, and the alternative removes that empty space.
+- **The alternative lines up the columns with a related table** on the same page
+  or spread. For example, a response table directly under an 18 cm reference
+  table uses the same column boundaries.
+
+Before switching, try redistributing at the preferred width. Often moving 1 cm
+from one column to another resolves the problem. For example, an A–E rubric at
+27 cm can be 7 + 4 + 4 + 4 + 4 + 4 (see `worked-examples.md`).
+
+Why: the preferred width keeps tables lined up with the content area and with
+each other across a booklet. The alternative exists to serve the information
+structure, not to avoid a half centimetre.
 
 ## Column widths
 
@@ -87,7 +99,7 @@ down the left edge that names the group the rows beside it belong to, such as
 
 Use it when rows fall into two or more named groups and students need to see the
 grouping at a glance. Don't use it for a table with only one group; use a
-Heading 4 table heading instead.
+header row or a title instead.
 
 Specification:
 

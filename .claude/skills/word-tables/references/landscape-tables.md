@@ -35,8 +35,8 @@ or
 
 **26 cm — alternative landscape table width**
 
-Both fit in both bindings. Choose between them with the tie-break in
-`sizing.md`.
+Both fit in both bindings. Choose between them with the width rules in
+`sizing.md`: keep 27 cm unless 26 cm gives a clearly cleaner structure.
 
 ---
 
@@ -123,7 +123,7 @@ substantially more space.
 ## Landscape pages are short
 
 A landscape page gains width but loses height. Usable height is 19 cm (flat) or
-18.6 cm (booklet), against 27.3 cm in portrait. After a Heading 4 table heading
+18.6 cm (booklet), against 27.3 cm in portrait. After a table title
 and a header row, allow roughly **16 cm for the table body**.
 
 So a wide table fits fewer rows, and keeping the whole table on one page gets

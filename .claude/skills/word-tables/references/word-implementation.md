@@ -91,7 +91,7 @@ in between if used). Wrong order can make Word report the file as corrupt.
 ```
 
 Keep a short table on one page by setting `<w:keepNext/>` on the paragraphs in
-every row except the last. Set it on the Heading 4 table heading as well.
+every row except the last. Set it on any title paragraph directly above the table as well.
 
 ### Cells
 
@@ -165,7 +165,7 @@ For a landscape table between portrait pages:
 ```
 … portrait content …
 <w:p><w:pPr><w:sectPr> PORTRAIT </w:sectPr></w:pPr></w:p>            ← ends portrait section
-<w:p> Heading 4 table heading </w:p>
+<w:p> table title, if any (keep with next) </w:p>
 <w:tbl> … landscape table … </w:tbl>
 <w:p><w:pPr> tiny carrier … <w:sectPr> LANDSCAPE, nextPage </w:sectPr></w:pPr></w:p>  ← ends landscape section
 … portrait content continues …

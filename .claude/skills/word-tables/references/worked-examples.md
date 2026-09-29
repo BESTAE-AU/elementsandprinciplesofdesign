@@ -5,7 +5,7 @@ reasoning, not the numbers: different content gives different widths.
 
 ---
 
-## Example 1: A–E analytic rubric → landscape, 26 cm
+## Example 1: A–E analytic rubric → landscape, 27 cm
 
 **Content:** 4 criteria (Research, Ideation, Making, Evaluation), each described
 at 5 achievement levels (A–E). Each descriptor is 1–3 sentences.
@@ -17,27 +17,32 @@ at 5 achievement levels (A–E). Each descriptor is 1–3 sentences.
 - The numeric test is met (4 or more achievement-level columns plus a criterion
   column), and students need to compare across levels. → **Landscape.**
 
-**Width.** The criterion column needs about 6 cm (a name plus a short
-explanation). Try both widths:
-- 27 cm: 6 + 5 × 4.2. Not whole centimetres.
-- 26 cm: 6 + 5 × 4. All whole centimetres. → **26 cm**, by the first tie-break
-  rule.
+**Width.** The criterion column needs about 6–7 cm (a name plus a short
+explanation). The level columns should be equal.
+- 27 cm with a 6 cm criterion column leaves 4.2 cm per level column. That is not
+  a 0.5 cm step.
+- Before switching to 26 cm, redistribute at 27 cm: a 7 cm criterion column
+  leaves exactly 4 cm per level. The criterion text benefits from the extra
+  centimetre. → **27 cm**, the preferred width.
+- (26 cm = 6 + 5 × 4 would also be valid. It's the better choice only if the
+  criterion text is short enough that 7 cm would leave empty space.)
 
-**Structure: 6 + 4 + 4 + 4 + 4 + 4 = 26 cm.**
+**Structure: 7 + 4 + 4 + 4 + 4 + 4 = 27 cm.**
 
 | Column | Width | Twips |
 |---|---:|---:|
-| Criterion | 6 cm | 3402 |
+| Criterion | 7 cm | 3969 |
 | A | 4 cm | 2268 |
 | B | 4 cm | 2268 |
 | C | 4 cm | 2268 |
 | D | 4 cm | 2268 |
 | E | 4 cm | 2268 |
-| **Total** | **26 cm** | 14742 → subtract 2 from the criterion column (3400) = **14740** |
+| **Total** | **27 cm** | 15309 → subtract 2 from the criterion column (3967) = **15307** |
 
 **Styling.**
-- Header row: Accent 6 fill with `White Table Heading (12pt)`. It is marked as a
-  header row and repeats on each page.
+- Header row: rubrics take the strong-emphasis treatment, an Accent 6 fill with
+  `White Table Heading (12pt)`. It is marked as a header row and repeats on each
+  page.
 - Criterion cells: Pale fill with Heading 9.
 - Descriptor cells: white with Normal text.
 
@@ -108,7 +113,8 @@ needed).
 **Pagination.**
 - 40 rows at about 2 cm each won't fit on one page. It is a genuinely long
   table.
-- Header row repeats; every row has `cantSplit`.
+- Header row (Term / Definition / Your example): Pale fill with Heading 4. It
+  repeats on each page, and every row has `cantSplit`.
 - Split alphabetically at a letter boundary, and add a Pale group row for each
   letter (Heading 5) so the page breaks fall between groups.
 

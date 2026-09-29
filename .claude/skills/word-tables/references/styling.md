@@ -6,30 +6,43 @@ font). The colour values are the print design system's greyscale tokens.
 
 ## Headings and text
 
-| Use | Style |
-|---|---|
-| Primary table heading, placed above the table (not inside it) | Heading 4 |
-| Subheadings within a table (a group heading row, a sub-header cell) | Heading 5 |
-| Minor headings and labels (column headings on light fills, row labels) | Heading 9 |
-| Headings on dark fills (Accent 4–6) | `White Table Heading (12pt)` |
-| Body text in cells | Normal (12 pt) |
-| Marking-criteria rubrics | Table style `MARKING CRITERIA` |
+The three heading levels form the table's hierarchy:
 
+| Level | Style | Used for |
+|---|---|---|
+| Primary | **Heading 4** | The table's primary headings: the header row (column headings). Also a title directly above the table, when one is needed. |
+| Secondary | **Heading 5** | Table subheadings: group rows, sub-header cells under a spanning heading. |
+| Minor | **Heading 9** | Minor headings and labels: row labels, small labels inside cells. |
+| — | Normal (12 pt) | Body text in cells. |
+
+- **Headings on dark fills.** Heading 4, 5 and 9 are black. On an Accent 4–6
+  fill, use `White Table Heading (12pt)` in their place. It is the template's
+  only white heading style, so never colour a heading white by hand.
+- **Rubrics** in the marks + criteria format use the `MARKING CRITERIA` table
+  style, with `White Table Heading (12pt)` in the header row, as the print
+  design system specifies.
+- **Headings that don't fit.** Heading 4 is 16 pt. If a column heading wraps
+  awkwardly, shorten the wording ("Definition", not "Definition of the term") or
+  give the column more width. Never drop to a smaller style to make it fit.
 - **Minimum text size in tables: 10 pt.** Don't shrink text to make a table fit.
   Change the widths, the orientation or the structure instead.
-- Keep the Heading 4 table heading on the same page as the table: its paragraph
-  has "keep with next" on.
+- **Titles above tables.** Often the surrounding section heading already
+  introduces the table, and no separate title is needed. When one is, it has
+  "keep with next" on so it stays with the table.
 
 ## Fills and contrast
 
 | Cell role | Fill | Text |
 |---|---|---|
-| Header row | Accent 5 `#494A49` or Accent 6 `#383938` | `White Table Heading (12pt)` |
+| Header row (default) | Pale `#CACBCA` | Heading 4 (black) |
+| Header row (strong emphasis, rubrics) | Accent 5 `#494A49` or Accent 6 `#383938` | `White Table Heading (12pt)` |
 | Vertical category column | Accent 4–6 | `White Table Heading (12pt)` |
-| Sub-header or group row | Pale `#CACBCA` | Heading 5 or Heading 9 (black) |
+| Sub-header or group row | Pale `#CACBCA`, or white under a Pale header row | Heading 5 (black) |
 | Row label column (optional) | Pale `#CACBCA` | Heading 9 (black) |
 | Body and response cells | White | Normal (black) |
 
+- Use one header-row treatment consistently within a workbooklet, except for
+  rubrics.
 - White text **only** on Accent 4–6. Black text on White, Pale and Accent 1–3.
 - Accent 1–3 are mid-greys. Use them sparingly, and never behind body text
   students must read at length.
