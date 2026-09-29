@@ -2,6 +2,21 @@
 
 *Run 29 Sept 2026 with the colour-theory skills in this repo (`colour-contrast-audit`, `colour-harmony-analyser`, `colour-palette-builder`).*
 
+> **Status: fixes adopted (29 Sept 2026).**
+> - `s4` is now **`s4-dark-gold` `#8A6400`**. Brittany chose a dark gold to keep the Communication set's yellow base, instead of the olive `#4B4200` first proposed in §3. It gets 5.38:1 with white and 4.72:1 as text on `t4`.
+> - `h7-bondi-blue` is now **`#007F98`**.
+> - The text-on-fill rules in §2 and §4 are in the design system, which also gains a new `link-on-t9` token.
+>
+> Applied to:
+> - The BESTAE design system (v7).
+> - The Bestae Site Map artifact, now recoloured to BESTAE tokens.
+> - Corrected copies of `Bestae Template.pptx` and `Bestae Word Style Kit3.docx` for re-upload to Drive.
+> - A palette note in the Dropbox Branding folder.
+> - A new `templates/BESTAE Word Template.docx`.
+> - The swatch files in `swatches/`, which now hold the new values.
+>
+> The Canva brand kits still need the two changed hexes pasted in by hand, because the Canva connector can't edit brand kits.
+
 ## Sources checked
 
 | Source | What it holds | Status |

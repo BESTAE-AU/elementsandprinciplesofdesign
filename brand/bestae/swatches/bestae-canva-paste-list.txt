@@ -4,14 +4,14 @@
 #F3EA5D  h4-corn
 #C5E86C  h5-lime
 #00B2A2  h6-seagreen
-#008EAA  h7-bondi-blue
+#007F98  h7-bondi-blue
 #326295  h8-denim
 #514689  h9-twilight
 #E56DB1  h10-valentine-pink
 #651C32  s1-mulberry
 #551C25  s2-espresso
 #4F2C1D  s3-dark-leather
-#CFB500  s4-mustard
+#8A6400  s4-dark-gold
 #1C4220  s5-zucchini
 #024638  s6-sherwood
 #003540  s7-cyprus
