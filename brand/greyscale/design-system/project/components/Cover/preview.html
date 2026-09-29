@@ -1,0 +1,34 @@
+<!-- @dsCard height=288 -->
+<style>
+  html, body { margin: 0; padding: 0; background: var(--reverse); }
+  .cover { width: 960px; height: 288px; display: block; }
+  .a6 { fill: var(--accent-6); }
+  .a4 { fill: var(--accent-4); }
+  .a2 { fill: var(--accent-2); }
+  .pale { fill: var(--pale); }
+  .module { fill: var(--reverse); }
+  .name { font-family: var(--font-lato); font-size: 64px; font-weight: 900; fill: var(--ink); }
+  .tagline { font-family: var(--font-lato); font-size: 14px; font-weight: 300; fill: var(--ink); }
+</style>
+<div class="root">
+  <svg class="cover" viewBox="0 0 960 288" xmlns="http://www.w3.org/2000/svg">
+    <!--
+      Blocks: accent-6 (tall slab), accent-4, accent-2 and pale — the shading ramp skipping a step, as the README tells a document to — together half the cover.
+      Arrangement: a flush modular grid right of x=480, blocks cut at the 14:20 column:row module ratio.
+      Pattern: small reverse tiles on the pale block in a 6 × 4 module grid — "geometric, modular" row, because the whole system is its 12 × 12 grid.
+      Scales: module 28 × 40 px (2 × the 14 mm / 20 mm modules), 4 px gutters (2 mm), square corners (print has no radius).
+    -->
+    <rect class="a6" x="480" y="0" width="160" height="288" />
+    <rect class="a4" x="644" y="0" width="316" height="124" />
+    <rect class="a2" x="644" y="128" width="100" height="160" />
+    <rect class="pale" x="748" y="128" width="212" height="160" />
+    <g>
+      <rect class="module" x="758" y="138" width="28" height="40" /><rect class="module" x="790" y="138" width="28" height="40" /><rect class="module" x="822" y="138" width="28" height="40" /><rect class="module" x="854" y="138" width="28" height="40" /><rect class="module" x="886" y="138" width="28" height="40" /><rect class="module" x="918" y="138" width="28" height="40" />
+      <rect class="module" x="758" y="182" width="28" height="40" /><rect class="module" x="790" y="182" width="28" height="40" /><rect class="module" x="822" y="182" width="28" height="40" /><rect class="module" x="854" y="182" width="28" height="40" /><rect class="module" x="886" y="182" width="28" height="40" /><rect class="module" x="918" y="182" width="28" height="40" />
+      <rect class="module" x="758" y="226" width="28" height="40" /><rect class="module" x="790" y="226" width="28" height="40" /><rect class="module" x="822" y="226" width="28" height="40" /><rect class="module" x="854" y="226" width="28" height="40" /><rect class="module" x="886" y="226" width="28" height="40" /><rect class="module" x="918" y="226" width="28" height="40" />
+    </g>
+    <text class="name" x="44" y="150">Greyscale</text>
+    <text class="name" x="44" y="212">Workbooklet</text>
+    <text class="tagline" x="46" y="246">Print-first worksheets and booklets on a 12 × 12 millimetre grid.</text>
+  </svg>
+</div>

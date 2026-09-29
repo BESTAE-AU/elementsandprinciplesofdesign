@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-29T00:41:33Z"
+  },
+  "title": "Greyscale Workbooklet",
+  "namespace": "Greyscale",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Brittany Staniforth",
+    "via": "Claude Code",
+    "at": "2026-09-29T00:41:33Z",
+    "note": "Created from the greyscale-print-design-system skill (Greyscale Workbooklet.dotm) plus WCAG-checked colour usage rules. No values changed."
+  }
+}

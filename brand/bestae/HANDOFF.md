@@ -39,3 +39,11 @@ Text-on-fill rules:
 - [ ] Ask the MCCNS marketing office to confirm that Light Blue is `#909DB2`. The guideline's RGB, CMYK and swatch all say so, but its printed HEX `#D9DDE2` looks like a misprint.
 - [ ] Get the official `.eps` logo suite, Mary's Monogram and the spear files from the school, and add them to the design system's Logos group.
 - [ ] Canva: add a MCCNS brand kit from `brand/mccns/swatches/mccns-canva-paste-list.txt`, if there isn't one yet.
+
+## MBE Creative Studio and Greyscale Workbooklet (added later the same day)
+- [x] MBE design system updated (v7): colour usage rules and corrected token notes. No colours were changed. https://claude.ai/artifact/2ptfHF8cDnoeLt3RDdtzWi
+- [x] Greyscale Workbooklet design system created: https://claude.ai/artifact/AHsqwt586J6rMJDpkqSdL8
+- [x] MCCNS type sizes converted from pt to px. The design system format drops pt sizes.
+- [ ] Re-upload the updated skill `brand/greyscale/greyscale-print-design-system.zip` at claude.ai › Settings › Capabilities › Skills, replacing the current one. It adds the colour usage rules.
+- [ ] Decide whether the Greyscale Link grey (#898A89, 3.5:1) should change in `Greyscale Workbooklet.dotm`, or whether links should simply be underlined in Ink.
+- [ ] MBE: decide whether bloom CTAs stay bold 19px+ with a green label, or whether small CTAs switch to deep-green buttons.
