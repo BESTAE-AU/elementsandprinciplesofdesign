@@ -1,0 +1,36 @@
+GIMP Palette
+Name: BESTAE
+Columns: 32
+#
+172  20  90	h1-jazzberry
+255  88  93	h2-tomato
+241 156  73	h3-royal-orange
+243 234  93	h4-corn
+197 232 108	h5-lime
+  0 178 162	h6-seagreen
+  0 142 170	h7-bondi-blue
+ 50  98 149	h8-denim
+ 81  70 137	h9-twilight
+229 109 177	h10-valentine-pink
+101  28  50	s1-mulberry
+ 85  28  37	s2-espresso
+ 79  44  29	s3-dark-leather
+207 181   0	s4-mustard
+ 28  66  32	s5-zucchini
+  2  70  56	s6-sherwood
+  0  53  64	s7-cyprus
+  4  30  66	s8-night
+ 32  21  71	s9-dark-indigo
+ 98  18  68	s10-plum
+238 218 234	t1-piggy-pink
+245 218 223	t2-soft-blush
+255 223 180	t3-apricot
+247 244 162	t4-buttermilk
+239 244 164	t5-lime-cream
+215 239 231	t6-swans-down
+220 235 236	t7-mystic
+213 235 238	t8-crushed-ice
+220 211 231	t9-periwinkle
+242 222 233	t10-powder-pink
+255 255 255	surface
+  4  30  66	ink
