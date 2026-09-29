@@ -59,31 +59,38 @@ Where the two seem to disagree:
 
 ## Workflow
 
-1. **Choose the orientation** from the information architecture. Default to
+1. **Name the table's job** (comparison, classification, rubric, response and so
+   on) with `references/table-types.md`. That decides the structure and which
+   column gets the width.
+2. **Choose the orientation** from the information architecture. Default to
    portrait. Use the tests in `references/landscape-tables.md` ("Choosing
    portrait or landscape").
-2. **Choose the table width.** Try the preferred width (19 / 27 cm) first. Apply
+3. **Choose the table width.** Try the preferred width (19 / 27 cm) first. Apply
    the tie-break in `references/sizing.md` to decide whether the alternative
    (18 / 26 cm) is better.
-3. **Size the columns** for their content, above the minimum widths in
+4. **Size the columns** for their content, above the minimum widths in
    `references/sizing.md`. Check that they add up exactly to the table width.
-4. **Style the table**: headings, fills, borders, separators, response space.
+5. **Style the table**: headings, fills, borders, separators, response space.
    See `references/styling.md`.
-5. **Check pagination and accessibility**. See `references/styling.md`.
-6. **Build it** with the values in `references/word-implementation.md`. For a
+6. **Check pagination and accessibility**. See `references/styling.md`.
+7. **Build it** with the values in `references/word-implementation.md`. For a
    landscape table in a portrait document, isolate it in its own section.
-7. **Verify**: render to PDF and run the checklist at the end of
+8. **Verify**: render to PDF and run the checklist at the end of
    `references/word-implementation.md`.
 
 ## Reference files
 
 | File | Read it when |
 |---|---|
+| `references/table-types.md` | First, for every table: is a table right, what job it does, typical structure and orientation by type |
+| `references/portrait-tables.md` | Any portrait table: geometry, 19/18 cm structures, column limits, transposing, height |
 | `references/sizing.md` | Choosing table width, column widths, minimum widths, cell padding, the vertical category column |
 | `references/landscape-tables.md` | Deciding portrait vs landscape, or putting any table on a landscape page (geometry, height limits, booklet rotation) |
 | `references/styling.md` | Headings, fills, borders, white separators, images, response space, pagination, accessibility |
 | `references/word-implementation.md` | Writing the .docx: twip/point values, table XML, Office.js notes, section breaks, verification |
 | `references/worked-examples.md` | Before sizing a table you're unsure about: three examples with the reasoning shown |
+
+`evals/evals.json` holds test prompts for checking the skill.
 
 ## Non-negotiables (quick check)
 

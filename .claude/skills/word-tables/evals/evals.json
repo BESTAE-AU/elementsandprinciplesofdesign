@@ -24,6 +24,18 @@
       "prompt": "Put a two-column table in the worksheet listing the 7 elements of design with a one-line description each. Flat printout, not a booklet.",
       "expected_output": "Portrait at 19 cm (or 18 cm with a stated reason), a label column of about 3-4 cm and a description column taking the rest in whole cm, centred, no vertical category column (single group), Heading 4 table heading kept with the table, fits on one page, no landscape.",
       "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Make a before-and-after table: two equal columns, one headed 'Before redesign' and one 'After redesign', with a photo and three bullet points of changes in each.",
+      "expected_output": "Identifies an image comparison of 2 items, stays portrait, applies the tie-break to choose 18 cm (9 + 9, whole cm) over 19 cm (9.5 + 9.5), images inline and sized to the column, common crop ratio, alt text on both images, centred table.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Create a table comparing 8 types of fabric across fibre, weave, weight, drape, care, cost and typical use.",
+      "expected_output": "Recognises 7 attributes would exceed 5 content columns in portrait, considers transposing (fabrics across the top would be 8 columns, so instead keeps fabrics down the page) and chooses landscape at 27 or 26 cm with a fabric label column plus attribute columns above their minimum widths in whole cm, or justifies a split into two portrait tables; header row repeats; rows do not split.",
+      "files": []
     }
   ]
 }

@@ -80,6 +80,18 @@ Don't use it between ordinary white body rows: it won't be visible there.
   image-led comparison tables. Use standard for images placed next to text.
 - Crop images to a common aspect ratio within a comparison, so differences come
   from the content, not the framing.
+- **Insert images inline** (in line with text), never floating or "in front of
+  text". Floating images inside tables drift when the table is edited or
+  repaginated.
+- **Size images to their column in the document**, not by dragging handles.
+  Check the image width against the column width minus padding.
+- **Resolution:** at least 300 ppi at the printed size. A 9 cm wide image needs
+  about 1060 pixels across.
+- **Check in greyscale.** Colour images print in grey. If the task depends on
+  colour differences (hue, a colour scheme), say so next to the image and
+  describe the colours in words.
+- **Captions and credits** go in the cell under the image in the `Caption`
+  style, not in a separate row of their own unless every image has one.
 - Every image needs alt text (see Accessibility).
 
 ## Student response space
