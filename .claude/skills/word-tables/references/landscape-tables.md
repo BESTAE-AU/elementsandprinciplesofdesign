@@ -6,24 +6,28 @@ underlying design rules.
 
 ---
 
-## 60. Landscape page geometry
+## Landscape page geometry
 
-Where landscape orientation is more appropriate for the content, use:
+Page size: A4 landscape, 29.7 × 21 cm.
 
-- Page size: A4 landscape
-- Page width: 29.7 cm
-- Page height: 21 cm
-- Top margin: 1 cm
-- Bottom margin: 1 cm
-- Left margin: 1 cm
-- Right margin: 1 cm
+Margins depend on how the document is bound, matching the portrait rules in the
+print design system:
 
-This provides a maximum usable page width of **27.7 cm**.
+| Binding | Margins | Usable width | Usable height |
+|---|---|---:|---:|
+| **Flat printout** | 1 cm on all four sides | 27.7 cm | 19 cm |
+| **Saddle-stapled booklet** | 1.2 cm on all four sides | 27.3 cm | 18.6 cm |
 
-For consistency with the document's modular table system, do not normally use the
-full 27.7 cm as the table width.
+Why 1.2 cm in a booklet: a landscape page is printed rotated on a portrait sheet.
+Its left and right edges become the sheet's top and bottom (12 mm in the print
+system). Its top or bottom edge lands against the spine, which needs 12 mm and
+must keep text and rules at least 6 mm clear of the fold. 1.2 cm all round
+satisfies every edge whichever way the page is rotated.
 
-Use:
+Keep the header and footer distances the same as the template's portrait
+sections (12.5 mm).
+
+Don't normally use the full usable width. Use:
 
 **27 cm — preferred/default landscape table width**
 
@@ -31,16 +35,16 @@ or
 
 **26 cm — alternative landscape table width**
 
-Choose between 27 cm and 26 cm according to which produces the clearest and most
-logical information structure.
+Both fit in both bindings. Choose between them with the tie-break in
+`sizing.md`.
 
 ---
 
-## 61. Preferred landscape table width
+## Preferred landscape table width
 
-For landscape pages, attempt a **27 cm table first**.
+For landscape pages, try a **27 cm table first**.
 
-Use 27 cm where it provides an effective structure for:
+27 cm suits:
 
 - larger comparison tables;
 - tables with numerous columns;
@@ -52,31 +56,19 @@ Use 27 cm where it provides an effective structure for:
 - processes; or
 - other information that benefits from additional horizontal space.
 
-Use **26 cm** where it produces cleaner column divisions or better visual balance.
+Use **26 cm** where it gives cleaner column divisions or better visual balance.
 
-Do not automatically use landscape orientation simply because a table is large.
-
-First determine whether the information is genuinely easier to understand in a
-wider format.
+Don't use landscape just because a table is large. First decide whether the
+information is genuinely easier to understand in a wider format.
 
 ---
 
-## 62. Landscape column widths
+## Landscape column widths
 
-The same column-width rules used for portrait tables apply to landscape tables.
-
-Columns:
-
-- do not need to be equal;
-- should reflect the amount and function of their content;
-- should preferably use whole-centimetre widths;
-- may use 0.5 cm increments where this produces a better structure;
-- should avoid arbitrary decimal measurements; and
-- must combine to equal the intended total table width.
+The same column-width rules and minimum widths as portrait apply (see
+`sizing.md`).
 
 ### Examples of valid 27 cm structures
-
-Possible structures include:
 
 - 13.5 + 13.5 cm
 - 9 + 9 + 9 cm
@@ -90,11 +82,7 @@ Possible structures include:
 - 1 + 8 + 9 + 9 cm
 - 1 + 6.5 + 6.5 + 6.5 + 6.5 cm
 
-These are examples only. Do not treat them as fixed presets.
-
 ### Examples of valid 26 cm structures
-
-Possible structures include:
 
 - 13 + 13 cm
 - 8 + 9 + 9 cm
@@ -106,132 +94,157 @@ Possible structures include:
 - 1 + 5 + 10 + 10 cm
 - 1 + 5 + 5 + 5 + 5 + 5 cm
 
-Again, select dimensions according to the actual content.
+These are examples only, not fixed presets. Size columns for the actual content.
+A leading 1 cm column is the vertical category column (see `sizing.md`).
 
 ---
 
-## 63. Do not use additional width to create unnecessary empty space
+## Use the extra width strategically
 
-Landscape orientation provides substantially more horizontal space, but this does
-not mean that every column should simply become wider.
+Landscape gives substantially more horizontal space. That doesn't mean every
+column should get wider.
 
-Use the additional width strategically.
-
-It may allow:
+The extra width can allow:
 
 - more categories to appear side by side;
 - longer descriptions to wrap over fewer lines;
 - images to be displayed at a useful size;
-- comparisons to remain together;
-- a vertical category column to be introduced;
-- related information to remain on the same page; or
+- comparisons to stay together;
+- a vertical category column to be added;
+- related information to stay on the same page; or
 - a complex table to become easier to scan.
 
-Do not distribute additional width equally if some columns do not require it.
-
-A short label column may remain 2–4 cm wide while a detailed explanation column
-receives substantially more space.
+Don't share the extra width equally if some columns don't need it. A short label
+column can stay 2–4 cm wide while a detailed explanation column gets
+substantially more space.
 
 ---
 
-## 64. Portrait and landscape use the same design system
+## Landscape pages are short
 
-Changing the page orientation does **not** change the table design rules.
+A landscape page gains width but loses height. Usable height is 19 cm (flat) or
+18.6 cm (booklet), against 27.3 cm in portrait. After a Heading 4 table heading
+and a header row, allow roughly **16 cm for the table body**.
 
-All existing requirements continue to apply, including:
+So a wide table fits fewer rows, and keeping the whole table on one page gets
+harder. When a landscape table doesn't fit on one page, try these in order:
 
-- intentional column sizing;
-- whole-centimetre dimensions wherever practical;
-- 0.5 cm increments where justified;
+1. **Rebalance widths.** Give more width to the columns that wrap most, so rows
+   get shorter.
+2. **Tighten response space**, but only if it stays adequate for the task (see
+   `styling.md`).
+3. **Split at a logical boundary**, such as between category groups, never
+   mid-group. Repeat the header row on the next page.
+4. **Reconsider the orientation.** If the table is long rather than wide,
+   portrait may suit it better.
+
+**A single row taller than the page** can't meet "never split a row". Restructure
+it: break the content into several rows, or move the long content to its own
+table or section. Allow a row to split only as a last resort, and flag it for
+review.
+
+---
+
+## Portrait and landscape use the same design system
+
+Changing the page orientation does **not** change the table design rules. All of
+these still apply:
+
+- intentional column sizing and minimum widths;
+- whole-centimetre dimensions wherever practical, with 0.5 cm steps where
+  justified;
 - centred table alignment;
 - Heading 4 for primary table headings;
 - Heading 5 for table subheadings;
 - Heading 9 for minor headings and labels;
-- use of the supplied Word template;
-- use of the established document colour palette;
+- the supplied Word template and its styles;
+- the greyscale palette;
 - high-contrast fills and text;
 - context-sensitive border colours;
-- appropriate internal and external borders;
-- optional borderless structures;
+- appropriate internal and external borders, or a borderless structure where it
+  works;
 - thick white separators where appropriate;
 - image sizing and edge-to-edge image rules;
-- appropriate student response space;
+- adequate student response space;
 - no splitting of individual rows across pages;
-- keeping complete tables on one page wherever reasonably possible;
+- complete tables on one page wherever reasonably possible;
 - logical pagination for genuinely long tables; and
 - accessibility and readability requirements.
 
-Landscape is an extension of the existing table system, not a separate visual
-style.
-
 ---
 
-## 65. Choosing portrait or landscape
+## Choosing portrait or landscape
 
-Choose page orientation according to the **information architecture**, not simply
-according to the amount of content.
+Choose the orientation from the **information architecture**, not the amount of
+content. Default to portrait.
+
+### Numeric test: consider landscape if any of these is true at 19 cm
+
+- A column would fall below its minimum width (see `sizing.md`).
+- The table has **more than 5 content columns** (not counting a vertical
+  category column).
+- **3 or more images** must be compared side by side, each at 5 cm or wider.
+- A rubric or matrix has **4 or more achievement-level columns** plus a
+  criterion column.
+
+Passing the test means *consider* landscape, not *use* it. Then check the
+judgement criteria below.
 
 ### Prefer portrait when:
 
 - the table works effectively at 19 cm or 18 cm;
-- the information is primarily read vertically;
+- the information is primarily read down the page;
 - there are relatively few columns;
 - descriptions benefit from deeper rather than wider cells;
-- the table forms part of a normal portrait workbooklet sequence.
+- the table is long rather than wide (see "Landscape pages are short");
+- the table is part of a normal portrait workbooklet sequence.
 
-### Consider landscape when:
+### Use landscape when:
 
-- the information contains numerous meaningful columns;
-- students need to compare several categories simultaneously;
-- portrait orientation would create excessively narrow columns;
+- the information has many meaningful columns;
+- students need to compare several categories at the same time;
+- portrait would make columns too narrow;
 - images need to be compared side by side;
-- a rubric or matrix requires substantial horizontal space;
-- portrait formatting would create excessive text wrapping;
+- a rubric or matrix needs substantial horizontal space;
+- portrait would cause excessive text wrapping;
 - the wider view materially improves students' understanding of relationships.
 
-Do not switch to landscape solely to avoid making a thoughtful decision about
-column widths.
+Don't switch to landscape just to avoid deciding the column widths properly.
 
 ---
 
-## 66. Mixed-orientation documents
+## Mixed-orientation documents
 
-Where only one or several tables genuinely require landscape orientation, the
-remainder of the workbooklet may remain portrait.
+Where only one or a few tables genuinely need landscape, the rest of the
+workbooklet stays portrait.
 
-Use section breaks appropriately so that landscape pages do not alter the
-orientation or margins of surrounding portrait pages.
+Use section breaks so the landscape pages don't change the orientation or margins
+of the surrounding portrait pages.
 
 Ensure that:
 
-- the landscape section begins cleanly;
-- the table remains centred;
-- page headers and footers remain consistent with the template;
-- page numbering remains continuous;
-- subsequent pages return correctly to portrait orientation where required; and
-- unnecessary blank pages are not introduced by section breaks.
+- the landscape section begins cleanly on a new page;
+- the table stays centred;
+- page headers and footers stay consistent with the template;
+- page numbering stays continuous;
+- the following pages return correctly to portrait;
+- section breaks don't create any blank pages; and
+- for booklets, the total page count is still a multiple of 4.
 
-See `word-implementation.md` for the OOXML mechanics.
+See `word-implementation.md` for the mechanics.
 
----
+### Landscape pages in saddle-stapled booklets
 
-# Orientation width rule
-
-Use the following as the standard table-width system:
-
-| Page orientation | Preferred width | Alternative width |
-|---|---:|---:|
-| **A4 Portrait** | **19 cm** | **18 cm** |
-| **A4 Landscape** | **27 cm** | **26 cm** |
-
-These dimensions establish the working grid for the table.
-
-Within that grid, divide columns according to the **type, quantity and
-relationship of the information** rather than automatically creating equal
-columns.
-
-The same visual hierarchy, border, image, accessibility, pagination and
-formatting rules apply regardless of page orientation.
-
-**Portrait = 19/18 cm; landscape = 27/26 cm**, and everything else in the table
-system carries across unchanged.
+- **Keep the rotation consistent.** Every landscape page in a booklet should turn
+  the same way, so students always rotate the booklet in the same direction to
+  read it. Printer drivers and PDF imposition usually rotate landscape pages
+  automatically. Check the direction on a printed proof.
+- **Prefer right-hand (odd-numbered) pages** for a single landscape page, so the
+  table sits on the more visible page of the spread. Plan the content to land it
+  there. Don't force it with an odd-page section break, because that can insert
+  hidden blank pages.
+- **Consider a facing pair.** When two landscape tables belong together, place
+  them on the two pages of one spread.
+- **Proof before printing.** Word's Book fold setting applies to the whole
+  document. If a landscape section doesn't print correctly with Book fold on,
+  export to PDF and let the print imposition place the pages.

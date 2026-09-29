@@ -1,0 +1,29 @@
+{
+  "skill_name": "word-tables",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add a marking rubric to my Year 10 Textiles workbooklet: 4 criteria (Research, Design development, Construction, Evaluation) across grades A to E, with a sentence or two per cell. It's a saddle-stapled booklet.",
+      "expected_output": "Chooses landscape (5 level columns plus a criterion column), 26 cm wide with 6 + 4x5 cm columns (or another all-whole-cm structure with the reasoning stated), 1.2 cm booklet landscape margins, a landscape section that returns to portrait with continuous page numbering, a repeating header row with White Table Heading on an Accent 5/6 fill, cantSplit rows, table alt text, and a check that the page count is still a multiple of 4.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Make a glossary table of 30 elements and principles of design terms with definitions and a column for students to draw or write an example.",
+      "expected_output": "Stays portrait at 19 cm (long, not wide), columns in whole cm adding to 19 (e.g. 4 + 9 + 6), example column at least 4 cm, response rows set to at-least heights, a repeating header row, no row splitting, logical page breaks between groups, no landscape section.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want students to compare three posters side by side: the image, the designer, and how each one uses contrast, balance and emphasis, then write their own judgement underneath.",
+      "expected_output": "Considers landscape via the numeric test (3 images at 5 cm or more), selects 27 cm with 9 + 9 + 9 (or justifies a vertical category column with a whole-cm alternative), edge-to-edge image cells with zero padding and a common crop ratio, alt text on each image, a response row with a minimum height, and checks the table fits the roughly 16 cm landscape body height.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Put a two-column table in the worksheet listing the 7 elements of design with a one-line description each. Flat printout, not a booklet.",
+      "expected_output": "Portrait at 19 cm (or 18 cm with a stated reason), a label column of about 3-4 cm and a description column taking the rest in whole cm, centred, no vertical category column (single group), Heading 4 table heading kept with the table, fits on one page, no landscape.",
+      "files": []
+    }
+  ]
+}

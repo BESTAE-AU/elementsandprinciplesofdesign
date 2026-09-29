@@ -1,78 +1,98 @@
 ---
 name: word-tables
-description: Table design system for Word (.docx) workbooklets — modular table widths, intentional column sizing, heading styles, borders, images, pagination and accessibility, for both A4 portrait and A4 landscape pages. Use whenever creating, formatting or checking a table in a Word document or workbooklet, choosing table or column widths, or deciding whether a table should sit on a landscape page.
+description: Table design system for Word (.docx) workbooklets, worksheets and handouts. Covers table and column widths, portrait vs landscape pages, cell padding, heading styles, greyscale fills and borders, response space, pagination and accessibility. Use whenever creating, formatting or checking any table-shaped content in a Word document, including rubrics, marking criteria, matrices, comparison charts, graphic organisers, glossaries, specification tables, image comparisons and student response tables, or when deciding whether content should sit on a landscape page.
 ---
 
 # Word Tables
 
-This skill defines one table design system for Word workbooklets. It applies to
-every table, on every page, in every orientation.
+One table design system for Word workbooklets. It applies to every table, on
+every page, in every orientation.
 
 ## The one rule to remember
 
-**Portrait = 19 / 18 cm. Landscape = 27 / 26 cm.** Everything else in the table
-system carries across unchanged.
+**Portrait = 19 / 18 cm. Landscape = 27 / 26 cm.** Everything else carries
+across unchanged.
 
 | Page orientation | Preferred width | Alternative width |
 |---|---:|---:|
-| **A4 Portrait** | **19 cm** | **18 cm** |
-| **A4 Landscape** | **27 cm** | **26 cm** |
+| **A4 Portrait** | **19 cm** (190 mm) | **18 cm** (180 mm) |
+| **A4 Landscape** | **27 cm** (270 mm) | **26 cm** (260 mm) |
 
-These widths set the working grid for the table. Within that grid, divide
-columns according to the **type, quantity and relationship of the information**.
-Don't default to equal columns.
+These widths are the working grid for the table. Within that grid, divide the
+columns according to the **type, quantity and relationship of the information**,
+not into equal shares.
 
+Why these widths: 19 cm is exactly the workbooklet's 190 mm content area, so a
+full-width table lines up with the text above and below it. 27 cm stays inside
+the landscape content area on both flat printouts and booklets (see
+`references/landscape-tables.md`), so the same table works in either.
 Orientation changes the available width. It does **not** change the design
 system.
 
-## Core design system (applies in all orientations)
+## How this skill fits with the print design system
 
-- Intentional column sizing. Columns reflect the amount and function of their
-  content and do not need to be equal.
-- Whole-centimetre column widths wherever practical. Use 0.5 cm increments only
-  where they produce a better structure. Avoid arbitrary decimal widths.
-- Column widths must add up exactly to the intended table width.
-- Centred table alignment.
-- Heading 4 for primary table headings.
-- Heading 5 for table subheadings.
-- Heading 9 for minor headings and labels.
-- Use the supplied Word template and its styles.
-- Use the established document colour palette.
-- High-contrast fills and text.
-- Border colours that suit the context.
-- Suitable internal and external borders. Borderless structures are allowed where
-  they work.
-- Thick white separators where appropriate.
-- Follow the image sizing and edge-to-edge image rules.
-- Leave enough student response space.
-- Never split an individual row across pages.
-- Keep a complete table on one page wherever reasonably possible.
-- Paginate genuinely long tables logically.
-- Meet accessibility and readability requirements.
+When the document uses the Greyscale Workbooklet template, the
+`greyscale-print-design-system` skill and this skill work together:
 
-## Reference files
+| Topic | Governed by |
+|---|---|
+| Page size, portrait margins, header/footer distance, booklet rules (multiple of 4 pages, creep, fold clearance) | Print design system |
+| Typeface, type scale, named styles, greyscale palette | Print design system |
+| Table widths, column widths, orientation choice, landscape pages, cell padding, borders, response space, table pagination, table accessibility | **This skill** |
 
-Load the file that matches the task:
+Where the two seem to disagree:
 
-- `references/landscape-tables.md`: sections 60–66. Landscape page geometry,
-  27/26 cm widths, landscape column structures, how to use the extra width,
-  choosing portrait or landscape, and mixed-orientation documents. **Read this
-  before putting any table on a landscape page, or when deciding whether a
-  table should be landscape.**
-- `references/word-implementation.md`: exact OOXML / twip values for page size,
-  margins, table and column widths, and section breaks for mixed-orientation
-  documents. Read this when writing or editing the .docx itself.
+- **Units.** The print system works in millimetres; these rules are written in
+  centimetres. They are the same measurements: 19 cm = 190 mm. Convert with
+  cm × 10 = mm, or cm × 28.3465 = points for Office.js.
+- **The 12-column grid.** Information tables use whole-centimetre columns and
+  do **not** snap to the 14 mm grid modules. Their outer edge still aligns with
+  the grid because 19 cm = the 190 mm content area. Use the print system's grid
+  spans and spacer columns only for **layout blocks** that must line up with
+  other blocks on the grid (for example, a 3-up image panel).
+- **Alignment.** Information tables are centred. A 19 cm table fills the content
+  area, so centred and left-aligned look identical. An 18 cm table sits 5 mm in
+  from each margin. Grid layout blocks stay left-aligned, as the print system
+  says.
+- **Colour.** "The established palette" means the print system's greyscale
+  tokens. Anything with hue is off-system.
 
 ## Workflow
 
-1. Decide the orientation from the **information architecture**, not the amount
-   of content (see `references/landscape-tables.md` §65). Default to portrait.
-2. Try the preferred width first (19 cm portrait, 27 cm landscape). Use the
-   alternative (18 cm / 26 cm) where it gives cleaner column divisions or better
-   balance.
-3. Size each column for its content. Check that the widths add up to the table
-   width.
-4. Apply the core design system above. It is identical in both orientations.
-5. For a landscape table in a portrait document, isolate it in its own section
-   (see `references/word-implementation.md`). Then check headers, footers, page
-   numbering, the return to portrait, and that no blank pages were created.
+1. **Choose the orientation** from the information architecture. Default to
+   portrait. Use the tests in `references/landscape-tables.md` ("Choosing
+   portrait or landscape").
+2. **Choose the table width.** Try the preferred width (19 / 27 cm) first. Apply
+   the tie-break in `references/sizing.md` to decide whether the alternative
+   (18 / 26 cm) is better.
+3. **Size the columns** for their content, above the minimum widths in
+   `references/sizing.md`. Check that they add up exactly to the table width.
+4. **Style the table**: headings, fills, borders, separators, response space.
+   See `references/styling.md`.
+5. **Check pagination and accessibility**. See `references/styling.md`.
+6. **Build it** with the values in `references/word-implementation.md`. For a
+   landscape table in a portrait document, isolate it in its own section.
+7. **Verify**: render to PDF and run the checklist at the end of
+   `references/word-implementation.md`.
+
+## Reference files
+
+| File | Read it when |
+|---|---|
+| `references/sizing.md` | Choosing table width, column widths, minimum widths, cell padding, the vertical category column |
+| `references/landscape-tables.md` | Deciding portrait vs landscape, or putting any table on a landscape page (geometry, height limits, booklet rotation) |
+| `references/styling.md` | Headings, fills, borders, white separators, images, response space, pagination, accessibility |
+| `references/word-implementation.md` | Writing the .docx: twip/point values, table XML, Office.js notes, section breaks, verification |
+| `references/worked-examples.md` | Before sizing a table you're unsure about: three examples with the reasoning shown |
+
+## Non-negotiables (quick check)
+
+- Table width is 19 or 18 cm (portrait) or 27 or 26 cm (landscape).
+- Columns are whole centimetres, or 0.5 cm steps where justified, and add up
+  exactly to the table width.
+- No column is below its minimum width.
+- AutoFit is off (fixed layout), so Word can't resize columns.
+- Header rows repeat on each page and are marked as headers.
+- Rows never split across pages.
+- No meaning carried by shade alone.
+- No blank pages and no orientation leaks from section breaks.
