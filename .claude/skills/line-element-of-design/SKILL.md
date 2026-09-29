@@ -25,7 +25,7 @@ The core habit: treat every line as a decision. Move from **what the line is** (
 | The request is… | Use from this file | Also read in `references/design-method.md` |
 |---|---|---|
 | A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Misconceptions, justification examples | §12 Feedback on student work, §4 Justification |
+| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback on student work (incl. what to do with no rubric), §4 Justification |
 | Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
 | Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 

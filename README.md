@@ -4,7 +4,10 @@ A Claude Code skill suite for teaching, analysing, generating, justifying, evalu
 
 ## Skills
 
-Each skill is a self-contained `SKILL.md` in `.claude/skills/`, so Claude Code loads them automatically when working in this repository.
+Each element is its own skill, named element-first (`<element>-element-of-design`). Every skill folder contains:
+
+- `SKILL.md`: what is specific to that element. It covers definition and distinctions, variables, types, how the element works with the other 11 elements and with the principles, applications by field, production risks, misconceptions, a worked analysis, weak-to-sophisticated justification examples, feedback patterns and activity ideas.
+- `references/design-method.md`: the shared method, identical in every skill. It covers the analysis progression, characteristics/features/properties/attributes, justification levels, Factors Affecting Design, trade-offs, controlled experimentation, brand-system testing, building teaching resources, differentiation, feedback and marking, and language rules. Claude reads only the sections a task needs.
 
 | # | Element | Skill name | File |
 |---|---------|------------|------|
@@ -21,7 +24,10 @@ Each skill is a self-contained `SKILL.md` in `.claude/skills/`, so Claude Code l
 | 11 | Typography | `typography-element-of-design` | [`.claude/skills/typography-element-of-design/SKILL.md`](.claude/skills/typography-element-of-design/SKILL.md) |
 | 12 | Layout and Composition | `layout-and-composition-element-of-design` | [`.claude/skills/layout-and-composition-element-of-design/SKILL.md`](.claude/skills/layout-and-composition-element-of-design/SKILL.md) |
 
-## Using the skills elsewhere
+The Colour, Value, Typography and Layout skills hand specialist jobs (palettes, contrast ratios, font pairing, type scales, InDesign grids) to the matching specialist skills when those are installed.
 
-- **Claude Code (another project or globally):** copy a skill folder into that project's `.claude/skills/` or into `~/.claude/skills/`.
-- **Claude.ai:** zip a single skill folder (e.g. `colour-element-of-design/`) and upload it under *Settings → Capabilities → Skills*.
+## Installing
+
+- **Claude.ai:** download the file for each element from [`dist/`](dist/) (e.g. `dist/line-element-of-design.skill`) and save it under *Settings → Capabilities → Skills*.
+- **Claude Code:** the skills in `.claude/skills/` load automatically in this repository. To use them elsewhere, copy a skill folder into another project's `.claude/skills/` or into `~/.claude/skills/`.
+

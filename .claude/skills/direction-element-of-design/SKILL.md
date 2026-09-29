@@ -1,578 +1,162 @@
 ---
 name: direction-element-of-design
 description: >
-  Comprehensive Claude Code skill for teaching, analysing, generating, justifying,
-  evaluating and refining the Element of Design: Direction. Integrates NSW TAS design
-  decision-making, multimedia analysis, branding, accessibility, production and
-  cross-disciplinary design practice.
+  Teaches, analyses and applies DIRECTION as an element of design for NSW TAS and
+  design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T)
+  and professional practice: horizontal, vertical, diagonal, radial and implied
+  direction, eye paths and reading order, gaze, perspective, screen direction and
+  continuity in film and animation, arrows, chevrons, swipe and progress cues in
+  UI, right-to-left localisation, one-way prints and nap in textiles, and
+  wayfinding. Use it whenever someone wants a lesson, worksheet, Canvas page or
+  workbooklet on direction; feedback or marking on how a student controlled the
+  viewer's eye path; model answers analysing direction or flow in a poster, film
+  shot, layout, interface or space; or help steering attention in their own design.
+  Use it even if they only say "eye flow", "reading path", "where does the eye go",
+  "screen direction" or "the arrows".
 ---
 
-# Element of Design: Direction
+# Direction — element of design
 
-## Purpose of this skill
+This skill gives Claude the direction-specific knowledge for teaching, analysing and designing with direction. The shared method — analysis progression, justification levels, Factors Affecting Design, experimentation, differentiation, feedback approach and language rules — is in `references/design-method.md`. Read the relevant section of that file when a task calls for it.
 
-This skill is a **knowledge base and operational specification for Claude**, not a student worksheet. Claude should use it whenever it teaches, generates, analyses, evaluates, scaffolds, critiques or gives feedback about **Direction** as an element of design.
+The core habit: treat every directional cue as a decision. Move from **which way something points or travels** → **where attention goes as a result** → **why that path matters here** → **how well it works and what it costs**.
 
-The core reasoning sequence is:
+## Pick the job
 
-**design characteristic → perceptual/visual effect → communication → function/purpose → suitability → evaluation**
-
-Claude must treat design choices as intentional decisions. It should move beyond identification towards explaining **what has been manipulated, how, where, with what effect, for whom, for what purpose, under which constraints, and with what degree of success**.
-
-### Knowledge synthesis used by this skill
-
-Claude should operate with these combined specialist frameworks:
-
-- **Technology and Applied Sciences:** appropriateness, needs, functionality, aesthetics, finance/cost, ergonomics, WHS/safety, quality, resources, environmental consequences, sustainability, obsolescence, life cycle analysis, accessibility, ethics and design trade-offs.
-- **Multimedia Teaching Assistant:** visual communication; multimedia application; project development; NSW TAS terminology; characteristics, features, properties and attributes; progression through **identify → describe → explain → analyse → evaluate**; and project justification that considers alternatives.
-- **Visual Arts:** visual literacy, structural relationships, contextual meaning and avoidance of universal symbolic claims.
-- **Inclusive Education:** barrier removal, sensory/cognitive access, multiple means of representation and avoidance of deficit or stereotype-based interpretation.
-- **Assessment:** clear alignment between design decisions, criteria, evidence and evaluative judgement.
-- **Professional visual-design practice:** hierarchy, consistency, spacing, accessibility, cross-platform adaptation, production feasibility and brand-system behaviour.
-
-Claude must not copy a single source mechanically. It should synthesise these lenses according to the design problem.
-## 1. Definition
-
-Direction is the way visual, spatial or time-based information points, travels, progresses or leads attention. It can be explicit, such as an arrow or moving object, or implied through line, alignment, repetition, perspective, gaze, sequencing, typography or composition.
-
-### Distinctions from related concepts
-
-Direction is not the same as line: a line can carry a direction, but direction can exist without a drawn line. It is not movement: direction may suggest a path without actual motion. It is not orientation: orientation is the angular position of an object; direction concerns the path or vector implied by that object or system. It is not alignment: alignment organises relationships, while repeated alignments may create directional flow.
-
-### Aesthetic and functional roles
-
-Claude should analyse direction through both aesthetic and functional lenses. It may create visual character, recognition, hierarchy, atmosphere or expression; it may also organise information, support usability, signal function, improve navigation, control manufacture, assist construction or communicate technical meaning. Never assume that an aesthetic use is merely decorative or that a functional use has no visual consequences.
-## 2. Core characteristics and variables
-
-| Characteristic | Variables | Possible effect | Design considerations |
-|---|---|---|---|
-| **Vector** | left/right, up/down, diagonal, inward/outward | Establishes a path for attention or action. | Interpret relative to content, language, interface conventions and culture. |
-| **Curvature** | straight, curved, circular, spiral | Changes path predictability and visual flow. | Curved paths can slow scanning or support orbiting/cyclical concepts. |
-| **Convergence/divergence** | towards a point / away from a point | Creates emphasis, depth or expansion. | Perspective and focal hierarchy may intensify the effect. |
-| **Opposition** | counter-directions, mirrored vectors | Creates contrast, tension, comparison or branching. | Ensure opposing cues do not make navigation ambiguous. |
-| **Implied direction** | gaze, gesture, cropping, alignment, repetition | Guides attention without arrows. | Requires contextual testing because inference can differ by audience. |
-| **Sequential direction** | step-by-step or ordered progression | Supports process, narrative and navigation. | Reading direction and cultural conventions must be considered. |
-| **Directional hierarchy** | primary, secondary and tertiary pathways | Controls what is noticed first and where attention proceeds. | Competing vectors increase cognitive load. |
-| **Temporal direction** | entry, travel, exit, forward/backward progression | Links direction with animation and interaction. | Preserve spatial continuity and reduced-motion options. |
-
-Claude should treat these characteristics as **manipulable variables**. When guiding experimentation, change one variable at a time where possible, then compare the result against the brief and relevant criteria.
-
-## 3. Types and classifications
-
-### Horizontal direction
-Progression across a horizontal axis. Typical applications include Layouts, timelines, camera movement, textiles.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Vertical direction
-Progression up/down a vertical axis. Typical applications include Scrolling, architecture, posters, interfaces.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Diagonal direction
-Progression on an oblique axis. Typical applications include Dynamic compositions, movement cues, perspective.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Curved/circular direction
-Progression around a curve or centre. Typical applications include Identity systems, interfaces, choreography.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Radial direction
-Movement or attention spreading from or converging on a centre. Typical applications include Infographics, spatial planning, graphic devices.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Spiral direction
-Rotational progression with changing radius. Typical applications include Illustration, motion systems, spatial journeys.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Converging/diverging direction
-Multiple paths meeting or separating. Typical applications include Perspective, hierarchy, process diagrams.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-### Implied direction
-Direction inferred from content rather than explicit marks. Typical applications include Gaze, posture, alignment, leading edges.. Claude should explain benefits, limitations and contextual suitability rather than treating the type as inherently better or worse.
-
-## 4. Actual, implied, physical, perceptual and structural forms
-
-When relevant, Claude should distinguish whether direction is:
-
-- **actual/physical** — materially or visibly present;
-- **implied/perceptual** — inferred by the viewer without a literal rendered object or mark;
-- **structural** — contributing to organisation, construction, support or system logic;
-- **decorative/expressive** — contributing primarily to visual character or communication;
-- **functional** — enabling use, navigation, construction, safety or performance;
-- **symbolic** — carrying learned or contextual meaning;
-- **digital** — produced through screen-based or computational media;
-- **material/spatial** — arising from physical materials, surfaces, objects or environments.
-
-Claude should use only the categories that meaningfully apply to the case being analysed.
-
-## 5. Relationship with other elements
-
-Claude should explain interaction, not merely list co-occurrence.
-
-- **Line:** Direction interacts with line and can define edges, create contours, divide space and establish direction.
-- **Shape:** Direction interacts with shape and can be enclosed by line or defined by colour, value, texture and negative space.
-- **Form:** Direction interacts with form and can be described by contour, value, light, perspective, surface and spatial relationships.
-- **Space:** Direction interacts with space and is shaped by placement, scale, line, shape, form, proximity and negative areas.
-- **Size and scale:** Direction interacts with size and scale and modify hierarchy, perceived importance, depth, usability and relationships among other elements.
-- **Colour:** Direction interacts with colour and interacts with value, texture, form, space and hierarchy and changes with surrounding colours and medium.
-- **Value:** Direction interacts with value and creates tonal separation, form modelling, depth and contrast independent of hue.
-- **Texture:** Direction interacts with texture and interacts with material, light, value, colour, scale and pattern.
-- **Typography:** Direction interacts with typography and combines line, shape, value, colour, space, scale and composition while carrying verbal meaning.
-- **Imagery:** Direction combines multiple elements and introduces representational, contextual and cultural meaning.
-- **Layout and composition:** Direction organise all other elements into relationships, hierarchy and reading/interaction sequences.
-
-## 6. Relationship with principles of design
-
-Direction is an **element/design variable**, while principles describe relationships and organisational effects. Claude should not confuse the two. Direction can contribute to:
-
-- **Balance:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Contrast:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Emphasis:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Hierarchy:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Movement:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Rhythm:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Repetition:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Pattern:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Proportion:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Scale:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Unity:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Harmony:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Variety:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Alignment:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-- **Proximity:** analyse how deliberate manipulation of direction changes the relationship between elements, the hierarchy of information or the viewer/user experience. Do not claim the principle is automatically achieved simply because direction is present.
-
-## 7. Branding and visual identity
-
-### Direction as a repeatable brand language
-
-Direction can become a brand behaviour: a consistent diagonal angle, forward vector, radial expansion, directional crop, image gaze rule, arrow family, motion trajectory or transition direction. Specify when direction is fixed, when it can reverse, how it adapts across languages and screen orientations, and how it behaves in motion.
-
-### Brand personality
-
-When discussing perceived brand characteristics, Claude may explain that variations of direction **may contribute to** impressions such as precision, softness, restraint, energy, formality, playfulness, technicality or craft **only when supported by the wider context**. Do not present these as fixed meanings.
-
-### Brand consistency
-
-Claude should test whether the direction logic is repeatable across:
-- logo and wordmark;
-- symbol and icon system;
-- graphic devices and patterns;
-- typography and imagery;
-- packaging;
-- campaign layouts;
-- social media;
-- websites and apps;
-- signage and environmental graphics;
-- merchandise and physical products;
-- motion behaviour where relevant.
-
-### Logo design
-
-Analyse recognition, legibility, scalability, simplification, reproduction, negative space, optical correction and use in monochrome/reverse-out. A choice that works at hero size may fail as a favicon, embroidery or small package mark.
-
-### Brand guidelines
-
-Where relevant, guidelines should specify:
-- permitted and prohibited variants;
-- dimensions, ratios or tolerances;
-- clear-space or spacing relationships;
-- colour/value combinations;
-- responsive/small-size variants;
-- production constraints;
-- cross-platform behaviour;
-- motion behaviour;
-- examples across multiple touchpoints.
-
-## 8. Graphic and communication design
-
-Claude should analyse how direction affects layouts, posters, advertising, publications, packaging, infographics, information design and visual navigation. It should consider **visual hierarchy, grouping, legibility, reading order, emphasis, consistency, scanability and communication efficiency**, not only appearance.
-
-Aesthetic questions should be connected to purpose: *What visual character is being established?* Functional questions should be connected to use: *What information becomes easier or harder to locate, interpret or act upon?*
-
-## 9. Multimedia
-
-Use subject movement, camera pan/tilt/tracking, gaze, screen direction, perspective lines, animated vectors, wipes, transitions and kinetic typography to build directional continuity. Screen direction changes can intentionally disorient or accidentally break continuity. Static frames and time-based sequences must be analysed separately.
-
-### Static versus time-based use
-
-Claude must distinguish the appearance of direction in a single frame from its behaviour across time. In time-based work, analyse **entry, change, continuity, sequencing, persistence and interaction** as appropriate.
-
-## 10. Digital / UI / UX
-
-Direction governs arrows, chevrons, carousels, scroll cues, progress steps, swipe affordances, disclosure icons and spatial navigation. Do not assume left-to-right equals forward. Localisation, platform conventions and bidirectional scripts can change expectations.
-
-Claude should consider usability, readability, discoverability, information hierarchy, responsive behaviour, cognitive load, touch/pointing interaction, localisation and assistive technologies.
-
-## 11. Textiles and fashion
-
-Directional prints, stripes, grain, nap, one-way motifs, chevrons, pleats and construction details create directional flow. Placement and cutting must respect one-way prints, pile/nap and fabric yield.
-
-Claude should distinguish:
-- **structural application** — contributes to construction, fit or material structure;
-- **decorative application** — contributes to surface or visual communication;
-- **functional application** — contributes to performance, comfort, use or safety.
-
-## 12. Product and industrial design
-
-Product orientation, handles, controls, openings and affordances imply direction of use. Direction must align with ergonomics and task sequence rather than purely visual styling.
-
-Separate:
-1. decorative/brand decisions;
-2. functional/ergonomic decisions;
-3. manufacturing and assembly consequences.
-
-## 13. Interior, spatial and architectural design
-
-Circulation, sightlines, floor/ceiling treatments, lighting, signage, arrows and architectural axes direct movement. Wayfinding cues must be legible, consistent and tested at decision points.
-
-Where relevant, connect direction to circulation, wayfinding, human scale, atmosphere, materiality, maintenance and accessibility.
-
-## 14. Technical communication
-
-Arrows, leaders, flow lines, north points, datum directions and sequencing symbols have formal meanings. Conventions vary by discipline and must be confirmed.
-
-Claude must distinguish **formal conventions** from expressive visual choices. Where a standard or discipline-specific convention is involved, preserve technical meaning first.
-
-## 15. Characteristics, features, properties and attributes
-
-Apply the Multimedia Teaching Assistant framework specifically:
-
-### Characteristics
-Observable/perceivable qualities of direction: the variables, type, appearance, arrangement, direction, scale, density, surface, timing or other visible/measurable qualities relevant to this element.
-
-### Features
-What the use of direction enables the design to do: organise, indicate, separate, connect, direct, identify, contain, reveal, support interaction, improve recognition or contribute to function.
-
-### Properties
-Technical or measurable qualities that affect behaviour: dimensions, resolution, tolerance, material response, contrast, file format, colour specification, timing, physical structure, process limits or other quantifiable constraints.
-
-### Attributes
-How the direction decision relates to **audience, purpose, communication, meaning, context and experience**. Attributes are not simply visual descriptors; they explain relevance and suitability.
-
-Claude should help students distinguish these four lenses instead of using the terms interchangeably.
-
-## 16. Accessibility
-
-Accessibility must be integrated into the design decision, not appended after styling.
-
-Claude should ask:
-- Can the relevant distinction be perceived by people with low vision or colour-vision differences?
-- Is essential information communicated through more than one visual cue?
-- Does the design remain legible when zoomed, reduced, reflowed or viewed on different screens?
-- Does the treatment create unnecessary visual or cognitive load?
-- Are focus, state, navigation and reading order perceivable?
-- Where motion or animation is involved, can reduced-motion preferences or user control be supported?
-- Where the element is physical, does it affect grip, reach, tactile differentiation, sensory comfort or safe movement?
-
-## 17. Production and manufacturing
-
-Claude must not invent universal production minima. It should explain the risk, identify the relevant process variables and recommend testing against the actual equipment, supplier specifications, substrate and final size.
-
-| Process | Direction considerations |
-|---|---|
-| **Print and signage** | Directional devices must retain visibility, orientation and contrast at intended viewing distances. |
-| **Digital localisation** | Mirroring may be needed for right-to-left interfaces; not all icons should be mirrored. |
-| **Textile cutting** | One-way prints and nap can increase material use because pattern pieces cannot be freely rotated. |
-| **Motion systems** | Directional transitions must remain coherent across responsive aspect ratios and avoid excessive motion. |
-
-## 18. Sustainability
-
-Claude should avoid superficial claims such as “minimal = sustainable”. For direction, consider:
-- whether the treatment changes material, ink, dye, energy or processing requirements;
-- whether complexity increases waste, setup, rejected output or maintenance;
-- whether the system is durable and adaptable across future applications;
-- whether it supports repair, reuse or long service life;
-- whether short-lived trends may drive premature redesign or disposal;
-- whether reduced material use creates another performance or accessibility problem.
-
-Sustainability must be assessed across environmental, social and economic consequences.
-
-## 19. Culture and ethics
-
-Claude should distinguish **common associations** from culturally specific meanings. It should consider reading conventions, symbols, identity, representation, cultural ownership, appropriation, stereotypes and misleading communication. Do not treat Western visual conventions as universal.
-
-When cultural references are material to a design, Claude should encourage research into the relevant community, context and source rather than guessing meaning.
-
-## 20. Factors Affecting Design
-
-| Factor Affecting Design | Questions and considerations for Direction |
-|---|---|
-| **Appropriateness of the Design Solution** | Does the use of direction suit the identified need, user, audience, context, environment and communication purpose? Would another treatment be more appropriate? |
-| **Needs** | What genuine user, communication, functional or contextual need is the direction decision responding to? Is the need evidenced or assumed? |
-| **Function / Functionality** | What must the design do, and how does direction support or obstruct that task? Distinguish primary from secondary functions. |
-| **Aesthetics** | How does direction contribute to the intended visual/sensory character? Describe observable qualities before interpreting them. |
-| **Finance / Cost** | Does the direction choice alter development time, material use, tooling, reproduction, licensing, maintenance or production cost? |
-| **Ergonomics** | Does direction affect human interaction, comfort, reach, visibility, grip, cognition or ease of use? Only apply where meaningful. |
-| **WHS / Safety** | Could the direction decision introduce production, use, maintenance or disposal hazards? Safety requirements override stylistic preference. |
-| **Quality** | Will the direction choice reproduce, manufacture, wear and perform consistently at the required standard? |
-| **Resources** | What software, tools, materials, skills, energy, time or specialist processes are required to realise the direction decision? |
-| **Short- and Long-Term Environmental Consequences** | What immediate waste/energy/material impacts and longer-term impacts arise from producing and maintaining the direction choice? |
-| **Sustainability** | Does the decision support durability, adaptability, repair, reuse, lower impact or responsible resource use without making superficial claims? |
-| **Obsolescence** | Could the direction treatment become technically incompatible, hard to update, trend-dependent or prematurely dated? |
-| **Life Cycle Analysis** | Where relevant, how does the decision affect extraction, manufacture, distribution, use, maintenance and end-of-life? |
-| **Accessibility** | Can people with different sensory, physical, cognitive and technological needs perceive, understand or use the design? |
-| **Ethics** | Could the direction treatment mislead, stereotype, manipulate, exclude, appropriate or misrepresent? Are cultural meanings handled responsibly? |
-
-## 21. Design trade-offs
-
-Claude must surface trade-offs explicitly. A strong design justification acknowledges what is gained and what may be compromised.
-
-Examples for direction include:
-- **simplicity ↔ expression** — simplification can improve recognition and reproduction but remove nuance;
-- **visibility ↔ subtlety** — stronger treatment improves noticeability but may dominate the hierarchy;
-- **consistency ↔ variety** — system consistency builds recognition but excessive uniformity can reduce flexibility;
-- **novelty ↔ longevity** — an unusual treatment can increase distinctiveness but may date quickly or be harder to implement;
-- **quality ↔ cost** — specialist materials/processes may improve finish but increase expense and production risk;
-- **impact ↔ accessibility** — dramatic treatments can attract attention yet impair reading, comfort or navigation;
-- **precision ↔ craft character** — controlled geometry can improve repeatability while irregularity may support a handmade identity;
-- **cross-platform consistency ↔ medium optimisation** — exact replication can fail; optical adaptation may preserve the design intent more successfully.
-
-Claude should add element-specific trade-offs from the actual brief rather than reusing these mechanically.
-
-## 22. Design analysis framework
-
-Use this progression:
-
-1. **Identify** — What use of direction is present?
-2. **Describe** — What observable characteristics can be named precisely?
-3. **Explain** — What visual, perceptual or functional effect does the choice create?
-4. **Analyse** — How does it interact with other elements, principles and design decisions?
-5. **Connect to communication** — What might the treatment communicate, signal or help the audience understand?
-6. **Connect to purpose** — How does it support the intended function or communication goal?
-7. **Connect to user/audience/context** — Why may it be appropriate here?
-8. **Evaluate** — How effectively does it meet the brief, criteria and constraints? What evidence supports the judgement?
-
-### Worked progression
-
-**Weak identification:** “The designer used direction.”
-
-**Description:** “The design uses a consistent, high-contrast direction treatment with clear variation between primary and secondary content.”
-
-**Explanation:** “This variation establishes a more visible hierarchy, so the primary message is encountered before supporting information.”
-
-**Analysis:** “The direction treatment works with scale, spacing and value contrast to separate the primary message from secondary content and guide scanning.”
-
-**Evaluation:** “The decision is effective for the intended context because it supports rapid recognition while remaining reproducible at the required scale. However, the smallest application should still be tested because the lower-priority treatment may lose clarity when reduced.”
-
-Claude should replace generic wording with the **actual observable characteristic** in the work being discussed.
-
-## 23. Design justification framework
-
-Use:
-
-**design decision → specific characteristic → effect → purpose → audience/context → suitability**
-
-For sophisticated justification:
-
-**design decision → evidence/research → alternative considered → trade-off → reason for final selection**
-
-### Quality levels
-
-- **Weak:** “I chose this direction because it looks good.”
-- **Developing:** “I chose a stronger direction treatment so the design stands out.”
-- **Strong:** “I increased the contrast and consistency of the direction treatment so the primary information is recognised more quickly, which suits an audience viewing the design briefly on mobile.”
-- **Sophisticated:** “Testing showed that the lighter treatment lost clarity at small size, while the strongest version dominated the supporting content. I selected the middle option because it preserved hierarchy and reproduction quality across both mobile and print, accepting slightly less visual impact in exchange for better consistency and accessibility.”
-
-Do not make student responses artificially long. Precision is more valuable than verbosity.
-
-## 24. Design development and experimentation
-
-Claude should make experimentation controlled and evidence-based.
-
-| Variable changed | Design variation | Visual/functional effect | Suitability | Improvement |
-|---|---|---|---|---|
-| One direction variable | Version A / B / C | Record only what visibly or functionally changed | Compare against brief/audience/criteria | State next evidence-based adjustment |
-
-Recommended process:
-1. Establish a baseline version.
-2. Select one variable from the core-characteristics table.
-3. Produce at least 3 meaningfully different variations.
-4. Keep other major variables as constant as practical.
-5. Annotate observable differences.
-6. Test in realistic context, scale and production conditions.
-7. Compare against explicit criteria.
-8. Collect targeted user/peer feedback where appropriate.
-9. Select or combine the strongest evidence-supported direction.
-10. Document the trade-off and refinement.
-
-Use thumbnails for rapid exploration, mock-ups for context, prototypes for functional/physical questions, and decision matrices only when criteria are clear enough to justify scoring.
-
-## 25. Branding experimentation
-
-When experimenting with direction in a brand project:
-
-1. Keep the core brand concept and content constant.
-2. Create controlled direction variations.
-3. Test the variations first in the mark or primary graphic device.
-4. Extend each viable option to at least **three touchpoints**, for example packaging, social post and website/mobile header.
-5. Test small and large scale, positive/negative backgrounds and monochrome where relevant.
-6. Evaluate recognition, consistency, flexibility, accessibility and production.
-7. Record what breaks when the system leaves the logo.
-8. Refine the **brand rule**, not just the single artefact.
-
-## 26. Scaffolded questioning
-
-Questions are thinking tools, not merely assessment prompts.
-
-### Recognition — identify / name
-- Where is direction present, actual or implied?
-- Which type or treatment can be identified?
-
-### Description — observable characteristics
-- What specific characteristics of direction can be described without interpretation?
-- Which variables are most dominant and where do they change?
-
-### Explanation — effect
-- What effect does this treatment have on hierarchy, perception, function or communication?
-- Which observable characteristic produces that effect?
-
-### Analysis — relationships
-- How does direction interact with colour, value, space, scale, typography, imagery or form?
-- What would change if this variable were removed or altered?
-
-### Application — informed choice
-- Which direction treatment best responds to the brief and why?
-- What production, accessibility or user constraints should shape the decision?
-
-### Justification
-- What did you choose, what alternative did you reject, and what evidence supports the selection?
-- Which factor affecting design most influenced the final decision?
-
-### Evaluation
-- How effectively does the direction treatment meet the intended purpose and criteria?
-- Where does it perform differently across applications or users?
-
-### Refinement
-- What single variable should change next, and what evidence suggests that change?
-- What should be tested before finalising?
-
-Where useful, map questions to the Factors Affecting Design rather than asking disconnected reflection questions.
-
-## 27. Vocabulary bank
-
-Claude should define terms concisely and use them consistently.
-
-### Core vocabulary
-vector, curvature, convergence/divergence, opposition, implied direction, sequential direction, directional hierarchy, temporal direction.
-
-### Classification vocabulary
-horizontal direction, vertical direction, diagonal direction, curved/circular direction, radial direction, spiral direction, converging/diverging direction, implied direction.
-
-### Analysis vocabulary
-contributes to; reinforces; establishes; creates; influences; directs; emphasises; supports; visually connects; differentiates; may communicate; may be perceived as; is appropriate because; interacts with; improves; compromises; reproduces; adapts; scales; clarifies; obscures.
-
-### Branding vocabulary
-brand system; distinctive brand asset; visual identity; graphic device; responsive identity; consistency; recognition; clear space; lock-up; application; touchpoint; asset; specification.
-
-### Production vocabulary
-tolerance; resolution; substrate; reproduction; proof; registration; kerf; tooling; finish; process limit; minimum feature; optical correction; scale test; prototype.
-
-## 28. Common misconceptions
-
-| Misconception | Correction | Better way to think about it |
+| The request is… | Use from this file | Also read in `references/design-method.md` |
 |---|---|---|
-| Left-to-right always means progress. | Reading and navigation conventions differ across languages, cultures and interfaces. | State the audience and context before interpreting sequencing. |
-| Direction and movement are the same. | Direction can be static; movement is actual or perceived change over time. | Analyse path and motion separately. |
-| Diagonal direction is always exciting. | Diagonal arrangements may create energy or instability in some contexts, but not universally. | Connect effect to surrounding elements and purpose. |
-| Personal preference is a design justification. | Preference does not demonstrate suitability. | Connect the decision to audience, purpose, criteria, evidence and constraints. |
-| The element alone creates a principle. | Principles arise from relationships among elements. | Explain how direction contributes to contrast, balance, hierarchy, rhythm or another principle. |
-| Digital success guarantees physical reproduction. | Screens and production processes have different constraints. | Test realistic output conditions. |
+| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
-## 29. Language rules for Claude
+Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
-Claude must:
-- use Australian English;
-- use precise design terminology;
-- distinguish observation from interpretation;
-- use conditional language for cultural, emotional and perceptual associations;
-- avoid aesthetic judgements presented as fact;
-- avoid stereotypes and body-value judgements;
-- avoid treating preference as justification;
-- connect design decisions to audience, purpose and context;
-- surface relevant trade-offs;
-- distinguish elements from principles;
-- separate functional, technical, perceptual and symbolic consequences;
-- use NSW TAS command verbs accurately: **identify, describe, explain, analyse, evaluate**;
-- avoid saying a treatment “works” without naming the criterion it satisfies.
+## What direction is
 
-Preferred phrasing includes:
-**contributes to, reinforces, establishes, creates, influences, directs, emphasises, supports, visually connects, differentiates, may communicate, may be perceived as, is appropriate because.**
+Direction is the way visual, spatial or time-based information points, travels, progresses or leads attention. It can be explicit (an arrow, a moving object) or implied through line, alignment, repetition, perspective, gaze, sequence, typography or composition.
 
-## 30. When generating educational resources
+Keep it distinct from its neighbours:
+- **Direction vs line:** a line can carry direction, but direction can exist with no drawn line (a gaze, a sequence of shapes).
+- **Direction vs movement:** direction can be static — a path suggested, not travelled. Movement is actual or perceived change over time.
+- **Direction vs orientation:** orientation is the angle an object sits at; direction is the path or vector that angle implies in context.
+- **Direction vs alignment:** alignment organises relationships; repeated alignments can *produce* directional flow.
 
-When this skill generates Canvas pages, workbooklets, worksheets, lessons, portfolio scaffolds, revision resources, assessment support or exemplars, move learners through:
+## Variables
 
-**knowledge → recognition → description → analysis → experimentation → application → justification → evaluation → refinement**
+| Variable | Range | Typical effect | Watch for |
+|---|---|---|---|
+| **Vector** | left/right, up/down, diagonal, inward/outward | sets a path for attention or action | Read relative to content, language and interface conventions |
+| **Curvature of path** | straight, curved, circular, spiral | predictable vs meandering flow | Curved paths can slow scanning; suit cyclical ideas |
+| **Convergence / divergence** | towards a point / away from it | emphasis, depth, expansion | Perspective intensifies it |
+| **Opposition** | counter-directions, mirrored vectors | tension, comparison, branching | Opposing cues can make navigation ambiguous |
+| **Implied cues** | gaze, gesture, cropping, repetition, leading edges | guides attention without arrows | Inference varies by audience; test it |
+| **Sequence** | ordered steps, numbered progression | process, narrative, navigation | Reading direction and culture change expectations |
+| **Directional hierarchy** | primary, secondary, tertiary paths | what is seen first and next | Competing vectors raise cognitive load |
+| **Temporal direction** | entry, travel, exit; forward/back | links direction to animation and interaction | Keep spatial continuity; offer reduced motion |
 
-Do not jump directly from definition to independent design production.
+## Types
 
-Where appropriate:
-- include examples and non-examples;
-- use comparison before open-ended generation;
-- scaffold terminology explicitly;
-- connect theory to the student's own project;
-- provide room for alternatives and testing;
-- use feedback that identifies the next design decision rather than merely correcting an answer.
+- **Horizontal** — progression across the frame; timelines, layouts, camera pans, textile repeats.
+- **Vertical** — up/down progression; scrolling, towers, posters, stacked interfaces.
+- **Diagonal** — oblique progression; perspective, dynamic compositions, motion cues.
+- **Curved / circular** — around a curve or centre; identity devices, choreography, cyclical diagrams.
+- **Radial** — spreading from or converging on a centre; infographics, graphic devices, plans.
+- **Spiral** — rotation with changing radius; illustration, motion paths, exhibition journeys.
+- **Converging / diverging** — paths meeting or separating; perspective, process diagrams, focal points.
+- **Implied** — inferred from content: gaze, posture, pointing, leading edges, cropping.
 
-## 31. Differentiation
+For analysis, ask whether the direction is **explicit or implied**, and whether its role is **expressive, navigational or functional** (task sequence, wayfinding, safety).
 
-### Support
-- visual identification;
-- controlled comparisons;
-- labelled examples;
-- sentence starters;
-- reduced variable set;
-- partially completed analysis tables;
-- explicit vocabulary.
+## How direction works with the other elements
 
-### Core
-- independent analysis;
-- controlled experimentation;
-- justified selection;
-- application across at least two contexts.
+- **Line:** lines are the most common carrier of direction — leading lines, perspective lines, arrows. But a line only gains direction from context (where it starts, what it points at).
+- **Shape:** pointed, wedge and chevron shapes point; asymmetric shapes read as having a "front". A circle is directionally neutral until something is placed around it.
+- **Form:** a product's form implies direction of use — spouts pour, handles pull, wedges lead. In 3D space, form directs circulation.
+- **Space:** open space ahead of a subject ("lead room") lets the implied direction continue; cramped space in front can create tension or a sense of being blocked.
+- **Size and scale:** a progression from large to small reads as recession or travel into depth; scaled sequences pull the eye along.
+- **Colour:** a saturated accent at the end of a path is where direction lands; a gradient can suggest travel from one hue to another.
+- **Value:** a light-to-dark gradient creates a direction of reading; a bright focal point at the end of a path completes it.
+- **Texture:** directional textures (wood grain, brushed metal, nap, stripes) add a quiet vector across a surface.
+- **Typography:** reading direction of the script, rotated or angled type, and line-by-line flow all set direction. Right-to-left and vertical scripts change expectations.
+- **Layout and composition:** grids, alignment and placement create the overall reading path (e.g. F- or Z-scanning in some left-to-right contexts — tendencies, not rules).
+- **Time and duration:** in motion, direction is literal: entry side, travel path, exit, and consistent screen direction across cuts.
 
-### Extension
-- competing constraints;
-- cross-platform system design;
-- audience interpretation;
-- manufacturing/reproduction constraints;
-- cultural/contextual critique;
-- sophisticated trade-off analysis;
-- evidence-based evaluation of alternatives.
+## How direction contributes to the principles
 
-## 32. Claude behaviour rules
+- **Movement:** the most direct link — diagonals, curves and sequences create perceived movement; actual motion makes it literal.
+- **Emphasis:** converging vectors and gaze lines point to a focal point.
+- **Hierarchy:** a clear primary path, then secondary paths, sets the order information is met.
+- **Balance:** strong vectors pull visual weight towards where they point; a figure facing out of the frame can unbalance it.
+- **Contrast and tension:** opposing directions create conflict, comparison or a sense of confrontation.
+- **Rhythm and repetition:** repeated directional elements at intervals set pace (a row of chevrons, a sequence of steps).
+- **Unity:** a consistent brand vector (always forward-leaning, always rising) ties touchpoints together.
+- **Alignment:** repeated alignment along one axis produces directional flow.
+- **Proximity:** a sequence of close-spaced items reads as one path; gaps can break or redirect it.
 
-When this skill is active, Claude must:
+## Direction across fields
 
-1. Treat **Direction as an intentional design variable**, not a label to identify.
-2. Start from observable characteristics before making interpretive claims.
-3. Connect **characteristic → effect → communication/function → suitability → evaluation**.
-4. Use the **Characteristics / Features / Properties / Attributes** framework when analysing in depth.
-5. Apply relevant **Factors Affecting Design** rather than forcing every factor into every task.
-6. Distinguish direction from closely related elements and principles.
-7. Avoid universal claims about emotion, symbolism, culture or brand personality.
-8. Ask what the design must do for its audience, user, purpose and context.
-9. Surface trade-offs and rejected alternatives in strong justification.
-10. Treat accessibility, production and reproduction as design constraints from the beginning.
-11. Test branding decisions as repeatable systems across multiple touchpoints, not only within a logo.
-12. Distinguish static, time-based, digital, physical and technical applications where relevant.
-13. Encourage controlled experimentation with one variable at a time where practical.
-14. Require evidence for evaluative claims.
-15. Preserve formal technical conventions when direction carries standardised meaning.
-16. Use Australian English and NSW TAS command verbs accurately.
-17. Scale scaffolding from support to extension without changing the conceptual accuracy.
-18. Prefer concise, precise student language over inflated responses.
-19. Recommend realistic mock-ups, prototypes, proofs or context tests before finalisation.
-20. End feedback with a specific, evidence-based refinement action when improvement is required.
+- **Branding:** direction can be a brand behaviour — a consistent angle, forward vector, radial expansion, crop rule, gaze rule, arrow family, motion trajectory. Specify when it may reverse, how it adapts to right-to-left languages and portrait/landscape, and how it moves.
+- **Graphic and communication design:** reading order, eye path across posters, advertising and packaging, process diagrams and infographics. Ask what the viewer meets first, second and last.
+- **Photography, film and animation:** subject movement, camera pan/tilt/track, eye-lines, screen direction, perspective, wipes and transitions. Breaking the 180° line or reversing screen direction can disorient — deliberately or by accident. Analyse a single frame separately from the sequence.
+- **UI / UX:** arrows, chevrons, carousels, scroll cues, steppers, swipe affordances, disclosure icons, back/forward. Don't assume left-to-right means forward; mirror layouts for right-to-left, but not every icon (a play button or a clock doesn't mirror).
+- **Textiles and fashion:** directional prints, stripes, chevrons, pleats, grain, nap and pile. One-way prints and nap limit how pattern pieces can be laid out.
+- **Product and industrial design:** form, handles, controls and openings imply direction of use; this must match the task sequence and ergonomics, not just the styling.
+- **Interiors and architecture:** circulation, sightlines, floor and ceiling bands, lighting and signage direct movement. Wayfinding must be consistent and tested at decision points.
+- **Technical communication:** arrows, leaders, flow lines, north points and sequence symbols carry formal meanings under the relevant convention. Preserve them.
 
-## 33. Quality-control checklist
+## Production and reproduction
 
-Before finalising any resource or analysis using this skill, verify that:
-- direction is explained beyond a textbook definition;
-- core variables are named precisely;
-- branding is treated as a system;
-- multimedia and time-based use are addressed where relevant;
-- field-specific applications are meaningful rather than forced;
-- contextual associations are not presented as universal;
-- Factors Affecting Design are integrated;
-- Characteristics, Features, Properties and Attributes are used accurately;
-- accessibility is considered;
-- production and reproduction are considered;
-- justification includes effect, purpose, audience/context and suitability;
-- experimentation supports comparison and refinement;
-- analysis progresses from identification to evaluation;
-- trade-offs are explicit;
-- Australian English is used throughout.
+| Process | Direction risks |
+|---|---|
+| Print and signage | Directional devices must stay visible and correctly oriented at the viewing distance |
+| Digital localisation | Right-to-left interfaces need mirrored layouts; some icons must not be mirrored |
+| Textile cutting | One-way prints and nap stop pieces being rotated, increasing fabric use |
+| Motion systems | Directional transitions must stay coherent across aspect ratios and avoid excessive motion |
+
+## Common misconceptions
+
+| Misconception | Better understanding |
+|---|---|
+| "Left-to-right always means progress." | Reading and navigation conventions vary by language, culture and interface. State the audience first. |
+| "Direction and movement are the same." | Direction can be a static suggested path; movement is change over time. Analyse them separately. |
+| "Diagonals are always exciting." | They can create energy or instability in some contexts; tie the effect to this composition. |
+| "An arrow is the only way to direct attention." | Gaze, perspective, cropping, scale sequences and repetition often do it more subtly. |
+| "More directional cues = clearer." | Competing vectors confuse. One clear primary path usually beats several. |
+
+## Worked analysis (model for exemplars and annotations)
+
+Scenario: a landscape web banner for a bike-share scheme. A cyclist on the left rides towards the right edge; she looks ahead to the right. Road markings run diagonally from bottom left to upper right. The "Ride now" button sits at the right end of the road, in the only saturated green.
+
+- **Identify:** "The banner uses direction."
+- **Describe:** "The cyclist faces and moves towards the right; her gaze points right; road markings run diagonally up to the right; the button sits at the end of that diagonal."
+- **Explain:** "Three cues — travel, gaze and the diagonal road — all point the same way, so the eye moves from the cyclist to the button."
+- **Analyse:** "Direction works with colour and placement: the path ends on the only saturated green, so the call to action is both the destination and the focal point. The generous empty road ahead (lead room) lets the implied movement continue rather than stopping at the edge."
+- **Evaluate:** "Effective for a left-to-right English-reading audience scanning quickly, because the path to the button is immediate. However, the scheme also serves an Arabic-speaking community; for the right-to-left version the whole composition — not just the text — would need mirroring, or the path would run away from the button."
+
+Each level should add a link in the chain, not simply more words.
+
+## Justification examples (Year 10 infographic on recycling)
+
+- **Weak:** "I used arrows because they look good."
+- **Developing:** "I used arrows so people know which way to read it."
+- **Strong:** "I arranged the five recycling stages in a clockwise circle with chevron arrows between them, because the process is a loop and the circle shows that the last step feeds back into the first. That suits Year 7 students seeing it on a bin-room poster."
+- **Sophisticated:** "I tested a left-to-right row and a clockwise loop with six Year 7s. With the row, four thought the process ended at 'new product'; with the loop, five understood it repeats. I kept the loop, but numbered the stages as well, because two students started at the wrong point. I accepted a slightly busier graphic for a clearer sequence."
+
+## Feedback patterns to look for in student work
+
+- **Competing vectors:** several strong directions pulling different ways with no primary path.
+- **Subjects facing out of the frame** with no reason, sending attention off the page.
+- **"Left-to-right = forward" assumed** without considering audience or language.
+- **Direction confused with line or movement** in written analysis.
+- **Broken screen direction** in video edits (subject exits left, enters from left).
+- **Arrows added to fix a weak layout** instead of reorganising the reading path.
+
+## Activity ideas for teaching resources
+
+- **Eye-path tracing:** students trace the order their eye moves over a poster, then compare with a partner and find where the paths diverge.
+- **Flip test:** mirror an ad horizontally and discuss what changes about the reading path and meaning.
+- **Gaze experiment:** photograph a subject looking into the frame, out of the frame and at the camera; compare where attention goes.
+- **Screen-direction storyboard (Multimedia):** plan a three-shot chase that keeps consistent screen direction, then break it on purpose.
+- **Stepper redesign (UI):** redesign a checkout progress bar for a right-to-left language.
+- **Directional print layout (Textiles):** lay out pattern pieces for a one-way print and compare fabric use with a non-directional print.
