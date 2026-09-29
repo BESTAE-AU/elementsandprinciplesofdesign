@@ -1,0 +1,33 @@
+{
+  "default": "Lato",
+  "fonts": {
+    "Lato": {
+      "weights": {
+        "Thin": {
+          "cap": 0.7,
+          "weight": 250
+        },
+        "Light": {
+          "cap": 0.7075,
+          "weight": 300
+        },
+        "Regular": {
+          "cap": 0.7165,
+          "weight": 400
+        },
+        "Bold": {
+          "cap": 0.723,
+          "weight": 700
+        },
+        "Black": {
+          "cap": 0.7285,
+          "weight": 900
+        }
+      },
+      "heavy": "Black",
+      "light": "Light",
+      "variable": false,
+      "source": "Google Fonts files (OS/2 capHeight / 2000); Black corrected to 0.7285, measured in InDesign 2026 with Adobe Fonts Lato (100 pt H outline)"
+    }
+  }
+}

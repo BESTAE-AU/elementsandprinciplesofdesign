@@ -31,7 +31,7 @@ Text-on-fill rules:
 5. **Canva:** in each brand kit (Bestae, Bestae Print Documents, BESTAE PRESENTATIONS, Magazine/Booklets, Colour Theory), change `CFB500` to `8A6400` and `008EAA` to `007F98`. Check any Canva designs that used the old mustard or bondi blue.
 6. **Adobe:** load `swatches/bestae.ase` into the Illustrator, InDesign and Photoshop Swatches panels.
 7. **Claude Projects:** check the Multimedia project (and any other) for knowledge files that hold BESTAE colours, and update them.
-8. **Claude skills:** upload the seven colour skill zips (`dist/*.zip`) at claude.ai › Settings › Capabilities › Skills.
+8. [x] **Claude skills:** the seven colour skills are installed (confirmed 29 Sept 2026).
 
 ## MCCNS (added later the same day)
 - [x] MCCNS colour usage guide: `brand/mccns/colour-usage-guide.md`. Swatches are in `brand/mccns/swatches/`. No brand components were changed.
@@ -44,7 +44,7 @@ Text-on-fill rules:
 - [x] MBE design system updated (v7): colour usage rules and corrected token notes. No colours were changed. https://claude.ai/artifact/2ptfHF8cDnoeLt3RDdtzWi
 - [x] Greyscale Workbooklet design system created: https://claude.ai/artifact/AHsqwt586J6rMJDpkqSdL8
 - [x] MCCNS type sizes converted from pt to px. The design system format drops pt sizes.
-- [ ] Re-upload the updated skill `brand/greyscale/greyscale-print-design-system.zip` at claude.ai › Settings › Capabilities › Skills, replacing the current one. It adds the colour usage rules.
+- [x] Updated greyscale skill installed (confirmed).
 - [ ] Greyscale: in `Greyscale Workbooklet.dotm`, change the Hyperlink style colour from #898A89 to **#5E5E5E** (decided and applied in the design system and skill).
 - [x] MBE: small pink CTAs use the new `accent-bloom-deep` #e3008c with white text; inputs use `border-strong` #a48061.
 
@@ -52,5 +52,8 @@ Text-on-fill rules:
 - [x] BESTAE tints: `t5` #E8F6C4, `t8` #D2DCE8, `t10` #F7D0E6. Design system v8, swatches, Word template, PowerPoint copy and site map are all updated, and a Dropbox note is added.
 - [ ] Canva brand kits: also change `EFF4A4` to `E8F6C4`, `D5EBEE` to `D2DCE8` and `F2DEE9` to `F7D0E6` (as well as the earlier two changes).
 - [ ] Adobe: reload `brand/bestae/swatches/bestae.ase` (re-exported with the new tints).
-- [ ] Re-upload the greyscale skill zip again. It now has the new link colour and the coding set.
+- [x] Greyscale skill re-uploaded with the new link colour and coding set (confirmed).
 - [ ] MBE: add `#e3008c` and `#a48061` to any MBE Canva brand kit or website stylesheet.
+
+## Skills that still carried the old palette (found after install)
+- [ ] Replace these four skills with the updated zips in `skill-updates/`: `workbooklet-style-system`, `indesign-parameters`, `word-tables` and `canvas-course-builder`. Each has the Dark Gold shade (white text, headers only), the new Bondi Blue (white text), the three new tints and the Greyscale link #5E5E5E. The `indesign-parameters` contrast script (`grid.py --domains`) confirms every value.
