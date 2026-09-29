@@ -1,6 +1,11 @@
 ---
 name: value-element-of-design
-description: VALUE as an element of design for NSW TAS and design subjects. Use for any task about value: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers tone, shading, value contrast, high-key and low-key, and greyscale or squint tests. For WCAG contrast ratios, prefer colour-contrast-audit.
+description: >
+  VALUE as an element of design for NSW TAS and design subjects. Use for any task
+  about value: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers tone, shading,
+  value contrast, high-key and low-key, and greyscale or squint tests. For WCAG
+  contrast ratios, prefer colour-contrast-audit.
 ---
 
 # Value — element of design

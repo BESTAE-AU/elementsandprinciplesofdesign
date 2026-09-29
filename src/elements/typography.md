@@ -1,6 +1,12 @@
 ---
 name: typography-element-of-design
-description: TYPOGRAPHY as an element of design for NSW TAS and design subjects. Use for any task about typography: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers type as an element: hierarchy, legibility, spacing, classification and captions. For choosing fonts or type scales, prefer typeface-selection-rationale or type-system-builder.
+description: >
+  TYPOGRAPHY as an element of design for NSW TAS and design subjects. Use for any
+  task about typography: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or applying it in a design. Covers type as an
+  element: hierarchy, legibility, spacing, classification and captions. For
+  choosing fonts or type scales, prefer typeface-selection-rationale or
+  type-system-builder.
 ---
 
 # Typography — element of design

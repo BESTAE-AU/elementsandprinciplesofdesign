@@ -1,6 +1,12 @@
 ---
 name: elements-and-principles-of-design
-description: Overview and shared design method for NSW TAS and design subjects. Use for tasks spanning several elements or principles of design (unit overviews, scope and sequence, glossaries, whole-design feedback or marking) and for design analysis (identify to evaluate), design justifications and folio rationales, Factors Affecting Design, design experimentation and development pages, brand-system testing, and characteristics, features, properties and attributes.
+description: >
+  Overview and shared design method for NSW TAS and design subjects. Use for tasks
+  spanning several elements or principles of design (unit overviews, scope and
+  sequence, glossaries, whole-design feedback or marking) and for design analysis
+  (identify to evaluate), design justifications and folio rationales, Factors
+  Affecting Design, design experimentation and development pages, brand-system
+  testing, and characteristics, features, properties and attributes.
 ---
 
 # Elements and principles of design: overview and method

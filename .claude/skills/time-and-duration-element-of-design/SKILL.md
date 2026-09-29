@@ -1,6 +1,11 @@
 ---
 name: time-and-duration-element-of-design
-description: TIME AND DURATION as an element of design for NSW TAS and design subjects. Use for any task about time and duration: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers pacing, timing, holds, transitions, easing, reading time and animation or edit rhythm.
+description: >
+  TIME AND DURATION as an element of design for NSW TAS and design subjects. Use
+  for any task about time and duration: lessons and worksheets, feedback or
+  marking of student work, analysis and model answers, or applying it in a design.
+  Covers pacing, timing, holds, transitions, easing, reading time and animation or
+  edit rhythm.
 ---
 
 # Time and duration — element of design

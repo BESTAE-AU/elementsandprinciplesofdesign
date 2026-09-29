@@ -1,6 +1,10 @@
 ---
 name: hierarchy-principle-of-design
-description: HIERARCHY as a principle of design for NSW TAS and design subjects. Use for any task about hierarchy: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers what reads first, levels of importance and typographic hierarchy.
+description: >
+  HIERARCHY as a principle of design for NSW TAS and design subjects. Use for any
+  task about hierarchy: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers what reads
+  first, levels of importance and typographic hierarchy.
 ---
 
 # Hierarchy — principle of design

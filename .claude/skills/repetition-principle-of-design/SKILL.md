@@ -1,6 +1,10 @@
 ---
 name: repetition-principle-of-design
-description: REPETITION as a principle of design for NSW TAS and design subjects. Use for any task about repetition: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers repeated elements, consistency and brand recognition.
+description: >
+  REPETITION as a principle of design for NSW TAS and design subjects. Use for any
+  task about repetition: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers repeated
+  elements, consistency and brand recognition.
 ---
 
 # Repetition — principle of design

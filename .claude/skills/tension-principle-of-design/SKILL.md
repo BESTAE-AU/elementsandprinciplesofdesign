@@ -1,6 +1,10 @@
 ---
 name: tension-principle-of-design
-description: TENSION as a principle of design for NSW TAS and design subjects. Use for any task about tension: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers near-collisions, cropping, instability and suspense.
+description: >
+  TENSION as a principle of design for NSW TAS and design subjects. Use for any
+  task about tension: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers near-collisions,
+  cropping, instability and suspense.
 ---
 
 # Tension — principle of design

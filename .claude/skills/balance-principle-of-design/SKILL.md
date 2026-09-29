@@ -1,6 +1,10 @@
 ---
 name: balance-principle-of-design
-description: BALANCE as a principle of design for NSW TAS and design subjects. Use for any task about balance: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers symmetrical and asymmetrical balance, visual weight and stability.
+description: >
+  BALANCE as a principle of design for NSW TAS and design subjects. Use for any
+  task about balance: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers symmetrical and
+  asymmetrical balance, visual weight and stability.
 ---
 
 # Balance — principle of design

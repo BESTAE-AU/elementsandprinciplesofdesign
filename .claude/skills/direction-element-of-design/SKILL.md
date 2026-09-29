@@ -1,6 +1,10 @@
 ---
 name: direction-element-of-design
-description: DIRECTION as an element of design for NSW TAS and design subjects. Use for any task about direction: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers eye flow, reading path, gaze, perspective, screen direction, arrows and wayfinding.
+description: >
+  DIRECTION as an element of design for NSW TAS and design subjects. Use for any
+  task about direction: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or applying it in a design. Covers eye flow,
+  reading path, gaze, perspective, screen direction, arrows and wayfinding.
 ---
 
 # Direction — element of design

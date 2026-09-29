@@ -1,6 +1,12 @@
 ---
 name: colour-element-of-design
-description: COLOUR as an element of design for NSW TAS and design subjects. Use for any task about colour: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers hue, saturation, value, colour relationships, brand colour systems, UI colour and print vs screen. For palettes, colour psychology or contrast ratios, prefer colour-palette-builder, colour-psychology-rationale or colour-contrast-audit.
+description: >
+  COLOUR as an element of design for NSW TAS and design subjects. Use for any task
+  about colour: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers hue, saturation,
+  value, colour relationships, brand colour systems, UI colour and print vs
+  screen. For palettes, colour psychology or contrast ratios, prefer
+  colour-palette-builder, colour-psychology-rationale or colour-contrast-audit.
 ---
 
 # Colour — element of design

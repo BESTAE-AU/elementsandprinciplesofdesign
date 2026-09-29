@@ -1,6 +1,10 @@
 ---
 name: line-element-of-design
-description: LINE as an element of design for NSW TAS and design subjects. Use for any task about line: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers leading lines, stroke weight, outlines, contour, hairlines, seams and technical line types.
+description: >
+  LINE as an element of design for NSW TAS and design subjects. Use for any task
+  about line: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers leading lines,
+  stroke weight, outlines, contour, hairlines, seams and technical line types.
 ---
 
 # Line — element of design

@@ -1,6 +1,10 @@
 ---
 name: variety-principle-of-design
-description: VARIETY as a principle of design for NSW TAS and design subjects. Use for any task about variety: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers adding interest without chaos, and monotony vs variety.
+description: >
+  VARIETY as a principle of design for NSW TAS and design subjects. Use for any
+  task about variety: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers adding interest
+  without chaos, and monotony vs variety.
 ---
 
 # Variety — principle of design

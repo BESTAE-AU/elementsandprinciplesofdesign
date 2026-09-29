@@ -1,6 +1,10 @@
 ---
 name: pattern-principle-of-design
-description: PATTERN as a principle of design for NSW TAS and design subjects. Use for any task about pattern: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers motifs and repeat structures such as block, half-drop and mirror.
+description: >
+  PATTERN as a principle of design for NSW TAS and design subjects. Use for any
+  task about pattern: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers motifs and
+  repeat structures such as block, half-drop and mirror.
 ---
 
 # Pattern — principle of design

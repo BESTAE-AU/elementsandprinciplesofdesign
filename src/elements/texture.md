@@ -1,6 +1,10 @@
 ---
 name: texture-element-of-design
-description: TEXTURE as an element of design for NSW TAS and design subjects. Use for any task about texture: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers actual and visual texture, surface finish, grain overlays, embossing and fabric feel.
+description: >
+  TEXTURE as an element of design for NSW TAS and design subjects. Use for any
+  task about texture: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers actual and visual
+  texture, surface finish, grain overlays, embossing and fabric feel.
 ---
 
 # Texture — element of design

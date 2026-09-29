@@ -1,6 +1,11 @@
 ---
 name: size-and-scale-element-of-design
-description: SIZE AND SCALE as an element of design for NSW TAS and design subjects. Use for any task about size and scale: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers relative size, scale contrast, minimum logo size, favicons, human scale and scale drawings.
+description: >
+  SIZE AND SCALE as an element of design for NSW TAS and design subjects. Use for
+  any task about size and scale: lessons and worksheets, feedback or marking of
+  student work, analysis and model answers, or applying it in a design. Covers
+  relative size, scale contrast, minimum logo size, favicons, human scale and
+  scale drawings.
 ---
 
 # Size and scale — element of design

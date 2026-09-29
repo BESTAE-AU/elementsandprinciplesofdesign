@@ -1,6 +1,10 @@
 ---
 name: harmony-principle-of-design
-description: HARMONY as a principle of design for NSW TAS and design subjects. Use for any task about harmony: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers elements that belong together, and clashing on purpose.
+description: >
+  HARMONY as a principle of design for NSW TAS and design subjects. Use for any
+  task about harmony: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers elements that
+  belong together, and clashing on purpose.
 ---
 
 # Harmony — principle of design

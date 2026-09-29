@@ -1,6 +1,10 @@
 ---
 name: rhythm-principle-of-design
-description: RHYTHM as a principle of design for NSW TAS and design subjects. Use for any task about rhythm: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers regular, alternating and progressive intervals, beat and pacing.
+description: >
+  RHYTHM as a principle of design for NSW TAS and design subjects. Use for any
+  task about rhythm: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers regular,
+  alternating and progressive intervals, beat and pacing.
 ---
 
 # Rhythm — principle of design

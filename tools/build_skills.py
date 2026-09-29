@@ -215,15 +215,22 @@ def check():
         if not f.exists():
             continue
         fm, body = split_frontmatter(f.read_text())
+        try:
+            import yaml  # optional; catches frontmatter that Claude.ai would reject
+            yaml.safe_load(fm)
+        except ImportError:
+            pass
+        except Exception as err:
+            problems.append(f"{d.name}: invalid YAML frontmatter ({str(err).splitlines()[0]})")
         name = re.search(r"^name:\s*(\S+)", fm, re.M).group(1)
-        desc = re.search(r"^description:\s*(.+)$", fm, re.M | re.S).group(1).strip()
+        desc = " ".join(re.search(r"^description:\s*>?(.+)$", fm, re.M | re.S).group(1).split())
         total_desc += len(desc)
         if name != d.name:
             problems.append(f"{d.name}: name '{name}' doesn't match folder")
         if len(desc) > 1024:
             problems.append(f"{d.name}: description {len(desc)} chars (max 1024)")
-        if "<" in desc or ">" in desc:
-            problems.append(f"{d.name}: description contains angle brackets")
+        if "<" in desc or ">" in desc or (": " in desc and not re.search(r"^description:\s*>", fm, re.M)):
+            problems.append(f"{d.name}: description has angle brackets or an unquoted ': '")
         for ref in re.findall(r"`(references/[^`]+\.md)`", body):
             if not (d / ref).exists():
                 problems.append(f"{d.name}: missing {ref}")

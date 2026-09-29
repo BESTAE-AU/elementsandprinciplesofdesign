@@ -1,6 +1,10 @@
 ---
 name: proportion-principle-of-design
-description: PROPORTION as a principle of design for NSW TAS and design subjects. Use for any task about proportion: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers ratios between parts, the golden ratio and human proportion.
+description: >
+  PROPORTION as a principle of design for NSW TAS and design subjects. Use for any
+  task about proportion: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers ratios
+  between parts, the golden ratio and human proportion.
 ---
 
 # Proportion — principle of design

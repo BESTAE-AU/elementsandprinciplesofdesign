@@ -1,6 +1,10 @@
 ---
 name: proximity-principle-of-design
-description: PROXIMITY as a principle of design for NSW TAS and design subjects. Use for any task about proximity: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers grouping by nearness and spacing between related items.
+description: >
+  PROXIMITY as a principle of design for NSW TAS and design subjects. Use for any
+  task about proximity: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers grouping
+  by nearness and spacing between related items.
 ---
 
 # Proximity — principle of design

@@ -1,6 +1,10 @@
 ---
 name: unity-principle-of-design
-description: UNITY as a principle of design for NSW TAS and design subjects. Use for any task about unity: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers cohesion and making a design or series feel like one whole.
+description: >
+  UNITY as a principle of design for NSW TAS and design subjects. Use for any task
+  about unity: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or achieving it in a design. Covers cohesion and
+  making a design or series feel like one whole.
 ---
 
 # Unity — principle of design

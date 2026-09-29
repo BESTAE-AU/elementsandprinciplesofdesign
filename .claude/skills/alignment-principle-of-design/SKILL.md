@@ -1,6 +1,10 @@
 ---
 name: alignment-principle-of-design
-description: ALIGNMENT as a principle of design for NSW TAS and design subjects. Use for any task about alignment: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers shared edges, grids, baselines and optical alignment.
+description: >
+  ALIGNMENT as a principle of design for NSW TAS and design subjects. Use for any
+  task about alignment: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers shared
+  edges, grids, baselines and optical alignment.
 ---
 
 # Alignment — principle of design

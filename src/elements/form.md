@@ -1,6 +1,10 @@
 ---
 name: form-element-of-design
-description: FORM as an element of design for NSW TAS and design subjects. Use for any task about form: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers 3D volume, mass and void, shading to look 3D, edges and fillets, drape and product form.
+description: >
+  FORM as an element of design for NSW TAS and design subjects. Use for any task
+  about form: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers 3D volume, mass
+  and void, shading to look 3D, edges and fillets, drape and product form.
 ---
 
 # Form — element of design

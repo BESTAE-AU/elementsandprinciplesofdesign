@@ -1,6 +1,10 @@
 ---
 name: contrast-principle-of-design
-description: CONTRAST as a principle of design for NSW TAS and design subjects. Use for any task about contrast: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers value, colour, size and type contrast, legibility and 'making it pop'.
+description: >
+  CONTRAST as a principle of design for NSW TAS and design subjects. Use for any
+  task about contrast: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers value,
+  colour, size and type contrast, legibility and 'making it pop'.
 ---
 
 # Contrast — principle of design

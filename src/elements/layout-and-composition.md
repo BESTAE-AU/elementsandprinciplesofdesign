@@ -1,6 +1,12 @@
 ---
 name: layout-and-composition-element-of-design
-description: LAYOUT AND COMPOSITION as an element of design for NSW TAS and design subjects. Use for any task about layout and composition: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers placement, grids, alignment, balance, hierarchy, reading order, cropping and messy layouts. For InDesign grids and margins, prefer indesign-parameters.
+description: >
+  LAYOUT AND COMPOSITION as an element of design for NSW TAS and design subjects.
+  Use for any task about layout and composition: lessons and worksheets, feedback
+  or marking of student work, analysis and model answers, or applying it in a
+  design. Covers placement, grids, alignment, balance, hierarchy, reading order,
+  cropping and messy layouts. For InDesign grids and margins, prefer
+  indesign-parameters.
 ---
 
 # Layout and composition — element of design

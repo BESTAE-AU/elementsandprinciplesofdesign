@@ -1,6 +1,10 @@
 ---
 name: space-element-of-design
-description: SPACE as an element of design for NSW TAS and design subjects. Use for any task about space: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers white space, clutter, margins and padding, grouping, clear space, depth and clearance.
+description: >
+  SPACE as an element of design for NSW TAS and design subjects. Use for any task
+  about space: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers white space,
+  clutter, margins and padding, grouping, clear space, depth and clearance.
 ---
 
 # Space — element of design

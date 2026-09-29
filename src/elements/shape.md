@@ -1,6 +1,10 @@
 ---
 name: shape-element-of-design
-description: SHAPE as an element of design for NSW TAS and design subjects. Use for any task about shape: lessons and worksheets, feedback or marking of student work, analysis and model answers, or applying it in a design. Covers negative space, figure-ground, silhouette, icon style, corner radius and motifs.
+description: >
+  SHAPE as an element of design for NSW TAS and design subjects. Use for any task
+  about shape: lessons and worksheets, feedback or marking of student work,
+  analysis and model answers, or applying it in a design. Covers negative space,
+  figure-ground, silhouette, icon style, corner radius and motifs.
 ---
 
 # Shape — element of design

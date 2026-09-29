@@ -1,6 +1,10 @@
 ---
 name: movement-principle-of-design
-description: MOVEMENT as a principle of design for NSW TAS and design subjects. Use for any task about movement: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers eye path, implied and actual motion, and leading the viewer.
+description: >
+  MOVEMENT as a principle of design for NSW TAS and design subjects. Use for any
+  task about movement: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers eye path,
+  implied and actual motion, and leading the viewer.
 ---
 
 # Movement — principle of design

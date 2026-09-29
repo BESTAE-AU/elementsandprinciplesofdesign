@@ -1,6 +1,10 @@
 ---
 name: emphasis-principle-of-design
-description: EMPHASIS as a principle of design for NSW TAS and design subjects. Use for any task about emphasis: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers focal points, dominance and what stands out.
+description: >
+  EMPHASIS as a principle of design for NSW TAS and design subjects. Use for any
+  task about emphasis: lessons and worksheets, feedback or marking of student
+  work, analysis and model answers, or achieving it in a design. Covers focal
+  points, dominance and what stands out.
 ---
 
 # Emphasis — principle of design
