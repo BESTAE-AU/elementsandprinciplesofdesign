@@ -227,6 +227,26 @@ Questions should help decision-making rather than merely repeat definitions.
 
 ---
 
+### What each Factor means
+
+Use these definitions when a learner needs to understand the Factor itself before applying it to a Principle.
+
+- **Appropriateness of the Design Solution** — how well the design responds to the need, user, audience, context, environment and purpose.
+- **Needs** — the real problem, requirement or opportunity being addressed.
+- **Function / Functionality** — how effectively the design performs its intended purpose.
+- **Aesthetics** — visual and sensory qualities such as form, colour, texture, proportion and style.
+- **Finance / Cost** — development, production, distribution, maintenance, software, materials and labour.
+- **Ergonomics** — relationships between people and designed products, systems or environments: comfort, efficiency, ease of use, human dimensions and movement.
+- **Work Health and Safety / Safety** — risks during design, production, use and disposal.
+- **Quality** — performance, durability, reliability, finish and consistency.
+- **Resources** — materials, tools, technologies, time, skills and energy.
+- **Short-Term and Long-Term Environmental Consequences** — waste, energy, pollution, resource use and depletion.
+- **Sustainability** — balancing environmental, social and economic considerations.
+- **Obsolescence** — a design becoming outdated, unfashionable or non-functional.
+- **Life Cycle Analysis** — analysis from resource extraction through manufacture, distribution, use and maintenance to disposal.
+- **Accessibility** — inclusive access for users with varied physical, sensory, cognitive and technological needs.
+- **Ethics** — responsible decision-making involving honesty, fairness, social impact, cultural respect and environmental responsibility.
+
 ## Design Trade-Offs
 
 Claude must surface trade-offs.

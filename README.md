@@ -30,3 +30,12 @@ files only when a task needs that depth.
 Package with the skill-creator `package_skill.py` script (or zip the `principles-of-design/`
 folder) and upload it via Claude settings → Capabilities → Skills, or copy the folder into
 `~/.claude/skills/` for Claude Code.
+
+## `source/`
+
+Reference material the skill was built from. These files are not part of the installed skill.
+
+- `principles-of-design-knowledge-base.md` — master knowledge base intended for building future
+  skills (including per-Principle skills), teaching resources and curriculum materials.
+- `principles-of-design-original-skill-draft.md` — the original single-file skill draft, kept for
+  traceability.
