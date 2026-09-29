@@ -1,6 +1,6 @@
 ---
 name: workbooklet-style-system
-description: The single shared style system for Britt's printed teaching resources: Greyscale workbooklets, Bestae-branded lessons and booklets, and InDesign / Adobe Express layouts. Defines one set of paragraph styles (Title, Subtitle, Heading 1–9, Normal and the workbooklet styles) with identical names, fonts, sizes and roles everywhere, plus two interchangeable colour layers (Greyscale and Bestae). Use whenever creating, restyling, auditing or converting a workbooklet, worksheet, lesson, assessment booklet or template in Word, or building a matching InDesign or Adobe Express layout, or when asked which heading or style to use for something.
+description: "The single shared style system for Britt's printed teaching resources: Greyscale workbooklets, Bestae-branded lessons and booklets, and InDesign / Adobe Express layouts. Defines one set of paragraph styles (Title, Subtitle, Heading 1–9, Normal and the workbooklet styles) with identical names, fonts, sizes and roles everywhere, plus two interchangeable colour layers (Greyscale and Bestae). Use whenever creating, restyling, auditing or converting a workbooklet, worksheet, lesson, assessment booklet or template in Word, or building a matching InDesign or Adobe Express layout, or when asked which heading or style to use for something."
 ---
 
 # Workbooklet Style System
