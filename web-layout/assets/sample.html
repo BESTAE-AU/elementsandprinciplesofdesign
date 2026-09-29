@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House Web Layout</title>
+<link rel="stylesheet" href="house-web.css">
+<style>
+  /* Sample-page controls only; not part of the house system. */
+  .demo-bar { position: sticky; top: 0; z-index: 20; background: var(--hw-k90); color: #fff; }
+  .demo-bar .hw-container { display: flex; flex-wrap: wrap; gap: var(--hw-gutter); align-items: center;
+    padding-block: var(--hw-gutter); }
+  .demo-bar button { font: 700 1rem/1.5625rem var(--hw-font); text-transform: uppercase; letter-spacing: .1em;
+    background: transparent; color: #fff; border: 1px solid #fff; padding: 0 .625rem; cursor: pointer; }
+  .demo-bar button[aria-pressed="true"] { background: #fff; color: #000; }
+  .demo-bar output { margin-left: auto; font-size: 1rem; }
+  .ph { background: repeating-linear-gradient(45deg, var(--hw-k20) 0 .625rem, var(--hw-k10) .625rem 1.25rem); }
+  main.hw-container { padding-block: var(--hw-pitch); }
+</style>
+</head>
+<body class="hw-page hw-a">
+<div class="demo-bar"><div class="hw-container">
+  <button data-preset="a" aria-pressed="true">A</button>
+  <button data-preset="b" aria-pressed="false">B</button>
+  <button data-preset="c" aria-pressed="false">C</button>
+  <button data-preset="d" aria-pressed="false">D</button>
+  <button id="grid" aria-pressed="true">Grid</button>
+  <output id="info" aria-live="polite"></output>
+</div></div>
+
+<main class="hw-container hw-show-grid" id="page">
+  <div class="hw-grid">
+    <h1 class="hw-title hw-span-12 hw-snap">Elements of design</h1>
+    <p class="hw-subheading hw-span-12 hw-lg-span-8 hw-snap">Layout on the web</p>
+
+    <p class="hw-lead hw-span-12 hw-md-span-8 hw-lg-span-6">Every module, gutter and margin is a whole 5&nbsp;px step. The grid is built from the margins inwards, so twelve columns fill the live area exactly.</p>
+    <div class="hw-span-12 hw-md-span-4 hw-lg-span-6 hw-ratio-4-3 ph" role="img" aria-label="Placeholder image, 4:3"></div>
+
+    <h2 class="hw-h1 hw-span-12 hw-snap">Heading one runs across two lines at most</h2>
+    <p class="hw-span-12 hw-md-span-6">Body text is 18&nbsp;px Lato Regular on 25&nbsp;px leading, which is 139&nbsp;%, close to the house 135&nbsp;%. Every line lands on the 5&nbsp;px baseline, and paragraphs are spaced by one full line.</p>
+    <p class="hw-span-12 hw-md-span-6">Headings are ALL CAPS Lato Black, sized from their cap height in 5&nbsp;px steps. Their blocks are padded so the next item starts on a row line.</p>
+
+    <h3 class="hw-h2 hw-span-12 hw-snap">Heading two</h3>
+    <h4 class="hw-h3 hw-span-12 hw-snap">Heading three</h4>
+    <h5 class="hw-h4 hw-span-12 hw-snap">Heading four</h5>
+    <p class="hw-h5 hw-span-12">Heading five label</p>
+
+    <h2 class="hw-h2 hw-span-12 hw-snap">Learning domains</h2>
+    <div class="hw-panel hw-self-management-tint hw-span-12 hw-md-span-4">
+      <p class="hw-h3">Self-management</p>
+      <p>Tint panel with black text.</p>
+    </div>
+    <div class="hw-panel hw-practical-skills-shade hw-span-12 hw-md-span-4">
+      <p class="hw-h3">Practical skills</p>
+      <p>Shade panel with white text.</p>
+    </div>
+    <div class="hw-panel hw-communication-shade hw-span-12 hw-md-span-4">
+      <p class="hw-h3">Communication</p>
+      <p>Mustard shade takes black text.</p>
+    </div>
+
+    <div class="hw-panel hw-k90 hw-span-12 hw-lg-span-6">
+      <p class="hw-label">Panel K 90</p>
+      <p>White text on K 90, Regular weight, never Light.</p>
+    </div>
+    <div class="hw-panel hw-k10 hw-critical-thinking-bar hw-span-12 hw-lg-span-6">
+      <p class="hw-label">Panel K 10 with domain bar</p>
+      <p>Tomato is used for the bar only, never for text.</p>
+    </div>
+
+    <div class="hw-table-wrap hw-span-12"><table class="hw-table hw-banded">
+      <caption class="hw-caption" style="caption-side: bottom; text-align: left;">Container steps, preset A</caption>
+      <thead><tr><th scope="col">Container</th><th scope="col">Module</th><th scope="col">Gutter</th><th scope="col">Margin</th><th scope="col">Pitch</th></tr></thead>
+      <tbody>
+        <tr><td>1200</td><td>80</td><td>10</td><td>65</td><td>90</td></tr>
+        <tr><td>1020</td><td>70</td><td>10</td><td>35</td><td>80</td></tr>
+        <tr><td>760</td><td>50</td><td>10</td><td>25</td><td>60</td></tr>
+        <tr><td>360</td><td>15</td><td>10</td><td>35</td><td>25</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</main>
+<script src="snap.js"></script>
+<script>
+  var body = document.body, page = document.getElementById('page'), info = document.getElementById('info');
+  function show() {
+    var cs = getComputedStyle(page);
+    info.textContent = 'Container ' + Math.round(page.getBoundingClientRect().width) + ' · margin ' +
+      Math.round(parseFloat(cs.paddingLeft)) + ' · viewport ' + window.innerWidth;
+  }
+  document.querySelectorAll('[data-preset]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      body.className = 'hw-page hw-' + b.dataset.preset;
+      document.querySelectorAll('[data-preset]').forEach(function (o) { o.setAttribute('aria-pressed', o === b); });
+      window.dispatchEvent(new Event('resize')); show();
+    });
+  });
+  document.getElementById('grid').addEventListener('click', function () {
+    var on = page.classList.toggle('hw-show-grid'); this.setAttribute('aria-pressed', on);
+  });
+  window.addEventListener('resize', show); show();
+</script>
+</body>
+</html>

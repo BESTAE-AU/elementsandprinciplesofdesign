@@ -1,0 +1,83 @@
+<!-- House web layout: Canvas LMS snippets.
+     Paste into the Canvas HTML editor. Inline styles only, and every property is on the
+     Canvas allowlist (check with scripts/check_canvas.py). Preset A: 10 px gutter.
+     Canvas already uses <h1> for the page title, so house H1 is <h2> here, H2 is <h3>, and so on.
+     Canvas strips text-transform and font-weight, so type headings in CAPITALS and set
+     weight through the font shorthand: font: WEIGHT SIZE/LEADING FAMILY.
+     Canvas has no media queries, so headings use the 760 scale at every screen size. -->
+
+<!-- 1. PAGE WRAPPER: holds everything else. 1200 px max, body 18 / 25. -->
+<div style="max-width: 1200px; margin: 0 auto; font-family: 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; line-height: 25px; color: #222222;">
+
+  <!-- 2. HEADINGS: Lato Black, caps typed, 760 scale (cap 30 / 25 / 20 / 15). -->
+  <h2 style="font: 900 41.2px/45px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">HEADING ONE</h2>
+  <h3 style="font: 900 34.3px/40px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">HEADING TWO</h3>
+  <h4 style="font: 900 27.5px/30px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">HEADING THREE</h4>
+  <h5 style="font: 900 20.6px/25px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">HEADING FOUR</h5>
+  <p style="font: 300 20px/25px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 25px;">Lead paragraph: 20 / 25 Lato Light, one line of space after.</p>
+  <p style="margin: 0 0 25px;">Body paragraph: 18 / 25 Lato Regular, one line of space after.</p>
+
+  <!-- 3. WRAPPING COLUMNS (recommended in Canvas): each card is at least 290 px wide, the
+       mobile live area, so cards sit side by side on wide screens and stack on phones.
+       Three across needs 3 × 290 + 2 × 10 = 890 px of content width. -->
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 25px;">
+    <div style="flex: 1 1 290px; padding: 10px; background: #EFF4A4; color: #000000;">
+      <h4 style="font: 900 27.5px/30px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">SELF-MANAGEMENT</h4>
+      <p style="margin: 0;">Domain tint panel: black text.</p>
+    </div>
+    <div style="flex: 1 1 290px; padding: 10px; background: #041E42; color: #FFFFFF;">
+      <h4 style="font: 900 27.5px/30px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px; color: #FFFFFF;">PRACTICAL SKILLS</h4>
+      <p style="margin: 0;">Domain shade panel: white text, Regular or heavier.</p>
+    </div>
+    <div style="flex: 1 1 290px; padding: 10px; background: #CFB500; color: #000000;">
+      <h4 style="font: 900 27.5px/30px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; margin: 0 0 10px;">COMMUNICATION</h4>
+      <p style="margin: 0;">Mustard shade takes black text (white is only 2.0:1).</p>
+    </div>
+  </div>
+
+  <!-- 4. FIXED 12-COLUMN GRID: exact spans, but it does not stack on phones.
+       Use it for wide-only layouts (e.g. a 4 + 8 image and text pair). Spans must add to 12. -->
+  <div style="display: grid; grid-template-columns: repeat(12, 1fr); gap: 10px; margin: 0 0 25px;">
+    <div style="grid-column: span 4;">
+      <img style="width: 100%; height: auto; display: block;" src="IMAGE-URL" alt="Describe the image">
+    </div>
+    <div style="grid-column: span 8;">
+      <p style="margin: 0;">Eight columns of text beside a four-column image.</p>
+    </div>
+  </div>
+
+  <!-- 5. PANELS: K 10 for light, K 90 for dark. Padding = one gutter. No text on K 30 to K 60. -->
+  <div style="padding: 10px; background: #E6E6E6; color: #000000; margin: 0 0 25px;">
+    <p style="margin: 0;">K 10 panel: black text.</p>
+  </div>
+  <div style="padding: 10px; background: #1A1A1A; color: #FFFFFF; margin: 0 0 25px;">
+    <p style="margin: 0;">K 90 panel: white text, never Light.</p>
+  </div>
+
+  <!-- 6. DOMAIN BAR: the accent is decoration only; the domain is always named in the text. -->
+  <div style="border-left: 10px solid #FF585D; padding: 0 0 0 10px; margin: 0 0 25px;">
+    <p style="margin: 0;"><strong>Critical Thinking:</strong> the bar shows the domain, and the text names it.</p>
+  </div>
+
+  <!-- 7. TABLE: header K 90 with white bold caps; body 18 / 20; 1 px K 50 rules; K 10 banding. -->
+  <table style="border-collapse: collapse; width: 100%; font-size: 18px; line-height: 20px; margin: 0 0 25px;">
+    <caption style="text-align: left; font-size: 16px; line-height: 25px; color: #333333;">Table caption</caption>
+    <thead>
+      <tr>
+        <th scope="col" style="font: 700 18px/25px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; background: #1A1A1A; color: #FFFFFF; text-align: left; padding: 5px 10px;">COLUMN ONE</th>
+        <th scope="col" style="font: 700 18px/25px 'Lato Extended', Lato, 'Helvetica Neue', Arial, sans-serif; background: #1A1A1A; color: #FFFFFF; text-align: left; padding: 5px 10px;">COLUMN TWO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border-bottom: 1px solid #808080; padding: 5px 10px; vertical-align: top;">Cell</td>
+        <td style="border-bottom: 1px solid #808080; padding: 5px 10px; vertical-align: top;">Cell</td>
+      </tr>
+      <tr>
+        <td style="border-bottom: 1px solid #808080; padding: 5px 10px; vertical-align: top; background: #E6E6E6;">Banded cell</td>
+        <td style="border-bottom: 1px solid #808080; padding: 5px 10px; vertical-align: top; background: #E6E6E6;">Banded cell</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
