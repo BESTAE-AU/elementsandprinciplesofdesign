@@ -1,34 +1,23 @@
 ---
 name: movement-principle-of-design
-description: >
-  Teaches, analyses and applies MOVEMENT as a principle of design for NSW TAS and
-  design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T):
-  implied and actual movement, the path of the eye, leading lines, diagonals,
-  repetition and progression, motion blur, animation and camera movement, and
-  movement through physical spaces. Use it whenever someone wants a lesson,
-  worksheet or Canvas page on movement; feedback or marking on how a student
-  achieved movement; model answers analysing movement in a poster, photo, film,
-  product, garment, interface or space; or help achieving movement in their own
-  design, even if they only say "the eye flow", "it feels static", "sense of
-  motion" or "leading the viewer".
+description: MOVEMENT as a principle of design for NSW TAS and design subjects. Use for any task about movement: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers eye path, implied and actual motion, and leading the viewer.
 ---
 
 # Movement — principle of design
 
-This skill covers **movement** as a principle of design. Principles describe relationships and organisational effects; elements (line, direction, shape, form, space, size and scale, time and duration, value, colour, texture, typography, layout and composition) are the variables that create them. So always explain *which elements* produce movement and *how*, and never treat an element and a principle as the same thing.
-
-The shared method (analysis progression, justification levels, Factors Affecting Design, experimentation, teaching resources, feedback and marking, and language rules) is in `references/design-method.md`. For depth on a particular element, use its `<element>-element-of-design` skill. For whole-process help, use the method skills (`design-analysis-progression`, `design-justification-writing`, `design-feedback-and-marking`, and so on).
-
-Apply the language rules (method §14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+This skill covers movement as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create movement and how. The essentials are below. Open **only** the reference file the task needs.
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page | Types, levers, activities, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, analysis | Worked analysis, element contributions | §2 Analysis progression |
-| Help with their own design | Levers, element contributions | §7 Controlled experimentation |
+| The request is… | Read |
+|---|---|
+| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
+| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
+| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
+| Achieving movement in a design | the levers below, then `references/method/experimentation.md` |
+| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+
+Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
 ## What movement is
 
@@ -58,9 +47,6 @@ Keep it distinct:
 
 ## What each element contributes
 
-<!-- BEGIN: element-contributions -->
-Generated from the element skills by `tools/build_skills.py`. For more on any element, use its `<element>-element-of-design` skill.
-
 - **Direction:** the most direct link — diagonals, curves and sequences create perceived movement; actual motion makes it literal.
 - **Form:** flowing, twisting or cantilevered forms can suggest movement.
 - **Layout and composition:** the planned path of the eye through the composition.
@@ -68,46 +54,5 @@ Generated from the element skills by `tools/build_skills.py`. For more on any el
 - **Size and scale:** shrinking sizes suggest travel into depth; growing sizes suggest approach.
 - **Time and duration:** timing and easing make movement read as heavy, light, mechanical or natural.
 - **Value:** gradients and value paths move the eye.
-<!-- END: element-contributions -->
 
-## Common misconceptions
-
-| Misconception | Better understanding |
-|---|---|
-| "Diagonals always create movement." | They often suggest it, but context decides. |
-| "Movement needs animation." | Static designs create implied movement and an eye path. |
-| "More movement is more engaging." | Too much motion distracts and can harm accessibility. |
-
-## Worked analysis (model for exemplars and annotations)
-
-Scenario: A sports drink ad: a sprinter photographed mid-stride on a diagonal from bottom left to top right, with motion blur trailing behind and the product at the upper right.
-
-- **Identify:** "The design uses movement."
-- **Describe:** "The body is angled on a strong diagonal; the background and trailing limbs are blurred; the product sits at the end of the diagonal."
-- **Explain:** "The diagonal and blur suggest speed; the eye travels along the body to the product."
-- **Analyse:** "Movement combines direction (the diagonal), texture (blur) and emphasis (the product at the end of the path). The blur also separates the sharp product from the moving background."
-- **Evaluate:** "Effective for a message about speed and energy. However, the product is small and partly in the blur zone on the social crop; a tighter crop would keep the path ending on a sharp product."
-
-Each level should add a link in the chain, not simply more words.
-
-## Justification examples
-
-- **Weak:** "I made it look like it's moving because it's cool."
-- **Developing:** "I put the runner on a diagonal so it feels fast."
-- **Strong:** "I angled the runner on a diagonal from bottom left to top right with motion blur, so the eye travels along the body to the product, which suits an energetic sports-drink brand."
-- **Sophisticated:** "I compared a straight-on shot with the diagonal version; viewers followed the diagonal to the product faster (4 of 5). The blur hid some logo detail on the shoe, which I accepted because the product bottle stayed sharp."
-
-## Feedback patterns to look for in student work
-
-- **No planned eye path.**
-- **Movement claimed from diagonals alone.**
-- **Competing paths** leading off the page.
-- **Excessive animation** without reduced-motion options.
-- **Movement and direction used interchangeably.**
-
-## Activity ideas for teaching resources
-
-- **Trace the path:** draw the eye's route over three posters and compare with peers.
-- **Static vs dynamic:** photograph the same subject straight and on a diagonal.
-- **Progression strip:** create movement using only changing size or value.
-- **Circulation map (spatial):** map how people move through the canteen.
+For depth on an element, use its `<element>-element-of-design` skill.

@@ -1,33 +1,23 @@
 ---
 name: contrast-principle-of-design
-description: >
-  Teaches, analyses and applies CONTRAST as a principle of design for NSW TAS and
-  design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T):
-  contrast of value, colour, size, shape, texture, weight, direction and time;
-  contrast for legibility and accessibility; contrast as emphasis and as meaning;
-  WCAG text contrast. Use it whenever someone wants a lesson, worksheet or Canvas
-  page on contrast; feedback or marking on how a student achieved contrast; model
-  answers analysing contrast in a poster, photo, film, product, garment, interface
-  or space; or help achieving contrast in their own design, even if they only say
-  "make it stand out", "pop", "it's all the same" or "not enough contrast".
+description: CONTRAST as a principle of design for NSW TAS and design subjects. Use for any task about contrast: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers value, colour, size and type contrast, legibility and 'making it pop'.
 ---
 
 # Contrast — principle of design
 
-This skill covers **contrast** as a principle of design. Principles describe relationships and organisational effects; elements (line, direction, shape, form, space, size and scale, time and duration, value, colour, texture, typography, layout and composition) are the variables that create them. So always explain *which elements* produce contrast and *how*, and never treat an element and a principle as the same thing.
-
-The shared method (analysis progression, justification levels, Factors Affecting Design, experimentation, teaching resources, feedback and marking, and language rules) is in `references/design-method.md`. For depth on a particular element, use its `<element>-element-of-design` skill. For whole-process help, use the method skills (`design-analysis-progression`, `design-justification-writing`, `design-feedback-and-marking`, and so on).
-
-Apply the language rules (method §14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+This skill covers contrast as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create contrast and how. The essentials are below. Open **only** the reference file the task needs.
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page | Types, levers, activities, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, analysis | Worked analysis, element contributions | §2 Analysis progression |
-| Help with their own design | Levers, element contributions | §7 Controlled experimentation |
+| The request is… | Read |
+|---|---|
+| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
+| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
+| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
+| Achieving contrast in a design | the levers below, then `references/method/experimentation.md` |
+| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+
+Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
 ## What contrast is
 
@@ -60,9 +50,6 @@ Keep it distinct:
 
 ## What each element contributes
 
-<!-- BEGIN: element-contributions -->
-Generated from the element skills by `tools/build_skills.py`. For more on any element, use its `<element>-element-of-design` skill.
-
 - **Colour:** hue, value and saturation contrast — value contrast is usually the most reliable.
 - **Direction:** opposing directions create conflict, comparison or a sense of confrontation.
 - **Form:** solid against void, geometric against organic, sharp against soft edges.
@@ -75,46 +62,5 @@ Generated from the element skills by `tools/build_skills.py`. For more on any el
 - **Time and duration:** a sudden change of pace (fast montage to a long still shot).
 - **Typography:** serif against sans, heavy against light, large against small.
 - **Value:** value contrast is the strongest and most reliable contrast.
-<!-- END: element-contributions -->
 
-## Common misconceptions
-
-| Misconception | Better understanding |
-|---|---|
-| "Bright colours are high contrast." | Saturation isn't value; bright yellow on white has poor value contrast. |
-| "More contrast is always better." | Too much everywhere cancels out and becomes noise; contrast works relative to calm areas. |
-| "'Make it pop' is feedback." | Name which contrast (value, size, colour…) and what it should achieve. |
-
-## Worked analysis (model for exemplars and annotations)
-
-Scenario: A product label for a hot sauce: black background, the brand name in large white condensed capitals, and a small red chilli icon.
-
-- **Identify:** "The design uses contrast."
-- **Describe:** "White type on black gives maximum value contrast; the name is set far larger than any other text; the red chilli is the only saturated colour."
-- **Explain:** "The value contrast makes the name legible from shelf distance; the size contrast makes it the first read; the single saturated colour makes the chilli the second focal point."
-- **Analyse:** "Several contrasts are stacked on the name (value and size), while the chilli relies on colour contrast. Keeping other areas calm makes both contrasts stronger."
-- **Evaluate:** "Effective for shelf impact. However, the heat-level text is small grey on black with weak value contrast; for shoppers checking spice level, it should be lighter or larger."
-
-Each level should add a link in the chain, not simply more words.
-
-## Justification examples
-
-- **Weak:** "I added contrast so it pops."
-- **Developing:** "I used white on black so the text stands out."
-- **Strong:** "I used white text on black for maximum value contrast so the brand name reads from the shelf, and kept everything else muted so the name is the first thing shoppers see."
-- **Sophisticated:** "I checked three text colours against the black label: grey failed at 3:1, cream passed at 12:1, white passed at 21:1. I chose cream because it passed comfortably and suited the craft branding, accepting slightly less punch than white."
-
-## Feedback patterns to look for in student work
-
-- **'Pop' with no named contrast.**
-- **Colour contrast without value contrast** (red on green, yellow on white).
-- **Contrast everywhere** so nothing stands out.
-- **Accessibility unchecked** for text contrast.
-- **Contrast described but its purpose unstated.**
-
-## Activity ideas for teaching resources
-
-- **Contrast menu:** make seven versions of one word, each using a different contrast type.
-- **Greyscale check:** convert colourful designs to greyscale to reveal value contrast.
-- **Squint test:** find the strongest contrast on a page.
-- **Contrast audit:** check text pairs against WCAG (use colour-contrast-audit if available).
+For depth on an element, use its `<element>-element-of-design` skill.

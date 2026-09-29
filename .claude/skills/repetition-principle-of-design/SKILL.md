@@ -1,34 +1,23 @@
 ---
 name: repetition-principle-of-design
-description: >
-  Teaches, analyses and applies REPETITION as a principle of design for NSW TAS
-  and design subjects (Multimedia, Graphics Technology, Visual Design, Textiles,
-  D&T): repeating elements for consistency, recognition, unity and rhythm;
-  repetition in brand systems, templates, icon sets, UI components, patterns and
-  motion identities. Use it whenever someone wants a lesson, worksheet or Canvas
-  page on repetition; feedback or marking on how a student achieved repetition;
-  model answers analysing repetition in a poster, photo, film, product, garment,
-  interface or space; or help achieving repetition in their own design, even if
-  they only say "consistency", "repeat elements", "brand consistency" or "it looks
-  disconnected".
+description: REPETITION as a principle of design for NSW TAS and design subjects. Use for any task about repetition: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers repeated elements, consistency and brand recognition.
 ---
 
 # Repetition — principle of design
 
-This skill covers **repetition** as a principle of design. Principles describe relationships and organisational effects; elements (line, direction, shape, form, space, size and scale, time and duration, value, colour, texture, typography, layout and composition) are the variables that create them. So always explain *which elements* produce repetition and *how*, and never treat an element and a principle as the same thing.
-
-The shared method (analysis progression, justification levels, Factors Affecting Design, experimentation, teaching resources, feedback and marking, and language rules) is in `references/design-method.md`. For depth on a particular element, use its `<element>-element-of-design` skill. For whole-process help, use the method skills (`design-analysis-progression`, `design-justification-writing`, `design-feedback-and-marking`, and so on).
-
-Apply the language rules (method §14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+This skill covers repetition as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create repetition and how. The essentials are below. Open **only** the reference file the task needs.
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page | Types, levers, activities, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, analysis | Worked analysis, element contributions | §2 Analysis progression |
-| Help with their own design | Levers, element contributions | §7 Controlled experimentation |
+| The request is… | Read |
+|---|---|
+| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
+| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
+| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
+| Achieving repetition in a design | the levers below, then `references/method/experimentation.md` |
+| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+
+Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
 ## What repetition is
 
@@ -57,9 +46,6 @@ Keep it distinct:
 
 ## What each element contributes
 
-<!-- BEGIN: element-contributions -->
-Generated from the element skills by `tools/build_skills.py`. For more on any element, use its `<element>-element-of-design` skill.
-
 - **Colour:** recurring colours link parts of a layout or a campaign.
 - **Direction:** repeated directional elements at intervals set pace (a row of chevrons, a sequence of steps).
 - **Form:** repeated ribs, pleats, fins or modules.
@@ -68,45 +54,5 @@ Generated from the element skills by `tools/build_skills.py`. For more on any el
 - **Shape:** repeated motifs build pattern; varied spacing or size builds rhythm.
 - **Space:** regular gaps create steady rhythm; changing gaps create pace.
 - **Texture:** repeated textures (weaves, knurling, tiles) create rhythm.
-<!-- END: element-contributions -->
 
-## Common misconceptions
-
-| Misconception | Better understanding |
-|---|---|
-| "Repetition is boring." | Repetition with controlled variation creates unity and interest. |
-| "Consistency means everything identical." | Systems repeat rules, not necessarily identical artefacts. |
-| "Repetition and pattern are the same." | Pattern is one outcome of repetition. |
-
-## Worked analysis (model for exemplars and annotations)
-
-Scenario: A café brand where the same rounded-corner shape frames photos on the menu, social posts, cups and signage.
-
-- **Identify:** "The design uses repetition."
-- **Describe:** "One rounded-rectangle frame with a 12 mm corner radius (scaled) appears on every touchpoint."
-- **Explain:** "Repeating the frame ties different touchpoints together, so customers recognise the brand even without the logo."
-- **Analyse:** "Repetition creates unity and a distinctive brand asset; varying the content inside the frame keeps it from feeling monotonous."
-- **Evaluate:** "Effective for recognition. However, the radius was set in millimetres; at avatar size it rounds too much and becomes a circle. The rule should be relative to frame size."
-
-Each level should add a link in the chain, not simply more words.
-
-## Justification examples
-
-- **Weak:** "I repeated things so it matches."
-- **Developing:** "I used the same colours on everything so it's consistent."
-- **Strong:** "I repeated the rounded frame on the menu, cups, social posts and signage so customers recognise the brand even without the logo."
-- **Sophisticated:** "I tested the frame on six touchpoints and found the fixed radius failed at avatar size, so I made the radius 8% of the frame's short side. The rule is less intuitive to explain but works at every size."
-
-## Feedback patterns to look for in student work
-
-- **Inconsistent repetition** — nearly the same but not quite.
-- **Repetition with no variation**, leading to monotony.
-- **Repetition only in the logo,** not across the system.
-- **Rules not written down** for others to repeat.
-
-## Activity ideas for teaching resources
-
-- **Brand hunt:** find one repeated element across five of a brand's touchpoints.
-- **Repeat with one change:** repeat a motif changing only colour, then only size.
-- **Template build:** make one social template and apply it to three posts.
-- **Consistency audit:** spot the near-misses in a sample brand.
+For depth on an element, use its `<element>-element-of-design` skill.

@@ -1,34 +1,42 @@
 # Elements and Principles of Design
 
-A suite of 83 Claude skills for teaching, analysing, applying and giving feedback on the **Elements and Principles of Design** in NSW TAS and design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T). It draws on NSW TAS design decision-making, multimedia analysis, Visual Arts, inclusive education, assessment, and professional design practice.
+Claude skills for teaching, analysing, applying and giving feedback on the **Elements and Principles of Design** in NSW TAS and design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T).
 
-## What's in the suite
+## The skills (28)
 
-| Group | Count | Skills | Use for |
-|---|---|---|---|
-| Start here | 1 | `elements-and-principles-of-design` | Requests spanning several elements or principles; finding the right skill |
-| Element skills | 12 | `<element>-element-of-design` | General knowledge of one element |
-| Element job skills | 48 | `<element>-element-of-design-teaching` / `-feedback` / `-analysis` / `-practice` | One element, one job: lessons and worksheets, feedback and marking, analysis and model answers, applying it in a design |
-| Principle skills | 15 | `<principle>-principle-of-design` | Balance, contrast, emphasis, hierarchy, movement, rhythm, repetition, pattern, proportion, unity, harmony, variety, alignment, proximity, tension |
-| Method skills | 7 | `design-analysis-progression`, `design-justification-writing`, `factors-affecting-design`, `design-feedback-and-marking`, `design-experimentation`, `brand-system-testing`, `characteristics-features-properties-attributes` | Processes that work for any element or principle |
+| Group | Skills | Use for |
+|---|---|---|
+| Start here (1) | `elements-and-principles-of-design` | Anything spanning several elements or principles, plus the shared method: analysis, justification writing, Factors Affecting Design, whole-design feedback and marking, experimentation, brand-system testing, and characteristics/features/properties/attributes |
+| Elements (12) | `<element>-element-of-design`: line, direction, shape, form, space, size-and-scale, time-and-duration, value, colour, texture, typography, layout-and-composition | Any task about one element: lessons, feedback and marking, analysis and model answers, applying it in a design |
+| Principles (15) | `<principle>-principle-of-design`: balance, contrast, emphasis, hierarchy, movement, rhythm, repetition, pattern, proportion, unity, harmony, variety, alignment, proximity, tension | Any task about one principle |
 
-**Elements:** line, direction, shape, form, space, size and scale, time and duration, value, colour, texture, typography, layout and composition.
+## Built to stay light
 
-Every skill includes `references/design-method.md`, the shared method. It covers the analysis progression, justification levels, Factors Affecting Design, experimentation, teaching resources (kept tight for single lessons), differentiation, feedback and marking (using `marking-rubric-builder` when no rubric is supplied) and language rules. Colour, value, typography and layout skills hand specialist jobs to the matching specialist skills (palettes, contrast ratios, font pairing, type scales, InDesign grids) when those are installed.
+- **Small always-on cost.** Claude reads every installed skill's description in every conversation. These 28 descriptions total about 2,200 tokens.
+- **Load only what's needed.** Each `SKILL.md` holds just the essentials and a "Pick the job" table. Detail lives in `references/` files that Claude opens only when a task needs them:
+  - element skills: `teaching.md`, `feedback.md`, `analysis.md`, `practice.md`, `knowledge.md`
+  - principle skills: `examples.md`
+  - every skill: `method/` (six small method files)
+
+  A typical task loads the core plus one or two small files.
+- **Built-in rules:** single-lesson resources stay tight. When no rubric is supplied, marking uses `marking-rubric-builder` to create criteria first. Colour, value, typography and layout skills hand specialist jobs (palettes, contrast ratios, font pairing, type scales, InDesign grids) to the matching skills when those are installed.
 
 ## Installing
 
-- **Claude.ai:** download [`dist/all-skills-bundle.zip`](dist/all-skills-bundle.zip) (grouped into folders) or individual files from [`dist/`](dist/), then save each `.skill` file under *Settings → Capabilities → Skills*. If you don't want all 83, start with `0-start-here`, the element skills and the method skills, then add job and principle skills for the areas you teach most.
-- **Claude Code:** skills in `.claude/skills/` load automatically in this repository. Copy skill folders into another project's `.claude/skills/` or into `~/.claude/skills/` to use them elsewhere.
+- **Claude.ai:** download [`dist/all-skills-bundle.zip`](dist/all-skills-bundle.zip) (grouped into `1-start-here`, `2-elements` and `3-principles`) or single files from [`dist/`](dist/). Save each `.skill` file under *Settings → Capabilities → Skills*. You can install only the elements and principles you teach; the overview is useful with any selection.
+- **Claude Code:** the skills in `.claude/skills/` load automatically in this repository.
 
 ## Editing and rebuilding
 
-Edit the hand-written sources:
+Edit only the sources in `src/`. Don't edit `.claude/skills/` or `dist/`; they are regenerated.
 
-- `shared/design-method.md` (the shared method)
-- `.claude/skills/<element>-element-of-design/SKILL.md` (element knowledge)
-- `.claude/skills/<principle>-principle-of-design/SKILL.md` (outside the generated block)
-- the method skills and `elements-and-principles-of-design`
+| Source | What it holds |
+|---|---|
+| `src/elements/<element>.md` | Full knowledge for each element |
+| `src/principles/<principle>.md` | Full knowledge for each principle |
+| `src/jobs/<job>.md` | Teaching, feedback, analysis and practice workflows, shared by all elements |
+| `src/method/<part>.md` | The shared method, in six parts |
+| `src/overview/` | The overview skill and its seven method guides |
 
 Then rebuild:
 
@@ -36,11 +44,4 @@ Then rebuild:
 python3 tools/build_skills.py --package
 ```
 
-This regenerates the 48 job skills from the element skills. It also:
-
-- refreshes each principle's "What each element contributes" section and the overview's skill index
-- copies the shared method into every skill
-- checks names and description lengths
-- rebuilds `dist/`
-
-Don't edit the job skills or `references/` files directly; they're overwritten on rebuild.
+The build splits each source into a lean `SKILL.md` plus reference files, copies the method in, and generates each principle's "What each element contributes" list from the element sources. It also checks names, description lengths and file links, and rebuilds `dist/`.

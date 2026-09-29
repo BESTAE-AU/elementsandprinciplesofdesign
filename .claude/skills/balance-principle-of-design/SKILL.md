@@ -1,34 +1,23 @@
 ---
 name: balance-principle-of-design
-description: >
-  Teaches, analyses and applies BALANCE as a principle of design for NSW TAS and
-  design subjects (Multimedia, Graphics Technology, Visual Design, Textiles, D&T):
-  symmetrical, asymmetrical, radial and crystallographic balance, visual weight
-  and what creates it, physical balance and stability in products, balance over
-  time in video and motion. Use it whenever someone wants a lesson, worksheet or
-  Canvas page on balance; feedback or marking on how a student achieved balance;
-  model answers analysing balance in a poster, photo, film, product, garment,
-  interface or space; or help achieving balance in their own design, even if they
-  only say "it feels lopsided", "visual weight", "symmetrical vs asymmetrical" or
-  "it looks off".
+description: BALANCE as a principle of design for NSW TAS and design subjects. Use for any task about balance: lessons and worksheets, feedback or marking of student work, analysis and model answers, or achieving it in a design. Covers symmetrical and asymmetrical balance, visual weight and stability.
 ---
 
 # Balance — principle of design
 
-This skill covers **balance** as a principle of design. Principles describe relationships and organisational effects; elements (line, direction, shape, form, space, size and scale, time and duration, value, colour, texture, typography, layout and composition) are the variables that create them. So always explain *which elements* produce balance and *how*, and never treat an element and a principle as the same thing.
-
-The shared method (analysis progression, justification levels, Factors Affecting Design, experimentation, teaching resources, feedback and marking, and language rules) is in `references/design-method.md`. For depth on a particular element, use its `<element>-element-of-design` skill. For whole-process help, use the method skills (`design-analysis-progression`, `design-justification-writing`, `design-feedback-and-marking`, and so on).
-
-Apply the language rules (method §14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+This skill covers balance as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create balance and how. The essentials are below. Open **only** the reference file the task needs.
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page | Types, levers, activities, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, analysis | Worked analysis, element contributions | §2 Analysis progression |
-| Help with their own design | Levers, element contributions | §7 Controlled experimentation |
+| The request is… | Read |
+|---|---|
+| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
+| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
+| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
+| Achieving balance in a design | the levers below, then `references/method/experimentation.md` |
+| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+
+Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
 ## What balance is
 
@@ -59,9 +48,6 @@ Keep it distinct:
 
 ## What each element contributes
 
-<!-- BEGIN: element-contributions -->
-Generated from the element skills by `tools/build_skills.py`. For more on any element, use its `<element>-element-of-design` skill.
-
 - **Colour:** small areas of intense colour balance large areas of muted colour.
 - **Direction:** strong vectors pull visual weight towards where they point; a figure facing out of the frame can unbalance it.
 - **Form:** visual and physical — a heavy base looks and is more stable; asymmetric forms need counterweight.
@@ -74,46 +60,5 @@ Generated from the element skills by `tools/build_skills.py`. For more on any el
 - **Time and duration:** alternating fast and slow sections balance a sequence.
 - **Typography:** heavy display type balanced against images or white space.
 - **Value:** dark masses feel heavier; a small dark area can balance a large light one.
-<!-- END: element-contributions -->
 
-## Common misconceptions
-
-| Misconception | Better understanding |
-|---|---|
-| "Balanced means symmetrical." | Asymmetrical designs can be balanced; analyse weight, not mirroring. |
-| "Balance is only visual." | In products and furniture it's also physical stability and safety. |
-| "Every design should be balanced." | Deliberate imbalance can create tension or movement when it serves the brief. |
-
-## Worked analysis (model for exemplars and annotations)
-
-Scenario: An asymmetrical gig poster: a large dark photo of the singer fills the left two-thirds; a small, bright yellow date block sits alone in the upper right.
-
-- **Identify:** "The design uses balance."
-- **Describe:** "The large dark photo on the left carries most of the weight; a small but highly saturated yellow block isolated in the upper right counterweights it."
-- **Explain:** "Because the yellow block is saturated and isolated, it carries more weight than its size suggests, so the poster feels stable without being symmetrical."
-- **Analyse:** "Balance works through colour, value and space: saturation and isolation give a small element leverage. The asymmetry also creates a reading path from photo to date."
-- **Evaluate:** "Effective for a street poster needing impact and a clear date. However, in a greyscale photocopy the yellow becomes a pale grey and loses weight, so the balance and the date's emphasis would collapse; a darker outline or larger date would protect it."
-
-Each level should add a link in the chain, not simply more words.
-
-## Justification examples
-
-- **Weak:** "I made it balanced so it looks good."
-- **Developing:** "I put the photo on the left and the text on the right so it's balanced."
-- **Strong:** "I balanced the large photo with a small but bright date block in the opposite corner, so the poster feels stable while still leading the eye to the date, which students need at a glance."
-- **Sophisticated:** "I tested a centred symmetrical version and the asymmetrical one with five students; the symmetrical one felt 'formal' and two missed the date. I kept the asymmetrical layout but enlarged the date slightly after a greyscale test, trading some drama for reliability."
-
-## Feedback patterns to look for in student work
-
-- **'Balanced' used to mean 'symmetrical'.**
-- **Weight described by size only** — ignores value, colour and isolation.
-- **Everything centred** by default, with no reason.
-- **Physical stability ignored** in product work.
-- **Balance claimed but not shown** — no reference to where the weight sits.
-
-## Activity ideas for teaching resources
-
-- **Weight see-saw:** place cut-out shapes of different size, value and colour on a 'see-saw' page until it feels balanced; explain why.
-- **Mirror test:** flip a poster horizontally; does the balance change?
-- **Symmetrical to asymmetrical:** redesign a symmetrical layout asymmetrically and compare.
-- **Tip test (D&T):** build a quick prototype and test physical balance with loads.
+For depth on an element, use its `<element>-element-of-design` skill.
