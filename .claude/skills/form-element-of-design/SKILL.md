@@ -7,11 +7,11 @@ description: >
   mass, volume and void, geometric and organic form, edges, fillets and chamfers,
   modelling with light and shade, 3D rendering and CAD, drape and silhouette in
   garments, ergonomic product form, architectural massing, and manufacturing
-  limits (3D printing, CNC, moulding). Use it whenever someone wants a lesson,
-  worksheet, Canvas page or workbooklet on form; feedback or marking on how a
-  student handled form in a product, garment, model or rendering; model answers
-  analysing form in a product, building, sculpture, illustration or 3D scene; or
-  help with form in their own design. Use it even if they only say "3D",
+  limits (3D printing, CNC, moulding). Use it to explain form or answer general
+  questions about it, or when a request covers several jobs at once. For a
+  specific job prefer form-element-of-design-teaching (lessons, worksheets),
+  -feedback (feedback and marking), -analysis (analysis, model answers) or
+  -practice (applying it in a design). Use it even if they only say "3D",
   "volume", "shading to look 3D", "the shape of the product" or "drape".
 ---
 
@@ -23,12 +23,12 @@ The core habit: treat every form as a decision. Move from **what the volume is**
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `form-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `form-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `form-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `form-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works". Avoid body-value judgements when discussing garment volume.
 

@@ -7,12 +7,13 @@ description: >
   texture, natural, manufactured and digital texture, surface finish (matte,
   satin, gloss), relief, emboss and deboss, grain and noise overlays, texture maps
   and shaders in 3D, fibre, weave, knit and pile in textiles, grip and slip in
-  products, and interior material palettes. Use it whenever someone wants a lesson,
-  worksheet, Canvas page or workbooklet on texture; feedback or marking on how a
-  student used texture or surface; model answers analysing texture in a garment,
-  product, photo, illustration, packaging or room; or help choosing surfaces and
-  finishes for their own design. Use it even if they only say "surface finish",
-  "grain overlay", "tactile", "embossing", "fabric feel" or "it looks too flat".
+  products, and interior material palettes. Use it to explain texture or answer
+  general questions about it, or when a request covers several jobs at once. For a
+  specific job prefer texture-element-of-design-teaching (lessons, worksheets),
+  -feedback (feedback and marking), -analysis (analysis, model answers) or
+  -practice (applying it in a design). Use it even if they only say "surface
+  finish", "grain overlay", "tactile", "embossing", "fabric feel" or "it looks too
+  flat".
 ---
 
 # Texture — element of design
@@ -23,12 +24,12 @@ The core habit: always say whether texture is **actual** (can be felt) or **visu
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `texture-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `texture-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `texture-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `texture-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 

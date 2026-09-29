@@ -7,12 +7,12 @@ description: >
   direction, eye paths and reading order, gaze, perspective, screen direction and
   continuity in film and animation, arrows, chevrons, swipe and progress cues in
   UI, right-to-left localisation, one-way prints and nap in textiles, and
-  wayfinding. Use it whenever someone wants a lesson, worksheet, Canvas page or
-  workbooklet on direction; feedback or marking on how a student controlled the
-  viewer's eye path; model answers analysing direction or flow in a poster, film
-  shot, layout, interface or space; or help steering attention in their own design.
-  Use it even if they only say "eye flow", "reading path", "where does the eye go",
-  "screen direction" or "the arrows".
+  wayfinding. Use it to explain direction or answer general questions about it, or
+  when a request covers several jobs at once. For a specific job prefer
+  direction-element-of-design-teaching (lessons, worksheets), -feedback (feedback
+  and marking), -analysis (analysis, model answers) or -practice (applying it in a
+  design). Use it even if they only say "eye flow", "reading path", "where does
+  the eye go", "screen direction" or "the arrows".
 ---
 
 # Direction — element of design
@@ -23,12 +23,12 @@ The core habit: treat every directional cue as a decision. Move from **which way
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `direction-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `direction-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `direction-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `direction-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 

@@ -7,14 +7,13 @@ description: >
   grids, margins and gutters, visual weight, balance (symmetrical and
   asymmetrical), hierarchy, reading order, framing and cropping, layering,
   density, rule of thirds and scanning patterns as heuristics, film framing,
-  responsive layouts, dielines, placement prints and brand templates.
-  Use it whenever someone wants a lesson, worksheet, Canvas page or workbooklet
-  on layout or composition; feedback or marking on a student's poster, page,
-  slide, screen or folio layout; model answers analysing composition in a
-  poster, photo, film still, magazine spread or website; or help arranging their
-  own design. Use it even if they only say "it looks messy", "where should this
-  go", "grid", "balance" or "rule of thirds". For InDesign grids and margins
-  use indesign-parameters when available.
+  responsive layouts, dielines, placement prints and brand templates. Use it to
+  explain layout and composition or answer general questions about it, or when a
+  request covers several jobs at once. For a specific job prefer
+  layout-and-composition-element-of-design-teaching, -feedback, -analysis or
+  -practice. Use it even if they only say "it looks messy", "where should this
+  go", "grid", "balance" or "rule of thirds". For InDesign grids and margins use
+  indesign-parameters when available.
 ---
 
 # Layout and composition — element of design
@@ -27,12 +26,12 @@ The core habit: analyse the **system**, not just where things are. Move from **p
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric and the whole-design review checklist), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `layout-and-composition-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `layout-and-composition-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric and the whole-design review checklist), §4 Justification |
+| Model answers, exemplars, annotations | `layout-and-composition-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `layout-and-composition-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 

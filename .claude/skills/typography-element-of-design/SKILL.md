@@ -7,12 +7,12 @@ description: >
   system, how type interacts with the other elements and principles, typographic
   hierarchy, legibility vs readability, typeface classification, type in brand
   systems, captions, subtitles and kinetic type, responsive UI type, type on
-  garments, signage and technical labels, and reproduction limits. Use it whenever
-  someone wants a lesson, worksheet or Canvas page on typography as an element
-  of design; model answers analysing type in a poster, film title, brand or
-  interface; or help reasoning about type in their own design. For choosing
-  fonts use typeface-selection-rationale; type scales, type-system-builder;
-  critiquing type, typography-critique-audit; definitions,
+  garments, signage and technical labels, and reproduction limits. Use it to
+  explain typography or answer general questions about it, or when a request
+  covers several jobs at once. For a specific job prefer
+  typography-element-of-design-teaching, -feedback, -analysis or -practice. For
+  choosing fonts use typeface-selection-rationale; type scales,
+  type-system-builder; critiquing type, typography-critique-audit; definitions,
   typography-fundamentals-explainer — when available.
 ---
 
@@ -33,12 +33,12 @@ The core habit: type is both **image** and **language**. Move from **what the ty
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `typography-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `typography-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `typography-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `typography-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 

@@ -7,12 +7,13 @@ description: >
   human and environmental scale, proportion, minimum sizes, optical scaling and
   responsive logo variants, shot size in film, text and touch-target size in UI,
   motif scale in prints, anthropometrics in products, and drawing scales such as
-  1:10 and 1:100. Use it whenever someone wants a lesson, worksheet, Canvas page or
-  workbooklet on size or scale; feedback or marking on how a student used scale or
-  hierarchy by size; model answers analysing scale in a poster, photo, logo,
-  product, space or interface; or help sizing things in their own design. Use it
-  even if they only say "make it bigger", "minimum logo size", "favicon",
-  "scale drawing", "proportion" or "it doesn't fit".
+  1:10 and 1:100. Use it to explain size and scale or answer general questions
+  about it, or when a request covers several jobs at once. For a specific job
+  prefer size-and-scale-element-of-design-teaching (lessons, worksheets),
+  -feedback (feedback and marking), -analysis (analysis, model answers) or
+  -practice (applying it in a design). Use it even if they only say "make it
+  bigger", "minimum logo size", "favicon", "scale drawing", "proportion" or "it
+  doesn't fit".
 ---
 
 # Size and scale — element of design
@@ -23,12 +24,12 @@ The core habit: always name the **reference** — bigger or smaller than *what*?
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `size-and-scale-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `size-and-scale-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `size-and-scale-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `size-and-scale-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 

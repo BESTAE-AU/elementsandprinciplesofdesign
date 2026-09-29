@@ -7,12 +7,13 @@ description: >
   padding and gutters, proximity and grouping, density, clear space around logos,
   depth and foreground/background, headroom and lead room in film, UI spacing
   systems and touch-target separation, garment ease, and physical clearance and
-  circulation in products and interiors. Use it whenever someone wants a lesson,
-  worksheet, Canvas page or workbooklet on space; feedback or marking on how a
-  student used space; model answers analysing space in a layout, poster, logo,
-  photo, interface or room; or help with spacing in their own design. Use it even
-  if they only say "white space", "it feels cluttered", "too cramped",
-  "breathing room", "padding" or "clear space".
+  circulation in products and interiors. Use it to explain space or answer general
+  questions about it, or when a request covers several jobs at once. For a
+  specific job prefer space-element-of-design-teaching (lessons, worksheets),
+  -feedback (feedback and marking), -analysis (analysis, model answers) or
+  -practice (applying it in a design). Use it even if they only say "white space",
+  "it feels cluttered", "too cramped", "breathing room", "padding" or "clear
+  space".
 ---
 
 # Space — element of design
@@ -23,12 +24,12 @@ The core habit: treat space as designed, not left over. Move from **where the sp
 
 ## Pick the job
 
-| The request is… | Use from this file | Also read in `references/design-method.md` |
-|---|---|---|
-| A lesson, worksheet, Canvas page, booklet | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
-| Feedback or marking on student work | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
-| Model answers, exemplars, annotations | Worked analysis, justification examples | §2 Analysis progression |
-| Help with their own design | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
+| The request is… | Best skill | If you're already in this skill, use | Also read in `references/design-method.md` |
+|---|---|---|---|
+| A lesson, worksheet, Canvas page, booklet | `space-element-of-design-teaching` | Variables, types, activity ideas, misconceptions | §10 Building teaching resources, §11 Differentiation |
+| Feedback or marking on student work | `space-element-of-design-feedback` | Feedback patterns, justification examples | §12 Feedback (incl. what to do with no rubric), §4 Justification |
+| Model answers, exemplars, annotations | `space-element-of-design-analysis` | Worked analysis, justification examples | §2 Analysis progression |
+| Help with their own design | `space-element-of-design-practice` | Variables, fields, production table | §7 Controlled experimentation, §8 Brand-system testing |
 
 Always apply the language rules (§14): Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
 
