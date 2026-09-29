@@ -16,7 +16,7 @@ Typefaces (unchanged):
 - **Garamond Semibold** for major headings, used sparingly.
 - **Helvetica** for Word, PowerPoint, letters and emails. Never use Helvetica for external material.
 
-> **⚠ Check with the school: the Light Blue values disagree.** The guideline's RGB (144, 157, 178), CMYK and printed swatch are a mid grey-blue, `#909DB2`. Its printed HEX, `#D9DDE2`, is a much paler blue-grey. This guide follows the swatch and RGB, and gives both results where they differ. Don't "fix" either value yourself. Ask the marketing office which is correct.
+> **⚠ Check with the school: the Light Blue values disagree.** The guideline's RGB (144, 157, 178), CMYK and printed swatch are a mid grey-blue, `#909DB2`. Its printed HEX, `#D9DDE2`, is a much paler blue-grey. The PDF's own drawn swatch, and the box behind the horizontal logo, both measure RGB 143, 157, 179 (≈ `#909DB2`), so `#D9DDE2` is almost certainly a misprint. This guide uses `#909DB2`, and still gives both results where they differ. Ask the marketing office to confirm.
 
 ## How the palette works
 
