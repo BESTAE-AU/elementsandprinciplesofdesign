@@ -1,0 +1,50 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-26T01:12:52Z"
+  },
+  "title": "MBE Creative Studio",
+  "namespace": "MBE",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "m",
+      "order": [
+        "Pink~20Logo.svg",
+        "Favicon.svg"
+      ],
+      "files": {
+        "Pink~20Logo.svg": {
+          "name": "Pink Logo.svg",
+          "blob": "fc5c82c3063c3269d95ec5829091fd30",
+          "size": 8799,
+          "type": "image/svg+xml"
+        },
+        "Favicon.svg": {
+          "name": "Favicon.svg",
+          "blob": "f4caaf61bc3920d3fb16280ff192836c",
+          "size": 5361,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Britt",
+    "via": "Claude Code",
+    "at": "2026-09-29T01:06:22Z",
+    "note": "Added accent-bloom-deep #e3008c (small pink CTAs, white text 4.5:1) and border-strong #a48061 (inputs/focus 3:1). Logo pink unchanged."
+  }
+}

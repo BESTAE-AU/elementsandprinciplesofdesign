@@ -1,0 +1,73 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-29T00:34:57Z"
+  },
+  "title": "MCCNS",
+  "namespace": "MCCNS",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos",
+    "Guidelines"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "m",
+      "order": [
+        "mccns-logo-vertical.png",
+        "mccns-logo-horizontal-on-light-blue.png",
+        "mccns-crest.png"
+      ],
+      "files": {
+        "mccns-logo-vertical.png": {
+          "name": "mccns-logo-vertical.png",
+          "blob": "bc4fa5e9835e69d53de05740595161fe",
+          "size": 88014,
+          "type": "image/png"
+        },
+        "mccns-logo-horizontal-on-light-blue.png": {
+          "name": "mccns-logo-horizontal-on-light-blue.png",
+          "blob": "3af46e22c34fe2a9bff371a620d78362",
+          "size": 91716,
+          "type": "image/png"
+        },
+        "mccns-crest.png": {
+          "name": "mccns-crest.png",
+          "blob": "3559c95f432a149ffc1390acc174b651",
+          "size": 78033,
+          "type": "image/png"
+        }
+      }
+    },
+    "Guidelines": {
+      "name": "Guidelines",
+      "tile": "l",
+      "order": [
+        "MCCNS-Visual-Identity-Guidelines-2020.pdf"
+      ],
+      "files": {
+        "MCCNS-Visual-Identity-Guidelines-2020.pdf": {
+          "name": "MCCNS-Visual-Identity-Guidelines-2020.pdf",
+          "blob": "bec7fed7baf314a17590fed9fe02c407",
+          "size": 1956099,
+          "type": "application/pdf"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Brittany Staniforth",
+    "via": "Claude Code",
+    "at": "2026-09-29T00:34:57Z",
+    "note": "Created from the MCCNS Visual Identity Guidelines (Nov 2020): palette, type, logo rules, SCS endorsement, plus WCAG-checked colour usage rules. No brand components changed."
+  }
+}

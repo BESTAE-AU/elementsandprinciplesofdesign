@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-19T06:20:43Z"
+  },
+  "title": "BESTAE",
+  "namespace": "BESTAE",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Brittany Staniforth",
+    "via": "Claude Code",
+    "at": "2026-09-29T01:05:26Z",
+    "note": "Re-tinted t5 #E8F6C4, t8 #D2DCE8, t10 #F7D0E6 so every domain panel is distinguishable (cross-system audit)."
+  }
+}

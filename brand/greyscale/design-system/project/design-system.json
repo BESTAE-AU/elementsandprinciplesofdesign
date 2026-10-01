@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-29T00:41:33Z"
+  },
+  "title": "Greyscale Workbooklet",
+  "namespace": "Greyscale",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Brittany Staniforth",
+    "via": "Claude Code",
+    "at": "2026-09-29T01:05:54Z",
+    "note": "Link grey #898A89 -> #5E5E5E (3.5:1 -> 6.5:1); named the coding set pale / accent-2 / accent-4 / accent-6."
+  }
+}
