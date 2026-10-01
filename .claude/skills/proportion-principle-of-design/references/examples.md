@@ -1,5 +1,21 @@
 # Proportion: examples and teaching material
 
+## Types and variations
+
+- **Internal proportion:** parts of one object (lid to body).
+- **Relational proportion:** elements to each other (heading to body text).
+- **Human proportion:** designed to body dimensions.
+- **Mathematical ratios:** golden ratio, 2:3, type scales, used as heuristics, not rules.
+- **Exaggerated proportion:** deliberately distorted for effect (caricature, emphasis).
+
+## Levers: what a designer changes to create proportion
+
+- Ratios between parts
+- Type scale
+- Grid divisions
+- Anthropometric data
+- Deliberate exaggeration
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +56,13 @@ Each level should add a link in the chain, not simply more words.
 - **Stretch test:** distort a design's proportions and discuss what changes.
 - **Hand-span data (D&T):** collect class measurements and set a handle proportion.
 - **Type scale:** set a heading/body ratio at 1.25, 1.5 and 2 and compare.
+
+## What each element contributes
+
+- **Colour:** the ratio of each colour sets the overall reading.
+- **Form:** relationships between parts (lid to body, handle to vessel), and between object and user.
+- **Line:** line length relative to the format, and the stroke-to-size ratio in icons and marks.
+- **Shape:** internal proportions of a shape, and the ratio between shapes.
+- **Size and scale:** internal ratios (logo mark to wordmark, head to body in illustration, seat to table).
+
+For depth on an element, use its `<element>-element-of-design` skill.

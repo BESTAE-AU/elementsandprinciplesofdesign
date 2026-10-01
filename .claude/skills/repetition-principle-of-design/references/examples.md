@@ -1,5 +1,21 @@
 # Repetition: examples and teaching material
 
+## Types and variations
+
+- **Exact repetition:** identical elements.
+- **Repetition with variation:** the same element changed in one way (size, colour).
+- **Systemic repetition:** templates, components, brand rules.
+- **Motif repetition:** a signature element recurring across touchpoints.
+
+## Levers: what a designer changes to create repetition
+
+- Colour
+- Shape and graphic devices
+- Typography styles
+- Spacing
+- Motifs
+- Motion behaviour
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +56,16 @@ Each level should add a link in the chain, not simply more words.
 - **Repeat with one change:** repeat a motif changing only colour, then only size.
 - **Template build:** make one social template and apply it to three posts.
 - **Consistency audit:** spot the near-misses in a sample brand.
+
+## What each element contributes
+
+- **Colour:** recurring colours link parts of a layout or a campaign.
+- **Direction:** repeated directional elements at intervals set pace (a row of chevrons, a sequence of steps).
+- **Form:** repeated ribs, pleats, fins or modules.
+- **Layout and composition:** recurring structures across spreads or slides, with variation to signal change.
+- **Line:** regular intervals set a steady rhythm, progressively changing intervals create progression, and stripes and pinstripes turn line into pattern.
+- **Shape:** repeated motifs build pattern; varied spacing or size builds rhythm.
+- **Space:** regular gaps create steady rhythm; changing gaps create pace.
+- **Texture:** repeated textures (weaves, knurling, tiles) create rhythm.
+
+For depth on an element, use its `<element>-element-of-design` skill.

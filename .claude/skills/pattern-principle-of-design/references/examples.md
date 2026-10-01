@@ -1,5 +1,24 @@
 # Pattern: examples and teaching material
 
+## Types and variations
+
+- **Block (straight) repeat.**
+- **Half-drop repeat.**
+- **Brick repeat.**
+- **Mirror repeat.**
+- **Radial / rotational.**
+- **All-over / tossed.**
+- **Border / stripe.**
+
+## Levers: what a designer changes to create pattern
+
+- Motif design
+- Repeat structure
+- Scale
+- Colourway
+- Density and spacing
+- Direction (one-way vs two-way)
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +59,11 @@ Each level should add a link in the chain, not simply more words.
 - **Scale test:** print the pattern at three scales on a garment template.
 - **Pattern hunt:** photograph five patterns at school and name the repeat.
 - **Seam matching (Textiles):** plan a seam so the pattern matches.
+
+## What each element contributes
+
+- **Line:** regular intervals set a steady rhythm, progressively changing intervals create progression, and stripes and pinstripes turn line into pattern.
+- **Shape:** repeated motifs build pattern; varied spacing or size builds rhythm.
+- **Texture:** repeated textures (weaves, knurling, tiles) create rhythm.
+
+For depth on an element, use its `<element>-element-of-design` skill.

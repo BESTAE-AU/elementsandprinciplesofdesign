@@ -1,68 +1,230 @@
 ---
 name: balance-principle-of-design
 description: >
-  BALANCE as a principle of design for NSW TAS and design subjects. Use for any
-  task about balance: lessons and worksheets, feedback or marking of student work,
-  analysis and model answers, or achieving it in a design. Covers symmetrical and
-  asymmetrical balance, visual weight and stability.
+  Design-reasoning skill for Balance, one of the 15 Principles of Design. Use it to teach, explain, analyse, critique, generate, justify, evaluate or refine balance in graphic design, branding, multimedia, UI/UX, textiles, product, spatial design and architecture. Use whenever someone asks what balance is, how to create or fix it, or wants feedback, a justification, a lesson or questions about it, including talk of visual weight, symmetry, asymmetry, radial or dynamic balance, a layout feeling lopsided, heavy or unstable.
 ---
 
-# Balance — principle of design
+# Balance — Principle of Design
 
-This skill covers balance as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create balance and how. The essentials are below. Open **only** the reference file the task needs.
+Treat Balance as a **relational, organisational concept**: it describes how Elements of Design are
+organised and perceived in relation to each other, not a physical object in the design. Explain
+*how* specific Element variables create balance, what effect that has, and whether the effect
+suits the audience, purpose and context. Write in **Australian English**.
 
-## Pick the job
+## How to reason about Balance
 
-| The request is… | Read |
+**Elements of Design** (the variables manipulated): line, direction, shape, form, space, size and
+scale, time and duration, value, colour, texture, typography, layout and composition. Name the
+specific variable (e.g. "type weight", "interval between modules"), not just the category.
+
+**Causal model:** Elements manipulated → primary Principle → secondary Principle(s) → perceptual
+effect → communication / functional outcome → suitability for audience, purpose and context.
+
+- Identify whether balance is the **primary** Principle (most directly created by the decision)
+  or a **secondary** effect of another Principle.
+- Treat causal links as conditional, not automatic, and don't force a chain the evidence doesn't
+  support. Separate cause from correlation.
+- Use hedged, mechanism-based language ("tends to", "may be perceived as", "can direct attention"):
+  perception varies with culture, reading direction, medium, device, viewing distance and
+  accessibility needs.
+- Surface trade-offs (possible advantage ↔ possible disadvantage) and treat failure as a matter of
+  degree: absent, weak, inconsistent, excessive, inappropriate or deliberately disrupted.
+- Recognise deliberate rule-breaking: ask what effect the decision creates and whether it suits the
+  purpose, not whether a rule was followed.
+- Keep accessibility and production conditions (print, screen, responsive, textile repeat,
+  manufacturing, frame rate) in view throughout.
+
+## Knowledge: Balance
+
+### Definition
+
+Balance is the distribution of visual, spatial or perceptual weight within a composition.
+
+Balance does not require equal size or symmetry. Elements have perceived weight based on attributes such as:
+
+- size
+- value
+- colour intensity
+- complexity
+- texture
+- position
+- isolation
+- density
+- motion
+
+### Types
+
+#### Symmetrical balance
+Visual weight is mirrored or closely matched across an axis.
+
+#### Asymmetrical balance
+Different elements create an overall equilibrium without mirroring.
+
+#### Radial balance
+Elements distribute around a central point.
+
+#### Approximate balance
+Near-symmetry with controlled differences.
+
+#### Dynamic balance
+An active equilibrium created through unequal but counteracting forces.
+
+### Creation
+
+Balance may be adjusted through:
+
+- position
+- scale
+- density
+- negative space
+- colour intensity
+- tonal weight
+- image complexity
+- directional force
+- movement
+- number of components
+
+### Visual weight
+
+Claude should explicitly analyse *why* something appears visually heavy or light.
+
+For example:
+
+> The small red element carries more visual weight than its physical size suggests because of its saturation, isolation and position near the edge of the composition.
+
+### Relationships
+
+- symmetry is a method, not a synonym for balance
+- asymmetry can strengthen movement
+- reduced balance may create tension
+- contrast can change perceived weight
+- hierarchy may intentionally create unequal visual weight
+
+### Applications
+
+Branding: stable or dynamic composition across touchpoints.  
+Photography: distribution of subjects, negative space and tonal mass.  
+Film: changing balance as subjects enter or leave frame.  
+UI: balancing information density without sacrificing hierarchy.  
+Fashion: distribution of volume, colour, details and surface treatment.  
+Product design: visual mass, controls and form relationships.  
+Interiors: furniture, lighting, architectural mass and circulation.
+
+### Accessibility and function
+
+Visual balance does not necessarily equal functional balance. A visually balanced interface may still have poor navigation.
+
+### Trade-offs
+
+- stability ↔ predictability
+- asymmetrical energy ↔ possible instability
+- visual equilibrium ↔ reduced focal dominance
+- strong imbalance ↔ possible confusion, or intentional tension
+
+### Failure modes
+
+- weak control of visual weight may make a design feel unintentionally unstable
+- excessive symmetry may reduce energy
+- deliberate imbalance may be effective for tension or movement
+
+### Misconception
+
+**Misconception:** Balance means symmetry.  
+**Correction:** Symmetry is only one strategy for distributing visual weight.
+
+## Distinguishing Balance from related concepts
+
+| Relationship | Distinction |
 |---|---|
-| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
-| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
-| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
-| Achieving balance in a design | the levers below, then `references/method/experimentation.md` |
-| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+| Balance vs Symmetry | Symmetry is one method of achieving balance. |
 
-Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+## Causal chains and interactions involving Balance
 
-## What balance is
+Use these as possible relationships to test against the evidence in the design, not as universal laws.
 
-Balance is the distribution of visual (or physical) weight so that a design feels stable, or deliberately unstable. Visual weight comes from size, value, colour, texture, detail, isolation and position.
+- **Balance ↔ Tension** — a composition may retain overall balance while using local instability to create tension.
 
-Keep it distinct:
-- **Balance vs symmetry:** symmetry is one way to balance; asymmetrical designs balance through unequal weights placed at different distances.
-- **Visual vs physical balance:** a product can look balanced and still tip over, or the reverse.
-- **Balance vs harmony:** balance is about weight distribution; harmony is about elements belonging together.
+## Degrees of balance
 
-## Types and variations
+Reduced balance may feel unstable, but instability may be intentional.
 
-- **Symmetrical (formal):** mirrored about an axis; often reads as stable or formal in context.
-- **Asymmetrical (informal):** unequal weights balanced by position; often more dynamic.
-- **Radial:** weight arranged around a centre.
-- **Crystallographic (all-over):** evenly distributed weight with no single focal point, as in patterns.
-- **Deliberate imbalance:** weight pushed to one side to create tension or movement.
+## Weak → sophisticated responses
 
-## Levers: what a designer changes to create balance
+Help learners move beyond naming the Principle.
 
-- Size and scale
-- Value (dark reads heavier)
-- Colour saturation
-- Texture and detail density
-- Isolation in space
-- Position (further from centre = more leverage)
-- Direction elements point
+Weak:
+> It is balanced.
 
-## What each element contributes
+Developing:
+> There is an image on one side and text on the other.
 
-- **Colour:** small areas of intense colour balance large areas of muted colour.
-- **Direction:** strong vectors pull visual weight towards where they point; a figure facing out of the frame can unbalance it.
-- **Form:** visual and physical — a heavy base looks and is more stable; asymmetric forms need counterweight.
-- **Layout and composition:** symmetrical or asymmetrical distribution of visual weight.
-- **Line:** dense or heavy line work carries visual weight. A strong vertical may need a counterweight.
-- **Shape:** a few large shapes can balance many small ones; asymmetric balance depends on shape weight and position.
-- **Size and scale:** one large element can balance several small ones.
-- **Space:** empty areas carry visual weight; asymmetric layouts balance filled and empty regions.
-- **Texture:** heavily textured areas carry visual weight.
-- **Time and duration:** alternating fast and slow sections balance a sequence.
-- **Typography:** heavy display type balanced against images or white space.
-- **Value:** dark masses feel heavier; a small dark area can balance a large light one.
+Strong:
+> The large image on the left is balanced by a smaller but darker and denser text block on the right.
 
-For depth on an element, use its `<element>-element-of-design` skill.
+Sophisticated:
+> Asymmetrical balance is created by countering the large, low-detail image with a smaller high-contrast text block, producing visual equilibrium without mirroring the composition.
+
+## Working protocols
+
+### Analysing
+Identify where balance is evident → describe the Elements and relationships creating it →
+explain the perceptual/functional effect → analyse how decisions combine and whether balance
+is primary or secondary → connect to communication, purpose, audience and context → evaluate
+against explicit criteria → propose a refinement.
+
+### Critiquing / feedback
+State the intended outcome, the observable evidence, the Elements manipulated, the effect on
+balance and on communication or function, a trade-off where relevant, then a **specific**
+change and the effect it should produce, and how to test it. Avoid vague advice like "improve the
+balance".
+
+### Justifying a design decision
+Design decision → Elements manipulated → primary Principle → secondary Principle(s) where relevant
+→ perceptual/functional effect → communication outcome → purpose → audience/context →
+suitability. For sophisticated work add evidence/research, an alternative considered, the trade-off
+and an evaluation.
+
+### Generating a concept or brief
+Specify the intended outcome, how balance will be created (which Elements and relationships),
+related Principles, accessibility requirements, implementation constraints, system rules,
+acceptable variation, trade-offs and testing criteria.
+
+### Refining
+Problem observed → evidence → variable changed → expected effect on balance → expected
+communication/function effect → test (at the intended size, medium or device). Change one
+significant variable at a time where practical.
+
+### Experimenting
+Compare symmetrical, asymmetrical and intentionally unstable compositions.
+Record: variable changed | variation | effect on balance | secondary Principle | communication
+effect | suitability | refinement.
+
+### Teaching
+Move learners through knowledge → recognition → description → explanation → analysis →
+experimentation → application → justification → evaluation → refinement. Use non-leading
+questions ("What effect does the level of balance have?", not "How does the strong
+balance make it exciting?").
+
+## Language
+
+Prefer: establishes, contributes to, reinforces, disrupts, differentiates, groups, separates,
+directs, emphasises, balances, creates cohesion, guides attention, may be perceived as, is
+appropriate because. Avoid unsupported verdicts ("looks good", "is professional", "is boring",
+"always works") unless criteria and context support them.
+
+## Quality check
+
+- Balance treated as a relationship, with the specific Element variables named.
+- Balance distinguished from closely related Principles.
+- Causal links evidence-based; primary vs secondary Principle identified where useful.
+- Links made to communication, function, audience, purpose and context.
+- Trade-offs, accessibility and implementation considered; deliberate disruption recognised.
+- Feedback and refinements specific and testable; evaluation criteria explicit.
+- Australian English throughout.
+
+## More on demand
+
+`references/examples.md` has extra material on balance: types and levers, a worked analysis, justification examples, feedback patterns to look for in student work, activity ideas, and what each element of design contributes. Open it only when the task needs it. For marks or a rubric, use `marking-rubric-builder`; with no rubric supplied, build criteria from the protocols above.
+
+For the full cross-Principle framework (all 15 Principles, discipline-specific detail, Factors
+Affecting Design, teaching resources), use the `principles-of-design` skill if it is installed.

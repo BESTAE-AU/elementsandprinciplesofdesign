@@ -1,59 +1,192 @@
 ---
 name: proportion-principle-of-design
 description: >
-  PROPORTION as a principle of design for NSW TAS and design subjects. Use for any
-  task about proportion: lessons and worksheets, feedback or marking of student
-  work, analysis and model answers, or achieving it in a design. Covers ratios
-  between parts, the golden ratio and human proportion.
+  Design-reasoning skill for Proportion, one of the 15 Principles of Design. Use it to teach, explain, analyse, critique, generate, justify, evaluate or refine proportion in graphic design, branding, multimedia, UI/UX, textiles, product, spatial design and architecture. Use whenever someone asks what proportion is, how to create or fix it, or wants feedback, a justification, a lesson or questions about it, including talk of size relationships between parts, proportion vs scale, ratios and the golden ratio, type scales, silhouettes and ergonomics, or parts that look too big or too small.
 ---
 
-# Proportion — principle of design
+# Proportion — Principle of Design
 
-This skill covers proportion as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create proportion and how. The essentials are below. Open **only** the reference file the task needs.
+Treat Proportion as a **relational, organisational concept**: it describes how Elements of Design are
+organised and perceived in relation to each other, not a physical object in the design. Explain
+*how* specific Element variables create proportion, what effect that has, and whether the effect
+suits the audience, purpose and context. Write in **Australian English**.
 
-## Pick the job
+## How to reason about Proportion
 
-| The request is… | Read |
+**Elements of Design** (the variables manipulated): line, direction, shape, form, space, size and
+scale, time and duration, value, colour, texture, typography, layout and composition. Name the
+specific variable (e.g. "type weight", "interval between modules"), not just the category.
+
+**Causal model:** Elements manipulated → primary Principle → secondary Principle(s) → perceptual
+effect → communication / functional outcome → suitability for audience, purpose and context.
+
+- Identify whether proportion is the **primary** Principle (most directly created by the decision)
+  or a **secondary** effect of another Principle.
+- Treat causal links as conditional, not automatic, and don't force a chain the evidence doesn't
+  support. Separate cause from correlation.
+- Use hedged, mechanism-based language ("tends to", "may be perceived as", "can direct attention"):
+  perception varies with culture, reading direction, medium, device, viewing distance and
+  accessibility needs.
+- Surface trade-offs (possible advantage ↔ possible disadvantage) and treat failure as a matter of
+  degree: absent, weak, inconsistent, excessive, inappropriate or deliberately disrupted.
+- Recognise deliberate rule-breaking: ask what effect the decision creates and whether it suits the
+  purpose, not whether a rule was followed.
+- Keep accessibility and production conditions (print, screen, responsive, textile repeat,
+  manufacturing, frame rate) in view throughout.
+
+## Knowledge: Proportion
+
+### Definition
+
+Proportion is the relationship between the sizes, dimensions or quantities of parts within a whole, or between components.
+
+Proportion differs from scale. **Scale** concerns size relative to a reference, context or expected size; **proportion** concerns size relationships among parts.
+
+### Core logic
+
+Proportion influences:
+
+- visual relationships
+- hierarchy
+- perceived stability
+- usability
+- ergonomics
+- emphasis
+- character
+- realism or stylisation
+
+### Forms
+
+- equal proportion
+- dominant/subordinate proportion
+- modular proportion
+- geometric ratio systems
+- human proportion
+- exaggerated proportion
+- progressive proportion
+
+Claude should not imply that any mathematical ratio is automatically superior.
+
+### Elements
+
+Size and Scale are central. Proportion also interacts with shape, form, space, typography and composition.
+
+### Relationships
+
+- proportion can establish hierarchy
+- exaggerated proportion may create emphasis
+- disproportion can create tension
+- consistent proportions can support unity
+- varying proportion can create variety
+
+### Applications
+
+Typography: heading/body relationships.  
+Branding: mark-to-type relationships.  
+Fashion: silhouette, panel divisions and detail scale.  
+Product design: component sizing and ergonomics.  
+Interiors: furniture-to-room relationships.  
+Architecture: openings, façade divisions and human scale.  
+UI: control size, type scale and content relationships.
+
+### Accessibility
+
+Functional proportions can affect legibility, touch targets, control comprehension and ergonomics.
+
+### Trade-offs
+
+- dramatic scale relationships ↔ reduced balance
+- consistent proportion ↔ predictability
+- compact components ↔ accessibility limitations
+- oversized emphasis ↔ loss of supporting information
+
+### Misconception
+
+**Misconception:** Good proportion means using the golden ratio.  
+**Correction:** Proportion is contextual; no single ratio guarantees effective design.
+
+## Distinguishing Proportion from related concepts
+
+| Relationship | Distinction |
 |---|---|
-| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
-| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
-| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
-| Achieving proportion in a design | the levers below, then `references/method/experimentation.md` |
-| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+| Proportion vs Scale | Scale is size relative to a reference, context or expected size; proportion is the size relationship among parts of a whole. |
+| Proportion vs Hierarchy | Proportion can establish hierarchy, but hierarchy also depends on position, contrast, spacing and order. |
 
-Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+## Causal chains and interactions involving Proportion
 
-## What proportion is
+Use these as possible relationships to test against the evidence in the design, not as universal laws.
 
-Proportion is the size relationship between parts of a design, and between the parts and the whole. It affects how balanced, natural, exaggerated or usable a design appears and performs.
+- **Hierarchy** may depend on contrast, emphasis, proportion, proximity, alignment and spatial organisation.
+- Size + scale relationships between parts → Proportion → Hierarchy → clearer order of importance
+- Exaggerated scale of one part → Proportion (dominant/subordinate) → Emphasis → focal attention
+- Deliberate disproportion → Tension → heightened drama or unease
+- Consistent proportional system (type scale, modules) → Proportion + Repetition → Unity → coherent system
 
-Keep it distinct:
-- **Proportion vs scale:** scale is size relative to an outside reference (a person, a room); proportion is ratios within the design.
-- **Proportion vs size:** size is absolute; proportion is relative.
-- **Proportion vs balance:** proportion sets relative sizes; balance is how weight is distributed.
+## Weak → sophisticated responses
 
-## Types and variations
+When scaffolding, generate a progression for proportion: **weak** (names the Principle), **developing** (describes a visible feature), **strong** (links specific Element variables to the Principle), **sophisticated** (explains the causal chain to a communication or functional outcome for the audience and context).
 
-- **Internal proportion:** parts of one object (lid to body).
-- **Relational proportion:** elements to each other (heading to body text).
-- **Human proportion:** designed to body dimensions.
-- **Mathematical ratios:** golden ratio, 2:3, type scales, used as heuristics, not rules.
-- **Exaggerated proportion:** deliberately distorted for effect (caricature, emphasis).
+## Working protocols
 
-## Levers: what a designer changes to create proportion
+### Analysing
+Identify where proportion is evident → describe the Elements and relationships creating it →
+explain the perceptual/functional effect → analyse how decisions combine and whether proportion
+is primary or secondary → connect to communication, purpose, audience and context → evaluate
+against explicit criteria → propose a refinement.
 
-- Ratios between parts
-- Type scale
-- Grid divisions
-- Anthropometric data
-- Deliberate exaggeration
+### Critiquing / feedback
+State the intended outcome, the observable evidence, the Elements manipulated, the effect on
+proportion and on communication or function, a trade-off where relevant, then a **specific**
+change and the effect it should produce, and how to test it. Avoid vague advice like "improve the
+proportion".
 
-## What each element contributes
+### Justifying a design decision
+Design decision → Elements manipulated → primary Principle → secondary Principle(s) where relevant
+→ perceptual/functional effect → communication outcome → purpose → audience/context →
+suitability. For sophisticated work add evidence/research, an alternative considered, the trade-off
+and an evaluation.
 
-- **Colour:** the ratio of each colour sets the overall reading.
-- **Form:** relationships between parts (lid to body, handle to vessel), and between object and user.
-- **Line:** line length relative to the format, and the stroke-to-size ratio in icons and marks.
-- **Shape:** internal proportions of a shape, and the ratio between shapes.
-- **Size and scale:** internal ratios (logo mark to wordmark, head to body in illustration, seat to table).
+### Generating a concept or brief
+Specify the intended outcome, how proportion will be created (which Elements and relationships),
+related Principles, accessibility requirements, implementation constraints, system rules,
+acceptable variation, trade-offs and testing criteria.
 
-For depth on an element, use its `<element>-element-of-design` skill.
+### Refining
+Problem observed → evidence → variable changed → expected effect on proportion → expected
+communication/function effect → test (at the intended size, medium or device). Change one
+significant variable at a time where practical.
+
+### Experimenting
+Vary the size relationships between parts (equal, dominant/subordinate, modular, exaggerated) without changing the content.
+Record: variable changed | variation | effect on proportion | secondary Principle | communication
+effect | suitability | refinement.
+
+### Teaching
+Move learners through knowledge → recognition → description → explanation → analysis →
+experimentation → application → justification → evaluation → refinement. Use non-leading
+questions ("What effect does the level of proportion have?", not "How does the strong
+proportion make it exciting?").
+
+## Language
+
+Prefer: establishes, contributes to, reinforces, disrupts, differentiates, groups, separates,
+directs, emphasises, balances, creates cohesion, guides attention, may be perceived as, is
+appropriate because. Avoid unsupported verdicts ("looks good", "is professional", "is boring",
+"always works") unless criteria and context support them.
+
+## Quality check
+
+- Proportion treated as a relationship, with the specific Element variables named.
+- Proportion distinguished from closely related Principles.
+- Causal links evidence-based; primary vs secondary Principle identified where useful.
+- Links made to communication, function, audience, purpose and context.
+- Trade-offs, accessibility and implementation considered; deliberate disruption recognised.
+- Feedback and refinements specific and testable; evaluation criteria explicit.
+- Australian English throughout.
+
+## More on demand
+
+`references/examples.md` has extra material on proportion: types and levers, a worked analysis, justification examples, feedback patterns to look for in student work, activity ideas, and what each element of design contributes. Open it only when the task needs it. For marks or a rubric, use `marking-rubric-builder`; with no rubric supplied, build criteria from the protocols above.
+
+For the full cross-Principle framework (all 15 Principles, discipline-specific detail, Factors
+Affecting Design, teaching resources), use the `principles-of-design` skill if it is installed.

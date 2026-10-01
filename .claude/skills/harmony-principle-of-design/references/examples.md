@@ -1,5 +1,21 @@
 # Harmony: examples and teaching material
 
+## Types and variations
+
+- **Colour harmony:** analogous, monochromatic, or controlled complementary schemes.
+- **Shape harmony:** shared geometry or corner logic.
+- **Typographic harmony:** type pairings with compatible proportions.
+- **Material harmony:** textures and finishes that suit each other.
+- **Deliberate discord:** clashing on purpose for effect.
+
+## Levers: what a designer changes to create harmony
+
+- Related hues and values
+- Shared geometry
+- Compatible type
+- Related textures and materials
+- Consistent style
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +56,15 @@ Each level should add a link in the chain, not simply more words.
 - **Clash on purpose:** design a deliberately discordant poster and explain the effect.
 - **Material board:** assemble harmonious samples for a brief.
 - **Type pairing test:** pair a heading font with three body fonts and discuss.
+
+## What each element contributes
+
+- **Colour:** a limited, consistent palette ties a brand or series together.
+- **Form:** a consistent radius, draft angle or detail language across a product family.
+- **Line:** consistent stroke weight, terminals and corner radius across an icon set create family resemblance.
+- **Shape:** a consistent shape language (same corner radius, same geometry) makes an icon set or brand feel like one family.
+- **Texture:** a consistent material palette or grain overlay ties a series together.
+- **Typography:** a limited type system (one or two families) ties a document or brand together.
+- **Value:** close values feel calm and cohesive; big jumps feel dramatic — in context.
+
+For depth on an element, use its `<element>-element-of-design` skill.

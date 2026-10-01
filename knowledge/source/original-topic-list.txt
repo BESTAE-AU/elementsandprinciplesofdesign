@@ -1,0 +1,1092 @@
+Yes — based on the GPTs/plugins I can see, I’d organise your **knowledge-dump topics** into these major banks.
+
+## 1. Technology and Applied Sciences / Design
+
+- Design Process
+- Design Thinking
+- Design Decision-Making
+- Design Briefs
+- Design Situations
+- Identified Needs
+- Design Criteria
+- Design Specifications
+- Design Constraints
+- Design Opportunities
+- Research for Design
+- Ideation
+- Concept Development
+- Design Development
+- Prototyping
+- Testing
+- Evaluation
+- Refinement
+- Justification
+- Alternative Design Solutions
+- Design Trade-Offs
+- Appropriateness of the Design Solution
+- Function and Functionality
+- Aesthetics
+- Ergonomics
+- Finance and Cost
+- Quality
+- Resources
+- WHS and Safety
+- Accessibility
+- Ethics
+- Sustainability
+- Environmental Consequences
+- Obsolescence
+- Life Cycle Analysis
+- Materials Selection
+- Tools and Equipment Selection
+- Production Planning
+- Manufacturing Processes
+- Quality Control
+- Design for Manufacture
+- Design for Assembly
+- Design for Users
+- Human-Centred Design
+- Universal Design
+- Product Design
+- Industrial Design
+- Interior Design
+- Spatial Design
+- Architecture
+- Systems Design
+- Emerging Technologies
+- Innovative Technologies
+- Sustainable Technologies
+
+## 2. Elements and Principles of Design
+
+- Elements of Design — master framework
+- Line
+- Direction
+- Shape
+- Form
+- Space
+- Size and Scale
+- Time and Duration
+- Value
+- Colour
+- Texture
+- Typography
+- Layout and Composition
+
+### Principles
+- Unity
+- Harmony
+- Balance
+- Alignment
+- Proximity
+- Proportion
+- Hierarchy
+- Emphasis
+- Contrast
+- Repetition
+- Pattern
+- Rhythm
+- Movement
+- Tension
+- Variety
+
+### Related design reasoning
+- Visual Weight
+- Focal Points
+- Visual Flow
+- Grouping
+- Gestalt Principles
+- Figure–Ground
+- Similarity
+- Continuity
+- Perceptual Organisation
+- Rule-Breaking in Design
+- Causal Relationships Between Elements and Principles
+- Design Analysis
+- Visual Evaluation
+- Design Refinement
+
+## 3. Graphic Design and Visual Communication
+
+- Visual Communication
+- Graphic Design Fundamentals
+- Composition
+- Layout
+- Grid Systems
+- 12-Column Grid Systems
+- Page Structure
+- Visual Hierarchy
+- Information Design
+- Editorial Design
+- Publication Design
+- Poster Design
+- Advertising Design
+- Campaign Design
+- Packaging Design
+- Signage
+- Environmental Graphics
+- Infographics
+- Icons and Symbols
+- Wayfinding
+- Graphic Devices
+- Image and Text Relationships
+- Visual Consistency
+- Cross-Platform Design
+- Responsive Visual Systems
+
+## 4. Typography
+
+- Typography Fundamentals
+- Typeface Classification
+- Type Anatomy
+- Serif and Sans Serif
+- Display Type
+- Font Families
+- Font Weights
+- Font Widths
+- Typographic Hierarchy
+- Type Scale
+- Kerning
+- Tracking
+- Leading
+- Alignment
+- Measure / Line Length
+- Legibility
+- Readability
+- Typographic Contrast
+- Typeface Pairing
+- Display vs Body Type
+- Typography in Branding
+- Typography in Editorial Design
+- Typography in UI/UX
+- Typography in Motion Graphics
+- Accessible Typography
+- Adobe Fonts
+- Font Licensing and Selection
+
+## 5. Colour
+
+- Colour Theory
+- Colour Wheel
+- Primary, Secondary and Tertiary Colour
+- Hue
+- Saturation
+- Value
+- Tint
+- Shade
+- Tone
+- Warm and Cool Colour
+- Complementary Colour
+- Analogous Colour
+- Split Complementary Colour
+- Triadic Colour
+- Monochromatic Colour
+- Colour Harmony
+- Colour Contrast
+- Colour Psychology
+- Colour Symbolism
+- Cultural Meanings of Colour
+- Colour Accessibility
+- Colour Vision Differences
+- Colour in Branding
+- Colour in Film and Photography
+- Colour in Textiles
+- Colour in UI/UX
+- RGB
+- CMYK
+- HEX
+- Pantone
+- Colour Management
+- Print vs Screen Colour
+
+## 6. Branding and Visual Identity
+
+- Branding Fundamentals
+- Brand Strategy
+- Brand Identity
+- Visual Identity
+- Brand Personality
+- Brand Positioning
+- Brand Recognition
+- Brand Consistency
+- Logo Design
+- Logo Systems
+- Logo Lock-Ups
+- Clear Space
+- Brand Colour Systems
+- Brand Typography
+- Graphic Devices
+- Image Treatment
+- Brand Guidelines
+- Brand Templates
+- Brand Systems
+- Brand Architecture
+- Cross-Platform Branding
+- Social Media Branding
+- Packaging Branding
+- Environmental Branding
+- Motion Identity
+- Brand Accessibility
+- Brand Evaluation
+- Brand Auditing
+- Canva Brand Systems
+- BESTAE Brand System
+- MBE Creative Studio Brand System
+
+## 7. Multimedia — General
+
+- Multimedia Fundamentals
+- Multimedia Systems
+- Multimedia Projects
+- Multimedia Design Process
+- Multimedia Project Management
+- Characteristics, Features, Properties and Attributes
+- Multimedia Production
+- Multimedia Post-Production
+- Multimedia Storytelling
+- Multimedia Communication
+- Multimedia Audience and Purpose
+- Multimedia File Formats
+- Multimedia Compression
+- Resolution
+- Frame Rate
+- Aspect Ratio
+- Export Settings
+- Platform Optimisation
+- Multimedia Accessibility
+- Copyright and Licensing
+- Ethical Multimedia Production
+- Multimedia Portfolio Development
+- HSC Multimedia Project Development
+
+## 8. Video and Film
+
+- Videography Fundamentals
+- Camera Shot Types
+- Shot Sizes
+- Camera Angles
+- Camera Position
+- Framing
+- Composition for Film
+- Camera Movement
+- Static Shot
+- Pan
+- Tilt
+- Dolly
+- Truck
+- Pedestal
+- Tracking
+- Crane / Jib
+- Handheld
+- Gimbal
+- Slider
+- Zoom
+- Focus Pull
+- Depth of Field
+- In-Camera Effects
+- Multi-Camera Shooting
+- Continuity
+- Coverage
+- Storyboarding
+- Shot Lists
+- Sequencing
+- Visual Storytelling
+- Editing
+- Pacing
+- Transitions
+- Montage
+- Continuity Editing
+- Narrative Editing
+- Social Video
+- Platform-Specific Video Production
+- Aspect Ratios
+- Resolution
+- Export
+- Adobe Premiere Pro
+- Adobe After Effects
+- Video Production Equipment
+- Camera Support
+- Lighting Equipment
+- Lenses
+- Storage and Power
+- Production Safety
+
+## 9. Photography
+
+- Photography Fundamentals
+- Exposure
+- Aperture
+- Shutter Speed
+- ISO
+- Exposure Triangle
+- Depth of Field
+- Focus
+- Focal Length
+- Lens Selection
+- Perspective
+- Composition
+- Framing
+- Lighting
+- Natural Light
+- Artificial Light
+- Portrait Photography
+- Product Photography
+- Documentary Photography
+- Visual Storytelling
+- Colour in Photography
+- Value and Tonal Range
+- Image Editing
+- Retouching
+- Adobe Photoshop
+- Adobe Lightroom concepts
+- Batch Editing
+- Image Consistency
+- Photography Ethics
+- Image Accessibility
+- Image File Formats
+- Resolution
+- Compression
+
+## 10. Animation and Motion Graphics
+
+- Animation Fundamentals
+- Principles of Animation
+- Keyframes
+- Timing
+- Spacing
+- Staging
+- Anticipation
+- Follow-Through
+- Ease In / Ease Out
+- Motion Paths
+- Loops
+- Frame-by-Frame Animation
+- Tweening
+- Motion Graphics
+- Animated Typography
+- Animated Hierarchy
+- Motion Branding
+- Motion Rhythm
+- Temporal Contrast
+- Visual Continuity
+- Transitions
+- Adobe Animate
+- Adobe After Effects
+- Animation Export
+- Animation Accessibility
+- Reduced Motion
+
+## 11. Audio
+
+- Audio Fundamentals
+- Sound Recording
+- Microphones
+- Audio Equipment
+- Live Recording
+- Podcasts
+- Foley
+- ADR
+- Sound Effects
+- MIDI
+- Audio Loops
+- Mixing
+- Equalisation
+- Noise Reduction
+- Audio Effects
+- Levels
+- Panning
+- Sound Design
+- Audio Storytelling
+- Audio-Visual Relationships
+- Audio Accessibility
+- Captions and Transcripts
+- Audio Production vs Post-Production
+
+## 12. Textiles and Fashion
+
+- Textiles Fundamentals
+- Fibres
+- Yarns
+- Fabrics
+- Fabric Structure
+- Woven Fabrics
+- Knitted Fabrics
+- Non-Wovens
+- Fabric Properties
+- Fabric Performance
+- Fabric Selection
+- Textile Testing
+- Textile Design
+- Surface Design
+- Print Design
+- Pattern
+- Motif
+- Textile Colour
+- Dyeing
+- Printing
+- Embroidery
+- Appliqué
+- Decorative Techniques
+- Textile Construction
+- Seams
+- Seam Finishes
+- Overlocking
+- Bagged-Out Construction
+- Corsetry
+- Boning
+- Piping
+- Interfacing
+- Fastenings
+- Trims
+- Garment Construction
+- Costume Design
+- Fashion Design
+- Silhouette
+- Proportion
+- Garment Details
+- Textile Product Development
+- Textile Design Process
+- Textile Sustainability
+- Ethical Fashion
+- Textile WHS
+- Sewing Equipment
+- Overlockers
+- Heat Presses
+- HTV
+- Digital Textile Technologies
+- Branding for Fashion/Textiles
+- Textile Portfolio Development
+
+## 13. Materials and Manufacturing
+
+- Material Properties
+- Material Characteristics
+- Material Selection
+- Timber
+- Metals
+- Polymers
+- Textiles
+- Composites
+- Smart Materials
+- Sustainable Materials
+- Material Testing
+- Joining
+- Forming
+- Cutting
+- Finishing
+- Surface Treatments
+- Manufacturing Processes
+- Additive Manufacturing
+- Subtractive Manufacturing
+- Laser Cutting
+- CNC
+- 3D Printing
+- Digital Fabrication
+- Production Planning
+- Quality Assurance
+- Quality Control
+- Tolerances
+- Prototyping
+- Safe Workshop Practice
+
+## 14. UI / UX / Digital Design
+
+- UI Design
+- UX Design
+- User-Centred Design
+- Interaction Design
+- Information Architecture
+- Navigation
+- Responsive Design
+- Interface Hierarchy
+- Proximity and Grouping
+- Component Systems
+- Design Systems
+- Buttons and Controls
+- States
+- Feedback
+- Progressive Disclosure
+- Discoverability
+- Affordance
+- Cognitive Load
+- Accessibility
+- Touch Targets
+- Colour Contrast
+- Responsive Typography
+- Web Layout
+- Dashboard Design
+- Forms
+- Data Visualisation
+- Usability Testing
+- A/B Testing
+- Dark Patterns
+- Ethical UX
+
+## 15. Visual Arts
+
+- Visual Arts Practice
+- Artmaking
+- Critical and Historical Studies
+- Visual Literacy
+- Artist–Artwork–World–Audience
+- Subjective Frame
+- Cultural Frame
+- Structural Frame
+- Postmodern Frame
+- Conceptual Framework
+- Art Interpretation
+- Art Analysis
+- Art Criticism
+- Visual Conventions
+- Material Practice
+- Conceptual Practice
+- Artist Intent
+- Audience Interpretation
+- Context
+- Representation
+- Meaning
+- Symbolism
+- Appropriation
+- Postmodern Practice
+- Contemporary Art
+- Pop Art
+- Roy Lichtenstein
+- Colour in Art
+- Composition in Art
+- Visual and Motion Design
+- Photography, Film and Digital Media
+- Stage 4 Visual Arts
+- Stage 5 Visual Arts
+- Stage 6 Visual Arts
+- Visual Arts Assessment
+- Visual Arts Programming
+- Visual Arts Differentiation
+
+## 16. Teaching and Learning
+
+- Pedagogy
+- Explicit Teaching
+- Direct Instruction
+- Inquiry Learning
+- Project-Based Learning
+- Problem-Based Learning
+- Experiential Learning
+- Constructivism
+- Social Constructivism
+- Cognitive Load Theory
+- Worked Examples
+- Scaffolding
+- Gradual Release
+- Metacognition
+- Retrieval Practice
+- Spaced Practice
+- Feedback
+- Reflection
+- Student Agency
+- Motivation
+- Self-Efficacy
+- Executive Function
+- Adolescent Learning
+- Classroom Dialogue
+- Socratic Questioning
+- Critical Thinking
+- Creative Thinking
+- Collaboration
+- Independent Learning
+- Practical Skill Instruction
+- Demonstration Pedagogy
+- Teaching Procedural Skills
+- Pedagogical Agents
+- AI-Assisted Learning
+- Multimodal Learning
+
+## 17. Curriculum and Program Writing
+
+- Curriculum Interpretation
+- Syllabus Analysis
+- Outcomes
+- Content Points
+- Scope and Sequence
+- Program Writing
+- Unit Planning
+- Lesson Sequencing
+- Backward Design
+- Constructive Alignment
+- Learning Intentions
+- Success Criteria
+- Assessment Mapping
+- Curriculum Mapping
+- Cross-Curriculum Priorities
+- General Capabilities
+- NSW Curriculum Reform
+- NESA Syllabus Transition
+- Current vs New Syllabus Comparison
+- Stage 4 Programming
+- Stage 5 Programming
+- Stage 6 Programming
+- Cross-Curricular Units
+- Project-Based Units
+- Aboriginal and Torres Strait Islander Perspectives
+- Eight Ways of Learning
+- Interdisciplinary Learning
+
+## 18. Assessment
+
+- Assessment for Learning
+- Assessment as Learning
+- Assessment of Learning
+- Formative Assessment
+- Summative Assessment
+- Diagnostic Assessment
+- Authentic Assessment
+- Performance Assessment
+- Project Assessment
+- Assessment Validity
+- Assessment Reliability
+- Assessment Equity
+- Assessment Accessibility
+- Constructive Alignment
+- Backward Design
+- Assessment Design
+- Assessment Notifications
+- Task Instructions
+- Success Criteria
+- Evidence of Learning
+- Cognitive Demand
+- Assessment Moderation
+- Academic Integrity
+- AI and Academic Integrity
+- Feedback
+- Self-Assessment
+- Peer Assessment
+- Reflection
+- Portfolio Assessment
+
+## 19. Rubrics and Marking
+
+- Analytic Rubrics
+- Holistic Rubrics
+- Single-Point Rubrics
+- Grid Rubrics
+- Marking Criteria
+- Marking Guidelines
+- Performance Standards
+- Grade Bands
+- Descriptor Writing
+- Observable Evidence
+- Criterion-Referenced Assessment
+- Standards-Based Assessment
+- Rubric Progression
+- HSC Command Verbs
+- Identify
+- Describe
+- Explain
+- Analyse
+- Discuss
+- Compare
+- Justify
+- Evaluate
+- Reflect
+- Apply
+- Elementary / Basic / Sound / Thorough / Extensive terminology
+- Feedback Banks
+- Moderation
+- Marker Consistency
+- Rubric Auditing
+- Student-Friendly Rubrics
+- Rubric-to-Checklist Conversion
+
+## 20. Literacy Across the Curriculum
+
+- Disciplinary Literacy
+- Academic Language
+- Subject-Specific Vocabulary
+- Tier 1 / Tier 2 / Tier 3 Vocabulary
+- Reading Comprehension
+- Writing
+- Speaking and Listening
+- Viewing and Representing
+- Multimodal Literacy
+- Critical Literacy
+- Vocabulary Instruction
+- Text Structures
+- Explanation Writing
+- Procedure Writing
+- Reports
+- Arguments
+- Discussion
+- Paragraph Structure
+- Sentence Structure
+- Cohesion
+- Cause and Effect Language
+- Comparison Language
+- Evaluative Language
+- Technical Terminology
+- EAL/D Support
+- Translanguaging
+- Code-Switching
+- Aboriginal English
+- Visual Literacy
+- Literacy Demands of Assessment
+- Literacy Scaffolds
+- Sentence Starters
+- Word Banks
+- Graphic Organisers
+
+## 21. Numeracy Across the Curriculum
+
+- Numeracy Fundamentals
+- Mathematical Reasoning
+- Problem Solving
+- Data Literacy
+- Financial Literacy
+- Measurement
+- Geometry
+- Spatial Reasoning
+- Statistics
+- Probability
+- Estimation
+- Ratios
+- Scale
+- Proportion
+- Percentages
+- Graphs
+- Tables
+- Data Interpretation
+- Misleading Data
+- Mathematical Language
+- Numeracy in TAS
+- Measurement in Design
+- Scale Drawing
+- Dimensions
+- Costing
+- Material Quantities
+- Financial Decision-Making
+- Numeracy Scaffolding
+- Maths Anxiety
+- Numeracy Assessment
+
+## 22. Inclusive Education
+
+- Universal Design for Learning
+- Differentiation
+- Reasonable Adjustments
+- Inclusive Pedagogy
+- Disability Inclusion
+- EAL/D
+- Gifted Education
+- Socio-Economic Disadvantage
+- Trauma-Informed Practice
+- Culturally Responsive Teaching
+- Neurodiversity
+- Executive Function Supports
+- Cognitive Load
+- Accessible Resources
+- Alternative Response Modes
+- Assistive Technology
+- Visual Supports
+- Explicit Routines
+- Flexible Grouping
+- Equity vs Equality
+- Strengths-Based Practice
+- Inclusive Assessment
+- Inclusive Practical Classes
+- Inclusive Workshop Safety
+
+## 23. Critical Thinking, Ethics and Socially Critical Education
+
+- Critical Thinking
+- Argumentation
+- Claims
+- Evidence
+- Reasoning
+- Counterarguments
+- Assumptions
+- Ethical Reasoning
+- Values
+- Consequences
+- Justification
+- Socratic Questioning
+- Dialogue
+- Problem-Posing Education
+- Freire
+- Kuhn
+- Dewey
+- Social Justice
+- Equity
+- Power
+- Hidden Curriculum
+- Representation
+- Bias
+- Critical Literacy
+- Data Ethics
+- Design Ethics
+- Technology Ethics
+- AI Ethics
+
+## 24. Aboriginal and Torres Strait Islander Education
+
+- Aboriginal and Torres Strait Islander Histories and Cultures
+- Indigenous Perspectives in TAS
+- Indigenous Perspectives in Visual Arts
+- Indigenous Design
+- Indigenous Technologies
+- Indigenous Textiles
+- Weaving
+- Material Practices
+- Country and Place
+- Sustainability and Caring for Country
+- Indigenous Knowledge Systems
+- Eight Ways of Learning
+- Story Sharing
+- Learning Maps
+- Non-Verbal Learning
+- Symbols and Images
+- Land Links
+- Non-Linear Learning
+- Deconstruct/Reconstruct
+- Community Links
+- Cultural Protocols
+- Local Community Engagement
+- Avoiding Tokenism
+- Indigenous-Authored Resources
+- Cross-Curricular Indigenous Units
+
+## 25. Learning Resource Design
+
+- Workbooklet Design
+- Worksheet Design
+- Scaffold Design
+- Student Guides
+- Teacher Guides
+- Revision Resources
+- Exemplars
+- Model Responses
+- Guided Practice
+- Independent Practice
+- Fillable Resources
+- Table-Based Scaffolds
+- Visual Scaffolds
+- Decision-Making Tools
+- Design Matrices
+- Equipment Selection Guides
+- Justification Scaffolds
+- Portfolio Templates
+- Learning Maps
+- Classroom Posters
+- Checklists
+
+## 26. Canvas / LMS Design
+
+- Canvas Page Design
+- Canvas HTML
+- Canvas Modules
+- Canvas Assignments
+- Canvas Pages
+- Canvas Tables
+- Canvas-Ready HTML
+- LMS Accessibility
+- Canvas Visual Hierarchy
+- Editable Canvas Tables
+- Embedding Video
+- Embedding Images
+- Module Sequencing
+- Student Navigation
+- Canvas Assessment Pages
+- Canvas Learning Resources
+- Canvas Colour Systems
+- Domains of Learning in Canvas
+- Teacher-Editable LMS Resources
+
+## 27. Domains of Learning / BESTAE
+
+- Knowledge and Conceptual Understanding
+- Critical Thinking
+- Creative Thinking
+- Problem Solving
+- Innovation
+- Communication
+- Self-Management
+- Organisation
+- Responsibility
+- Stewardship
+- Practical Skills
+- Technical Application
+- Independent Learning
+- Collaboration
+- Domain-Based Colour Coding
+- Domain-Based Resource Design
+- BESTAE Presentation Systems
+- BESTAE Grid Systems
+- BESTAE Typography
+- BESTAE Colour System
+- BESTAE Canva Templates
+- Education Brand Design
+- Accessible Educational Branding
+
+## 28. Presentation and Document Design
+
+- Presentation Design
+- Slide Layout
+- 12×12 Grid Systems
+- Presentation Hierarchy
+- Slide Typography
+- Educational Presentation Design
+- Canva Presentations
+- Google Slides
+- Document Layout
+- Table Design
+- A4 Portrait Grids
+- A4 Landscape Grids
+- Table Formatting
+- Image Placement in Tables
+- Page Break Control
+- Row Splitting
+- Margins and Gutters
+- Visual Consistency
+- Accessible Presentations
+
+## 29. Adobe / Creative Software
+
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe InDesign
+- Adobe Premiere Pro
+- Adobe After Effects
+- Adobe Animate
+- Adobe Acrobat
+- Adobe Express
+- Adobe Fonts
+- Image Editing
+- Vector Graphics
+- Page Layout
+- Video Editing
+- Motion Graphics
+- Animation
+- PDF Workflows
+- Social Media Asset Production
+- Mock-Ups
+- Batch Photo Editing
+- Font Selection
+- Creative Cloud Workflow
+- Cross-Software Workflows
+
+## 30. Project and Portfolio Development
+
+- Design Portfolios
+- Multimedia Portfolios
+- Textile Portfolios
+- Industrial Technology Portfolios
+- Design Documentation
+- Research
+- Design Situation
+- Design Brief
+- Criteria for Success
+- Specifications
+- Idea Generation
+- Concept Development
+- Testing
+- Trials
+- Production Planning
+- Project Management
+- Time Planning
+- Finance
+- Evaluation
+- Ongoing Evaluation
+- Final Evaluation
+- Evidence Collection
+- Annotation
+- Justification
+- Reflection
+- Portfolio Auditing
+- Progress Tracking
+- Student Feedback
+- Parent Progress Documents
+- Assessment Dashboards
+
+## 31. AI in Teaching and Design
+
+- AI Literacy
+- Generative AI
+- Prompt Writing
+- AI Image Generation
+- AI-Assisted Design
+- AI-Assisted Ideation
+- AI in Visual Arts
+- AI in Multimedia
+- AI in Assessment
+- AI and Academic Integrity
+- AI Feedback
+- AI Scaffolding
+- Pedagogical Agents
+- Skill Creation
+- Knowledge Bases
+- Claude Code Skills
+- Agent Workflows
+- AI Resource Generation
+- AI-Assisted Canvas Development
+- AI-Assisted Portfolio Auditing
+
+## 32. Areas I’d make into **master knowledge dumps first**
+
+If you want to avoid creating hundreds immediately, I’d begin with these broader parent topics:
+
+1. **Design Process and Design Decision-Making**
+2. **Factors Affecting Design**
+3. **Elements of Design**
+4. **Principles of Design**
+5. **Visual Communication**
+6. **Typography**
+7. **Colour**
+8. **Branding and Visual Identity**
+9. **Layout, Composition and Grid Systems**
+10. **Multimedia Fundamentals**
+11. **Videography and Cinematography**
+12. **Video Post-Production**
+13. **Animation and Motion Graphics**
+14. **Audio Production**
+15. **Photography**
+16. **Textiles: Materials and Properties**
+17. **Textiles: Construction and Manufacture**
+18. **Fashion and Costume Design**
+19. **Materials and Manufacturing**
+20. **Product and Industrial Design**
+21. **UI/UX and Digital Design**
+22. **Visual Arts Theory and Practice**
+23. **Visual Literacy and Art Analysis**
+24. **Teaching and Learning Pedagogy**
+25. **Practical Skill Pedagogy**
+26. **Assessment Design**
+27. **Rubric and Marking Design**
+28. **Feedback and Evaluation**
+29. **Literacy Across the Curriculum**
+30. **Numeracy Across the Curriculum**
+31. **Inclusive Education and Differentiation**
+32. **Curriculum and Program Writing**
+33. **Aboriginal and Torres Strait Islander Education**
+34. **Canvas/LMS Resource Design**
+35. **Learning Resource and Workbooklet Design**
+36. **Portfolio and Project Development**
+37. **Educational Presentation and Document Design**
+38. **BESTAE Educational Design System**
+39. **Adobe Creative Workflow**
+40. **AI for Teaching, Design and Assessment**
+
+Then each master dump can later feed a **skill creator**, which can decide whether to break it into smaller skills.
+
+For example:
+
+**Videography and Cinematography knowledge dump**
+→ camera shot types  
+→ camera angles  
+→ composition  
+→ camera movement  
+→ in-camera effects  
+→ multi-camera shooting  
+→ lighting  
+→ lenses  
+→ equipment selection  
+→ production planning  
+→ safety  
+
+That way you don’t have to manually guess every final skill before you have consolidated the underlying knowledge.

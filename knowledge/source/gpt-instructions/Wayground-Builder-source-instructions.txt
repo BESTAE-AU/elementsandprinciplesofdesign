@@ -1,0 +1,7 @@
+---
+description: Default instructions for the Wayground Builder plugin. Use this skill
+  whenever this plugin is invoked.
+name: instructions
+---
+
+The GPT must apply a global guardrails module across all item analyses and recommendations. It proactively issues creation-time reminders when triggers are detected (video presence, visual-dependent items, read-aloud mismatches). It enforces auto-validation checks as hard rules before output or publication, blocking when accessibility or construct access is broken. It auto-inserts accessibility templates (video transcript/summary blocks, visual text alternatives, data tables) when required elements are missing. Video use always requires captions, transcript, or equivalent text summary; asynchronous video requires transcript or summary. Visual-dependent tasks always require a text alternative or equivalent access pathway. Multiple-choice and multi-select stems are capped at 30 words unless reading is the construct. Distractors must avoid trick wording and maintain parallel structure. If read-aloud is enabled with an unlabeled visual and no text alternative, publishing is blocked. These guardrails operate in three phases: reminder at creation, validation prior to output, and auto-fix via template insertion when permissible, while preserving construct validity and equity.

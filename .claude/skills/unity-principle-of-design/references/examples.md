@@ -1,5 +1,22 @@
 # Unity: examples and teaching material
 
+## Types and variations
+
+- **Visual unity:** shared colours, shapes, type.
+- **Conceptual unity:** a shared idea or theme.
+- **Unity through proximity and alignment.**
+- **Unity through continuation:** lines or edges that carry across.
+- **System unity:** consistency across a series or brand.
+
+## Levers: what a designer changes to create unity
+
+- Limited palette
+- Consistent type
+- Repeated shapes and devices
+- Alignment and grid
+- Proximity
+- Shared concept
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +57,20 @@ Each level should add a link in the chain, not simply more words.
 - **Unify a mess:** unify five unrelated flyers using only type and colour rules.
 - **Series design:** make three posters that are clearly one series but not identical.
 - **Folio audit:** check a folio for consistent grid, type and colour.
+
+## What each element contributes
+
+- **Colour:** a limited, consistent palette ties a brand or series together.
+- **Direction:** a consistent brand vector (always forward-leaning, always rising) ties touchpoints together.
+- **Form:** a consistent radius, draft angle or detail language across a product family.
+- **Layout and composition:** a consistent grid and spacing system across pages, screens or a campaign.
+- **Line:** consistent stroke weight, terminals and corner radius across an icon set create family resemblance.
+- **Shape:** a consistent shape language (same corner radius, same geometry) makes an icon set or brand feel like one family.
+- **Size and scale:** a consistent type scale or spacing scale ties a system together.
+- **Space:** a consistent spacing scale ties pages, screens and templates together.
+- **Texture:** a consistent material palette or grain overlay ties a series together.
+- **Time and duration:** consistent durations and easing across a motion system feel like one brand.
+- **Typography:** a limited type system (one or two families) ties a document or brand together.
+- **Value:** a limited tonal range ties an image or brand together.
+
+For depth on an element, use its `<element>-element-of-design` skill.

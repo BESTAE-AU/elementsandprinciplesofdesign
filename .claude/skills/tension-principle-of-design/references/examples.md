@@ -1,5 +1,23 @@
 # Tension: examples and teaching material
 
+## Types and variations
+
+- **Near-collision:** elements almost touching.
+- **Tight cropping:** subjects cut off at the edge.
+- **Unresolved diagonals and tilts.**
+- **Crowding:** too little space around a subject.
+- **Opposing directions.**
+- **Temporal tension:** delay, withholding, sustained holds.
+
+## Levers: what a designer changes to create tension
+
+- Placement near edges
+- Cropping
+- Diagonals and tilt
+- Reduced space
+- Opposing vectors
+- Timing and delay
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +58,11 @@ Each level should add a link in the chain, not simply more words.
 - **Crop for tension:** crop one photo calmly and tensely.
 - **Suspense edit:** extend a hold before a reveal and compare.
 - **Appropriate or not:** sort ads by whether their tension suits the message.
+
+## What each element contributes
+
+- **Direction:** opposing directions create conflict, comparison or a sense of confrontation.
+- **Size and scale:** extreme scale differences create drama or surprise.
+- **Time and duration:** delay, withholding and extended duration build suspense.
+
+For depth on an element, use its `<element>-element-of-design` skill.

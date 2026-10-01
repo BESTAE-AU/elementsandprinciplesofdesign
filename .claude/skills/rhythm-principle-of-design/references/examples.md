@@ -1,5 +1,22 @@
 # Rhythm: examples and teaching material
 
+## Types and variations
+
+- **Regular:** equal intervals, identical units.
+- **Alternating:** two or more units or intervals take turns.
+- **Flowing:** curving, organic repetition.
+- **Progressive:** units or intervals change step by step.
+- **Random / irregular:** varied intervals that still feel organised.
+- **Temporal:** edit and animation beats.
+
+## Levers: what a designer changes to create rhythm
+
+- Interval spacing
+- Size of units
+- Alternation
+- Progression
+- Timing and tempo
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +57,20 @@ Each level should add a link in the chain, not simply more words.
 - **Interval experiment:** set a row of identical shapes with regular, alternating and progressive spacing.
 - **Edit to a beat (Multimedia):** cut footage to a music track and compare with random cuts.
 - **Façade rhythm:** photograph building façades and diagram their rhythm.
+
+## What each element contributes
+
+- **Colour:** recurring colours link parts of a layout or a campaign.
+- **Direction:** repeated directional elements at intervals set pace (a row of chevrons, a sequence of steps).
+- **Form:** repeated ribs, pleats, fins or modules.
+- **Layout and composition:** recurring structures across spreads or slides, with variation to signal change.
+- **Line:** regular intervals set a steady rhythm, progressively changing intervals create progression, and stripes and pinstripes turn line into pattern.
+- **Shape:** repeated motifs build pattern; varied spacing or size builds rhythm.
+- **Size and scale:** a graduated sequence of sizes creates progression.
+- **Space:** regular gaps create steady rhythm; changing gaps create pace.
+- **Texture:** repeated textures (weaves, knurling, tiles) create rhythm.
+- **Time and duration:** edit and animation rhythm — regular cuts, beats, repeated intervals.
+- **Typography:** consistent leading and paragraph spacing set a reading rhythm.
+- **Value:** alternating light and dark bands.
+
+For depth on an element, use its `<element>-element-of-design` skill.

@@ -1,5 +1,19 @@
 # Proximity: examples and teaching material
 
+## Types and variations
+
+- **Grouping by nearness.**
+- **Separation by gaps.**
+- **Nested grouping:** groups within groups.
+- **Label–field grouping** in forms and diagrams.
+
+## Levers: what a designer changes to create proximity
+
+- Gap sizes
+- Consistent spacing scale
+- Grouping before dividing lines
+- Containers when needed
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +54,14 @@ Each level should add a link in the chain, not simply more words.
 - **Heading spacing:** fix headings that float between sections.
 - **Form fix (UI):** regroup a confusing form.
 - **Menu layout:** group canteen items using gaps only.
+
+## What each element contributes
+
+- **Direction:** a sequence of close-spaced items reads as one path; gaps can break or redirect it.
+- **Layout and composition:** related items grouped, unrelated items separated.
+- **Line:** a divider can separate items that sit close together, and a box can group items that are far apart. Line can override proximity, which is useful but can also be confusing.
+- **Shape:** shapes near each other group; shared edges align.
+- **Space:** the most direct link — close spacing groups, larger gaps separate.
+- **Typography:** headings closer to the text they introduce than to the text above.
+
+For depth on an element, use its `<element>-element-of-design` skill.

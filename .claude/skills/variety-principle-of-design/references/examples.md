@@ -1,5 +1,23 @@
 # Variety: examples and teaching material
 
+## Types and variations
+
+- **Size variety.**
+- **Colour variety.**
+- **Shape and texture variety.**
+- **Typographic variety** (within one or two families).
+- **Pacing variety** in time-based media.
+- **Layout variety** within a grid.
+
+## Levers: what a designer changes to create variety
+
+- Varied scale
+- Accent colours
+- Contrasting shapes and textures
+- Type weights
+- Shot lengths and pacing
+- Layout variations
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +58,12 @@ Each level should add a link in the chain, not simply more words.
 - **Chaos fix:** bring order to an over-varied design with one rule.
 - **Pacing edit:** vary shot lengths in a clip and compare.
 - **Spot the system:** identify the rules behind variety in a magazine.
+
+## What each element contributes
+
+- **Colour:** controlled accent colours within a consistent system.
+- **Line:** controlled variation of weight or curvature within a consistent system.
+- **Shape:** a single organic shape among geometric ones, or one sharp shape among rounded ones, stands out.
+- **Texture:** controlled mixing of textures adds interest without chaos.
+
+For depth on an element, use its `<element>-element-of-design` skill.

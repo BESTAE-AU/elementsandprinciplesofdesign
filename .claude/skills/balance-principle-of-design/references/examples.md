@@ -1,5 +1,23 @@
 # Balance: examples and teaching material
 
+## Types and variations
+
+- **Symmetrical (formal):** mirrored about an axis; often reads as stable or formal in context.
+- **Asymmetrical (informal):** unequal weights balanced by position; often more dynamic.
+- **Radial:** weight arranged around a centre.
+- **Crystallographic (all-over):** evenly distributed weight with no single focal point, as in patterns.
+- **Deliberate imbalance:** weight pushed to one side to create tension or movement.
+
+## Levers: what a designer changes to create balance
+
+- Size and scale
+- Value (dark reads heavier)
+- Colour saturation
+- Texture and detail density
+- Isolation in space
+- Position (further from centre = more leverage)
+- Direction elements point
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -41,3 +59,20 @@ Each level should add a link in the chain, not simply more words.
 - **Mirror test:** flip a poster horizontally; does the balance change?
 - **Symmetrical to asymmetrical:** redesign a symmetrical layout asymmetrically and compare.
 - **Tip test (D&T):** build a quick prototype and test physical balance with loads.
+
+## What each element contributes
+
+- **Colour:** small areas of intense colour balance large areas of muted colour.
+- **Direction:** strong vectors pull visual weight towards where they point; a figure facing out of the frame can unbalance it.
+- **Form:** visual and physical — a heavy base looks and is more stable; asymmetric forms need counterweight.
+- **Layout and composition:** symmetrical or asymmetrical distribution of visual weight.
+- **Line:** dense or heavy line work carries visual weight. A strong vertical may need a counterweight.
+- **Shape:** a few large shapes can balance many small ones; asymmetric balance depends on shape weight and position.
+- **Size and scale:** one large element can balance several small ones.
+- **Space:** empty areas carry visual weight; asymmetric layouts balance filled and empty regions.
+- **Texture:** heavily textured areas carry visual weight.
+- **Time and duration:** alternating fast and slow sections balance a sequence.
+- **Typography:** heavy display type balanced against images or white space.
+- **Value:** dark masses feel heavier; a small dark area can balance a large light one.
+
+For depth on an element, use its `<element>-element-of-design` skill.

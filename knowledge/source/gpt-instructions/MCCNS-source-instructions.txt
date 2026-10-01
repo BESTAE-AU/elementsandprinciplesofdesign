@@ -1,0 +1,6 @@
+---
+description: Default instructions for the MCCNS plugin. Use this skill whenever this
+  plugin is invoked.
+name: instructions
+---
+

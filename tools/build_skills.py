@@ -3,7 +3,8 @@
 
 Edit these (the sources):
   src/elements/<element>.md      full knowledge for each element (12)
-  src/principles/<principle>.md  full knowledge for each principle (15)
+  src/principles/<name>/SKILL.md the principle skills Britt built in Claude (15), kept as written
+  src/principle-examples/<p>.md  extra examples and teaching material added to each principle
   src/jobs/<job>.md              workflow templates for teaching, feedback, analysis and practice
   src/method/<part>.md           the shared method, split into six small files
   src/overview/                  the overview skill and its guides
@@ -157,43 +158,42 @@ def contributions(element_secs):
 
 
 def build_principle(src, contrib):
-    slug = src.stem
-    fm, body = split_frontmatter(src.read_text())
+    """Britt's Claude-built principle skill is the base and is kept as written.
+
+    The extra material from src/principle-examples/ (worked analysis, justification
+    examples, feedback patterns, activities, element contributions) goes into
+    references/examples.md, with one pointer section added to SKILL.md.
+    """
+    name = src.parent.name
+    p = name.removesuffix("-principle-of-design")
+    base = src.read_text()
+    ex = SRC / "principle-examples" / f"{p}.md"
+    _, body = split_frontmatter(ex.read_text())
     title = re.search(r"^# (.+?) — principle of design", body, re.M).group(1)
-    p = title.lower()
     _, secs = sections(body)
-    d = SKILLS / f"{slug}-principle-of-design"
+    d = SKILLS / name
+
+    pointer = (
+        "## More on demand\n\n"
+        f"`references/examples.md` has extra material on {p}: types and levers, a worked analysis, "
+        "justification examples, feedback patterns to look for in student work, activity ideas, and what "
+        "each element of design contributes. Open it only when the task needs it. For marks or a rubric, "
+        "use `marking-rubric-builder`; with no rubric supplied, build criteria from the protocols above.\n\n"
+    )
+    marker = "For the full cross-Principle framework"
+    base = base.replace(marker, pointer + marker, 1) if marker in base else base.rstrip() + "\n\n" + pointer
+    write(d / "SKILL.md", base)
 
     items = contrib.get(p, [])
     contrib_sec = (
         "## What each element contributes\n\n"
         + ("\n".join(f"- **{t}:** {x}" for t, x in items) if items else "- (No element lists this principle yet.)")
-        + f"\n\nFor depth on an element, use its `<element>-element-of-design` skill.\n"
+        + "\n\nFor depth on an element, use its `<element>-element-of-design` skill.\n"
     )
-    table = pick_table([
-        ("A lesson, worksheet, Canvas page or activity",
-         "`references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md`"),
-        ("Feedback or marking on student work",
-         "`references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md`"),
-        ("Analysis, annotations or model answers",
-         "`references/method/analysis.md`, then the worked analysis in `references/examples.md`"),
-        (f"Achieving {p} in a design", "the levers below, then `references/method/experimentation.md`"),
-        ("Whole-design feedback, justification writing, Factors Affecting Design",
-         "the `elements-and-principles-of-design` skill"),
-    ])
-    skill = (
-        f"---\n{fm}\n---\n\n# {title} — principle of design\n\n"
-        f"This skill covers {p} as a principle of design. Principles are relationships created by how "
-        f"elements are used, so always explain which elements create {p} and how. The essentials are "
-        f"below. Open **only** the reference file the task needs.\n\n"
-        "## Pick the job\n\n" + table + "\n\n" + LANGUAGE_LINE + "\n\n"
-        + find(secs, "what ") + "\n" + find(secs, "types") + "\n" + find(secs, "levers") + "\n" + contrib_sec
-    )
-    write(d / "SKILL.md", skill)
-    examples = [find(secs, "misconceptions"), find(secs, "worked analysis"), find(secs, "justification"),
-                find(secs, "feedback patterns"), find(secs, "activity ideas")]
-    write(d / "references" / "examples.md", f"# {title}: examples and teaching material\n\n" + "\n".join(examples))
-    copy_method(d)
+    parts = [find(secs, "types"), find(secs, "levers"), find(secs, "misconceptions"),
+             find(secs, "worked analysis"), find(secs, "justification"),
+             find(secs, "feedback patterns"), find(secs, "activity ideas"), contrib_sec]
+    write(d / "references" / "examples.md", f"# {title}: examples and teaching material\n\n" + "\n".join(parts))
 
 
 # --------------------------------------------------------------------------- overview
@@ -269,7 +269,7 @@ def main():
     element_secs = [build_element(f) for f in sorted((SRC / "elements").glob("*.md"))]
     element_secs = [(t, s) for s, t in element_secs]
     contrib = contributions(element_secs)
-    principles = sorted((SRC / "principles").glob("*.md"))
+    principles = sorted((SRC / "principles").glob("*/SKILL.md"))
     for f in principles:
         build_principle(f, contrib)
     build_overview()

@@ -1,5 +1,23 @@
 # Hierarchy: examples and teaching material
 
+## Types and variations
+
+- **Typographic hierarchy:** title, heading, subheading, body, caption.
+- **Layout hierarchy:** dominant image or block, then supporting content.
+- **Interface hierarchy:** primary, secondary and tertiary actions.
+- **Spatial hierarchy:** in rooms and signage, what is seen first on entry.
+- **Temporal hierarchy:** what appears first in a sequence.
+
+## Levers: what a designer changes to create hierarchy
+
+- Size and scale
+- Weight
+- Colour and value contrast
+- Position
+- Space around
+- Grouping
+- Order in time
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -41,3 +59,19 @@ Each level should add a link in the chain, not simply more words.
 - **Rank then design:** list information by priority before laying it out.
 - **One family, three levels:** create hierarchy with one typeface only.
 - **Button audit (UI):** label each button primary, secondary or tertiary.
+
+## What each element contributes
+
+- **Colour:** colour roles (primary action, secondary, text, background) rank information.
+- **Direction:** a clear primary path, then secondary paths, sets the order information is met.
+- **Layout and composition:** placement, scale and isolation create a clear first, second and third read.
+- **Line:** a weight system (heavy section rules, light item dividers; thick visible outlines, thin hidden lines in technical drawing) ranks information.
+- **Shape:** container shapes (cards, panels, badges) signal levels of information.
+- **Size and scale:** the most direct link — relative size ranks information.
+- **Space:** more space around an item raises its importance; tight clusters read as secondary detail.
+- **Texture:** plain areas often carry key information, textured areas support mood.
+- **Time and duration:** order of appearance ranks information (what arrives first reads first).
+- **Typography:** size, weight, colour, case and spacing rank headings, body and captions — best with more than one cue.
+- **Value:** stepped values (dark headline, mid-grey body, light captions) rank information.
+
+For depth on an element, use its `<element>-element-of-design` skill.

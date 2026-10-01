@@ -1,5 +1,22 @@
 # Movement: examples and teaching material
 
+## Types and variations
+
+- **Eye path:** planned route through a layout.
+- **Implied motion:** diagonals, blur, gesture, off-balance poses.
+- **Progression:** gradually changing size, colour or spacing.
+- **Actual motion:** animation, video, kinetic objects.
+- **Physical movement:** circulation through a space or around a product.
+
+## Levers: what a designer changes to create movement
+
+- Leading lines and diagonals
+- Gaze and gesture
+- Progressive size, value or spacing
+- Repetition at intervals
+- Motion blur and timing
+- Circulation paths
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -41,3 +58,15 @@ Each level should add a link in the chain, not simply more words.
 - **Static vs dynamic:** photograph the same subject straight and on a diagonal.
 - **Progression strip:** create movement using only changing size or value.
 - **Circulation map (spatial):** map how people move through the canteen.
+
+## What each element contributes
+
+- **Direction:** the most direct link — diagonals, curves and sequences create perceived movement; actual motion makes it literal.
+- **Form:** flowing, twisting or cantilevered forms can suggest movement.
+- **Layout and composition:** the planned path of the eye through the composition.
+- **Line:** diagonal, curved and converging lines carry the eye; a leading line in a photo pulls attention toward the subject.
+- **Size and scale:** shrinking sizes suggest travel into depth; growing sizes suggest approach.
+- **Time and duration:** timing and easing make movement read as heavy, light, mechanical or natural.
+- **Value:** gradients and value paths move the eye.
+
+For depth on an element, use its `<element>-element-of-design` skill.

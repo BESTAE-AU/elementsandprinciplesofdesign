@@ -1,5 +1,20 @@
 # Alignment: examples and teaching material
 
+## Types and variations
+
+- **Edge alignment** (left, right, top, bottom).
+- **Centre alignment.**
+- **Baseline alignment** of type.
+- **Grid alignment.**
+- **Optical alignment** (overshoot for round letters, hanging punctuation).
+
+## Levers: what a designer changes to create alignment
+
+- Shared edges
+- Grids and baseline grids
+- Text alignment choice
+- Optical adjustment
+
 ## Common misconceptions
 
 | Misconception | Better understanding |
@@ -40,3 +55,14 @@ Each level should add a link in the chain, not simply more words.
 - **Fix the near-misses:** correct a deliberately misaligned layout.
 - **Left vs centred:** set one paragraph both ways and compare scanning.
 - **Baseline grid:** set two columns on a shared baseline grid.
+
+## What each element contributes
+
+- **Direction:** repeated alignment along one axis produces directional flow.
+- **Layout and composition:** a strong grid creates order and connection across the page.
+- **Line:** shared edges create implied lines, and visible guides make alignment explicit.
+- **Shape:** shapes near each other group; shared edges align.
+- **Space:** consistent margins and gutters make alignment visible.
+- **Typography:** a strong left edge or baseline grid creates order.
+
+For depth on an element, use its `<element>-element-of-design` skill.

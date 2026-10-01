@@ -1,59 +1,183 @@
 ---
 name: tension-principle-of-design
 description: >
-  TENSION as a principle of design for NSW TAS and design subjects. Use for any
-  task about tension: lessons and worksheets, feedback or marking of student work,
-  analysis and model answers, or achieving it in a design. Covers near-collisions,
-  cropping, instability and suspense.
+  Design-reasoning skill for Tension, one of the 15 Principles of Design. Use it to teach, explain, analyse, critique, generate, justify, evaluate or refine tension in graphic design, branding, multimedia, UI/UX, textiles, product, spatial design and architecture. Use whenever someone asks what tension is, how to create or fix it, or wants feedback, a justification, a lesson or questions about it, including talk of instability, edge pressure, near-collision, cropping, opposition, drama, urgency, or deliberate disruption.
 ---
 
-# Tension — principle of design
+# Tension — Principle of Design
 
-This skill covers tension as a principle of design. Principles are relationships created by how elements are used, so always explain which elements create tension and how. The essentials are below. Open **only** the reference file the task needs.
+Treat Tension as a **relational, organisational concept**: it describes how Elements of Design are
+organised and perceived in relation to each other, not a physical object in the design. Explain
+*how* specific Element variables create tension, what effect that has, and whether the effect
+suits the audience, purpose and context. Write in **Australian English**.
 
-## Pick the job
+## How to reason about Tension
 
-| The request is… | Read |
+**Elements of Design** (the variables manipulated): line, direction, shape, form, space, size and
+scale, time and duration, value, colour, texture, typography, layout and composition. Name the
+specific variable (e.g. "type weight", "interval between modules"), not just the category.
+
+**Causal model:** Elements manipulated → primary Principle → secondary Principle(s) → perceptual
+effect → communication / functional outcome → suitability for audience, purpose and context.
+
+- Identify whether tension is the **primary** Principle (most directly created by the decision)
+  or a **secondary** effect of another Principle.
+- Treat causal links as conditional, not automatic, and don't force a chain the evidence doesn't
+  support. Separate cause from correlation.
+- Use hedged, mechanism-based language ("tends to", "may be perceived as", "can direct attention"):
+  perception varies with culture, reading direction, medium, device, viewing distance and
+  accessibility needs.
+- Surface trade-offs (possible advantage ↔ possible disadvantage) and treat failure as a matter of
+  degree: absent, weak, inconsistent, excessive, inappropriate or deliberately disrupted.
+- Recognise deliberate rule-breaking: ask what effect the decision creates and whether it suits the
+  purpose, not whether a rule was followed.
+- Keep accessibility and production conditions (print, screen, responsive, textile repeat,
+  manufacturing, frame rate) in view throughout.
+
+## Knowledge: Tension
+
+### Definition
+
+Tension is a controlled sense of instability, conflict, compression, opposition, imbalance or unresolved visual relationship that creates psychological or perceptual energy.
+
+### Creation
+
+- near-collision
+- edge pressure
+- asymmetry
+- opposing directions
+- unexpected scale
+- disrupted alignment
+- unusual spacing
+- cropping
+- conflicting forms
+- colour opposition
+- unstable balance
+- interrupted patterns
+- unresolved movement
+
+### Core logic
+
+Tension depends on expectation and deviation.
+
+A designer may establish a system and then deliberately disturb it.
+
+### Relationships
+
+- imbalance may create tension
+- contrast can intensify tension
+- asymmetry can support tension
+- tension can increase movement
+- tension can create emphasis
+- tension may reduce harmony while remaining unified
+
+### Applications
+
+Posters: urgency, activism, drama.  
+Film: framing, negative space, off-centre placement.  
+Fashion: conflicting volumes, asymmetry, unexpected material relationships.  
+Architecture: cantilevers, compression, conflicting geometry.  
+UI: use cautiously; unresolved tension may reduce trust or comprehension.
+
+### Accessibility and ethics
+
+Do not use tension to deliberately obscure critical information or manipulate users.
+
+### Trade-offs
+
+- energy ↔ discomfort
+- drama ↔ reduced clarity
+- memorability ↔ instability
+- disruption ↔ reduced predictability
+
+### Misconception
+
+**Misconception:** Tension is a design mistake.  
+**Correction:** Tension can be deliberately constructed for communication purposes.
+
+## Distinguishing Tension from related concepts
+
+| Relationship | Distinction |
 |---|---|
-| A lesson, worksheet, Canvas page or activity | `references/method/teaching.md`, then activity ideas and misconceptions in `references/examples.md` |
-| Feedback or marking on student work | `references/method/feedback.md`, then feedback patterns and justification examples in `references/examples.md` |
-| Analysis, annotations or model answers | `references/method/analysis.md`, then the worked analysis in `references/examples.md` |
-| Achieving tension in a design | the levers below, then `references/method/experimentation.md` |
-| Whole-design feedback, justification writing, Factors Affecting Design | the `elements-and-principles-of-design` skill |
+| Tension vs Imbalance | Imbalance may create tension, but tension can also arise through spacing, opposition, cropping or disruption. |
 
-Follow `references/method/checks-and-language.md` for language: Australian English, describe before interpreting, conditional language for emotional or cultural associations, and name the criterion whenever something "works".
+## Causal chains and interactions involving Tension
 
-## What tension is
+Use these as possible relationships to test against the evidence in the design, not as universal laws.
 
-Tension is a sense of visual or temporal stress created when elements seem unstable, about to move, crowded, cropped, nearly touching or pulling in opposite directions.
+- **Tension chain:** Asymmetrical placement + opposing direction + scale differences → Tension → Movement + Emphasis → increased visual drama
+- **Balance ↔ Tension** — a composition may retain overall balance while using local instability to create tension.
+- **Film:** Composition + directional movement + editing sequence → Movement → Tension → Emphasis → increased narrative attention
 
-Keep it distinct:
-- **Tension vs imbalance:** imbalance can be accidental; tension is used on purpose.
-- **Tension vs contrast:** contrast is difference; tension is the energy created by unresolved relationships.
-- **Visual tension vs suspense:** suspense is tension over time.
+## Degrees of tension
 
-## Types and variations
+Low tension may create stability; high tension may create urgency, drama or discomfort.
 
-- **Near-collision:** elements almost touching.
-- **Tight cropping:** subjects cut off at the edge.
-- **Unresolved diagonals and tilts.**
-- **Crowding:** too little space around a subject.
-- **Opposing directions.**
-- **Temporal tension:** delay, withholding, sustained holds.
+## Weak → sophisticated responses
 
-## Levers: what a designer changes to create tension
+When scaffolding, generate a progression for tension: **weak** (names the Principle), **developing** (describes a visible feature), **strong** (links specific Element variables to the Principle), **sophisticated** (explains the causal chain to a communication or functional outcome for the audience and context).
 
-- Placement near edges
-- Cropping
-- Diagonals and tilt
-- Reduced space
-- Opposing vectors
-- Timing and delay
+## Working protocols
 
-## What each element contributes
+### Analysing
+Identify where tension is evident → describe the Elements and relationships creating it →
+explain the perceptual/functional effect → analyse how decisions combine and whether tension
+is primary or secondary → connect to communication, purpose, audience and context → evaluate
+against explicit criteria → propose a refinement.
 
-- **Direction:** opposing directions create conflict, comparison or a sense of confrontation.
-- **Size and scale:** extreme scale differences create drama or surprise.
-- **Time and duration:** delay, withholding and extended duration build suspense.
+### Critiquing / feedback
+State the intended outcome, the observable evidence, the Elements manipulated, the effect on
+tension and on communication or function, a trade-off where relevant, then a **specific**
+change and the effect it should produce, and how to test it. Avoid vague advice like "improve the
+tension".
 
-For depth on an element, use its `<element>-element-of-design` skill.
+### Justifying a design decision
+Design decision → Elements manipulated → primary Principle → secondary Principle(s) where relevant
+→ perceptual/functional effect → communication outcome → purpose → audience/context →
+suitability. For sophisticated work add evidence/research, an alternative considered, the trade-off
+and an evaluation.
+
+### Generating a concept or brief
+Specify the intended outcome, how tension will be created (which Elements and relationships),
+related Principles, accessibility requirements, implementation constraints, system rules,
+acceptable variation, trade-offs and testing criteria.
+
+### Refining
+Problem observed → evidence → variable changed → expected effect on tension → expected
+communication/function effect → test (at the intended size, medium or device). Change one
+significant variable at a time where practical.
+
+### Experimenting
+Compare stable, moderately tense and strongly disrupted compositions.
+Record: variable changed | variation | effect on tension | secondary Principle | communication
+effect | suitability | refinement.
+
+### Teaching
+Move learners through knowledge → recognition → description → explanation → analysis →
+experimentation → application → justification → evaluation → refinement. Use non-leading
+questions ("What effect does the level of tension have?", not "How does the strong
+tension make it exciting?").
+
+## Language
+
+Prefer: establishes, contributes to, reinforces, disrupts, differentiates, groups, separates,
+directs, emphasises, balances, creates cohesion, guides attention, may be perceived as, is
+appropriate because. Avoid unsupported verdicts ("looks good", "is professional", "is boring",
+"always works") unless criteria and context support them.
+
+## Quality check
+
+- Tension treated as a relationship, with the specific Element variables named.
+- Tension distinguished from closely related Principles.
+- Causal links evidence-based; primary vs secondary Principle identified where useful.
+- Links made to communication, function, audience, purpose and context.
+- Trade-offs, accessibility and implementation considered; deliberate disruption recognised.
+- Feedback and refinements specific and testable; evaluation criteria explicit.
+- Australian English throughout.
+
+## More on demand
+
+`references/examples.md` has extra material on tension: types and levers, a worked analysis, justification examples, feedback patterns to look for in student work, activity ideas, and what each element of design contributes. Open it only when the task needs it. For marks or a rubric, use `marking-rubric-builder`; with no rubric supplied, build criteria from the protocols above.
+
+For the full cross-Principle framework (all 15 Principles, discipline-specific detail, Factors
+Affecting Design, teaching resources), use the `principles-of-design` skill if it is installed.
