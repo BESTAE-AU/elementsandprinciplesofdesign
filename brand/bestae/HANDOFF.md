@@ -57,3 +57,8 @@ Text-on-fill rules:
 
 ## Skills that still carried the old palette (found after install)
 - [ ] Replace these four skills with the updated zips in `skill-updates/`: `workbooklet-style-system`, `indesign-parameters`, `word-tables` and `canvas-course-builder`. Each has the Dark Gold shade (white text, headers only), the new Bondi Blue (white text), the three new tints and the Greyscale link #5E5E5E. The `indesign-parameters` contrast script (`grid.py --domains`) confirms every value.
+
+## Colour theory knowledge file (1 Oct 2026)
+- [x] Built `knowledge/colour-theory-knowledge.md`: all colour theory plus the current four brand palettes.
+- [ ] Add it to the knowledge of each relevant Claude Project (Multimedia, and any Graphics, Textiles or Visual Arts projects).
+- [ ] Archive the copy `knowledge/XSTAGE_DesignFactors_Guide-ColourTheory.md` into Dropbox `Teaching/Multimedia/Claude Knowledge/01 Terms and Frameworks/`. The Dropbox connector can't upload files from the cloud session, so Cowork should copy it.
