@@ -8,6 +8,8 @@ Edit these (the sources):
   src/jobs/<job>.md              workflow templates for teaching, feedback, analysis and practice
   src/method/<part>.md           the shared method, split into six small files
   src/overview/                  the overview skill and its guides
+  src/subjects/<name>/           subject skills (Multimedia, Textiles, D&T, Visual Arts), copied as is
+  src/updated-skills/<name>/     Britt's existing teaching skills with merged reference files, copied as is
 
 Generated (don't edit; rerun this script):
   .claude/skills/<name>/         one folder per skill, each with a lean SKILL.md and references/
@@ -31,6 +33,7 @@ SRC = ROOT / "src"
 SKILLS = ROOT / ".claude" / "skills"
 DIST = ROOT / "dist"
 JOBS = ["teaching", "feedback", "analysis", "practice"]
+SUBJECTS, UPDATED = [], []
 
 LANGUAGE_LINE = (
     "Follow `references/method/checks-and-language.md` for language: Australian English, "
@@ -206,6 +209,20 @@ def build_overview():
     copy_method(d)
 
 
+# --------------------------------------------------------------------------- whole-folder skills
+
+def build_folders(kind):
+    """Copy each src/<kind>/<name>/ folder (SKILL.md plus references/) as a skill."""
+    names = []
+    for d in sorted((SRC / kind).glob("*/SKILL.md")):
+        d = d.parent
+        for f in sorted(d.rglob("*")):
+            if f.is_file():
+                write(SKILLS / d.name / f.relative_to(d), f.read_text())
+        names.append(d.name)
+    return names
+
+
 # --------------------------------------------------------------------------- checks and packaging
 
 def check():
@@ -252,6 +269,10 @@ def package():
         names.append(d.name)
 
     def group(n):
+        if n in SUBJECTS:
+            return "4-subjects"
+        if n in UPDATED:
+            return "5-updated-teaching-skills"
         if n.endswith("-element-of-design"):
             return "2-elements"
         if n.endswith("-principle-of-design"):
@@ -273,8 +294,11 @@ def main():
     for f in principles:
         build_principle(f, contrib)
     build_overview()
+    SUBJECTS.extend(build_folders("subjects"))
+    UPDATED.extend(build_folders("updated-skills"))
     problems, total_desc = check()
-    print(f"built: {len(element_secs)} elements, {len(principles)} principles, 1 overview")
+    print(f"built: {len(element_secs)} elements, {len(principles)} principles, 1 overview, "
+          f"{len(SUBJECTS)} subjects, {len(UPDATED)} updated teaching skills")
     print(f"always-on descriptions: {total_desc} characters (about {total_desc // 4} tokens)")
     for p in problems:
         print("PROBLEM:", p)
