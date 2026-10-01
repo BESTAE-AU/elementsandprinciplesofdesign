@@ -3,10 +3,12 @@ name: elements-and-principles-of-design
 description: >
   Overview and shared design method for NSW TAS and design subjects. Use for tasks
   spanning several elements or principles of design (unit overviews, scope and
-  sequence, glossaries, whole-design feedback or marking) and for design analysis
-  (identify to evaluate), design justifications and folio rationales, Factors
-  Affecting Design, design experimentation and development pages, brand-system
-  testing, and characteristics, features, properties and attributes.
+  sequence, glossaries, whole-design feedback or marking), the design process
+  (briefs, criteria, research, ideation, alternatives, prototyping, testing,
+  evaluation), design analysis, justifications and folio rationales, portfolio
+  evidence and audits, Factors Affecting Design, visual communication, design
+  experimentation, brand-system testing, and characteristics, features,
+  properties and attributes.
 ---
 
 # Elements and principles of design: overview and method
@@ -19,6 +21,9 @@ Read only the file you need.
 
 | The request is about… | Read |
 |---|---|
+| Briefs, criteria, research, ideation, alternatives, prototyping, testing, refinement, evaluation | `references/design-process.md` |
+| Folios, major projects, portfolio audits, progress reports | `references/portfolio-and-evidence.md` |
+| Posters, editorial, packaging, signage, infographics, how a design communicates | `references/visual-communication.md` |
 | Analysing a design, the command verbs, annotations | `references/design-analysis-progression.md` |
 | Writing or improving a justification or folio rationale | `references/design-justification-writing.md` |
 | Factors Affecting Design | `references/factors-affecting-design.md` |
@@ -55,3 +60,5 @@ For a glossary or revision sheet: give one sentence per term, one example and on
 - **Type:** `typeface-selection-rationale`, `type-system-builder`, `typography-critique-audit`.
 - **Resources and assessment:** `content-booklet-builder`, `practical-skill-builder`, `marking-rubric-builder`, `assessment-task-designer`.
 - **Layout:** `workbooklet-style-system`, `indesign-parameters`.
+- **Principles framework:** `principles-of-design` for causal chains across all 15 principles and discipline detail.
+- **Subjects:** `multimedia-production`, `textiles-and-fashion`, `product-design-and-manufacturing`, `visual-arts-analysis`.

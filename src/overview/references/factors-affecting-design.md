@@ -34,6 +34,21 @@ The Factors Affecting Design are the lenses TAS uses to judge whether a design d
 5. **Connect to elements and principles** where relevant, e.g. colour choice affecting ink cost, or texture affecting grip.
 6. **Write it up** as justified decisions, not a checklist.
 
+## Distinctions that sharpen answers
+
+- **Ergonomics vs accessibility:** ergonomics is human fit and interaction (reach, grip, posture, movement); accessibility covers barriers across a wider range of abilities and circumstances. They overlap but neither replaces the other, and the same goes for safety and accessibility.
+- **Quality** is fitness for agreed requirements, not an expensive finish. **Function** is what is performed; **functionality** is the capabilities and how usable they are.
+- **Sustainability** is broader than recyclability. Natural fibres, digital delivery and fewer colours are not automatically lower impact. Durability helps only if use continues.
+- **Obsolescence** can be physical, technical, functional or perceived. Identify which before proposing repair or replacement.
+- **Life-cycle assessment** in the formal sense needs explicit boundaries, data quality and a comparable functional unit. Classroom life-cycle mapping identifies likely impacts; don't present it as a quantified assessment.
+- **WHS:** use the hierarchy of controls with current school procedures and the machine manual. PPE is one control, not the whole strategy (Safe Work Australia, managing risks).
+
+**Chain:** context → relevant factor → requirement → alternative → evidence → trade-off → decision → test. Example: a school bag must be light, durable, comfortable and affordable. Compare fabrics, seams and straps with specimen tests and user trials, say which factor was prioritised and why, and name the uncertainties instead of claiming one fabric is universally best.
+
+**Weak:** "This is sustainable because it is recycled." **Stronger:** names the material, process, lifespan, repair and disposal context, with evidence, and says what is still uncertain and how it will be investigated.
+
+Assess the reasoning that links factors to decisions; don't reward a long generic list.
+
 ## Common weaknesses
 
 - Listing all fifteen with one line each.

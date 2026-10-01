@@ -3,6 +3,20 @@
 
 A brand is a **system of repeatable rules**, not a single artwork. Distinctive brand assets (a colour, a shape language, a line style, a crop, a motion behaviour) can exist independently of the logo. This guide tests elements across touchpoints and writes the results as guidelines. The shared method is in `method/experimentation.md`. Each `<element>-element-of-design` skill has a branding section for that element.
 
+## Brand, identity and the system
+
+A brand is the associations and experiences people connect with an organisation; brand identity is the intended positioning and expression; visual identity is the visible system (logos, colour, type, imagery, graphic devices, layout, motion). A logo is one asset in that system.
+
+**Chain:** purpose and context → audience → positioning → personality → identity system → touchpoints → evaluation. Strategy comes before a rationale for colour or logo style. Consistency means stable relationships and rules, not identical layouts.
+
+System components: logo variants (primary, secondary, symbol, wordmark, mono, responsive), lock-ups, clear space and minimum sizes (derived from legibility and reproduction tests, not invented numbers), colour roles (primary, secondary, neutral, background, emphasis, functional states), typography (families, weights, hierarchy, language coverage, licensing), graphic language, image treatment, motion identity (with reduced-motion equivalents) and templates. Brand architecture explains how parent brands, sub-brands and offerings relate.
+
+Test logos small, in mono, reversed, on photographs and across production methods. Test type and palette in real content, not isolated swatches. Check font language support and licences. Distinguish approved variation from drift.
+
+Teaching: students develop positioning and audience before visual alternatives, then compare whole identity systems, not isolated logos. Scaffold choice → effect → brand personality → audience → suitability. Misconception: "consistency means every post is identical."
+
+Britt's own business identities (MBE Creative Studio, BESTAE) are in her business knowledge files. Keep their palettes separate unless a project explicitly combines them.
+
 ## Workflow
 
 1. **Define the concept and audience.** Keep them constant while testing; vary only the element under test.
