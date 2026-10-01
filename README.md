@@ -48,6 +48,10 @@ generated from `principles-of-design/references/` — edit the content there, th
 python3 tools/build_principle_skills.py
 ```
 
+## `knowledge/`
+
+- `principles-of-design-skills-project-knowledge.md` — summary of these skills, naming conventions and the reasoning approach, for uploading as knowledge to Claude projects.
+
 ## `source/`
 
 Reference material the skill was built from. These files are not part of the installed skill.
